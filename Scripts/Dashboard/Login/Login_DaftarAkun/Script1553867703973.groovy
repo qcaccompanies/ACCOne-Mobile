@@ -12,25 +12,47 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-Mobile.startApplication('C:\\Users\\User\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\TODF7KDB\\AccWorld[1].apk', 
-    false)
+'required for PathUtil to get the current app path'
+def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.apkname, RunConfiguration.getProjectDir())
 
-Mobile.tap(findTestObject('DIVA/Dashboard/Dashboard_MenuLogin'), 0)
+Mobile.startApplication(appPath, false)
 
-Mobile.tap(findTestObject('DIVA/Dashboard/Login/Daftar/Login_MenuDaftar'), 0)
+Mobile.tap(findTestObject('Dashboard/Dashboard_MenuLogin'), 0)
 
-Mobile.setText(findTestObject('DIVA/Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP'), varName, 0)
+Mobile.tap(findTestObject('Dashboard/Login/Daftar/Login_MenuDaftar'), 0)
 
-Mobile.setText(findTestObject('DIVA/Dashboard/Login/Daftar/Daftar_InpEmail'), varEmail, 0)
+Mobile.setText(findTestObject('Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP'), varName, 0)
 
-Mobile.setText(findTestObject('DIVA/Dashboard/Login/Daftar/Daftar_InpNomorHandphone'), varHandphone, 0)
+Mobile.setText(findTestObject('Dashboard/Login/Daftar/Daftar_InpEmail'), varEmail, 0)
 
-Mobile.setText(findTestObject('DIVA/Dashboard/Login/Daftar/Daftar_InpPassword'), varPassword, 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.setText(findTestObject('Dashboard/Login/Daftar/Daftar_InpNomorHandphone'), varHandphone, 0)
 
-Mobile.setText(findTestObject('DIVA/Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword'), varConfirmPassword, 0)
+Mobile.setText(findTestObject('Dashboard/Login/Daftar/Daftar_InpPassword'), varPassword, 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('DIVA/Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar'), 0)
+Mobile.setText(findTestObject('Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword'), varConfirmPassword, 0)
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar'), 0)
+
+switch (varExpectedResult.toString()) {
+    case 'PASS':
+        Mobile.verifyElementExist(findTestObject('Dashboard/Login/Daftar/Daftar_InpKodeOTP'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case 'FAIL':
+        Mobile.verifyElementNotExist(findTestObject('Dashboard/Login/Daftar/Daftar_InpKodeOTP'), 5, FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case 'DISABLEDBUTTON':
+        Mobile.verifyElementAttributeValue(findTestObject('Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar'), 'enabled', 'false', 
+            0, FailureHandling.STOP_ON_FAILURE)
+
+        break
+}
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+not_run: Mobile.closeApplication()
 

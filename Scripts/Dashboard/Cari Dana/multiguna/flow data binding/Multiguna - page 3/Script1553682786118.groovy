@@ -13,46 +13,53 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 2'), [('varBPKB') : 'Y'
-        , ('varExistingNew') : 'Existing', ('varBrand') : 'DAIHATSU', ('varType') : 'AYLA', ('varModel') : 'T:1.0 D M/T'
-        , ('varTahun') : '2018', ('varExpectedResult') : 'PASS', ('varCabang') : 'FATMAWATI', ('varAreaPengajuan') : 'DKI Jakarta, Banten, Jawa Barat'
-        , ('varTujuanPeminjaman') : 'PENDIDIKAN', ('varPeriode') : '12', ('varDana') : '150000000'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 2'), [('varDana') : '100000000'
+        , ('varPeriode') : 0.50, ('varTujuanPeminjaman') : 'Pendidikan', ('varAreaPengajuan') : 'DKI Jakarta, Banten, Jawa Barat'
+        , ('varCabang') : 'FATMAWATI', ('varExpectedResult') : 'PASS'], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananDepan'), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananDepan'), 
+    0)
 
 Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'), 
     0)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'), 
+    0)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKiriDepan'), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKiriDepan'), 
+    0)
 
 Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'), 
     0)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'), 
+    0)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang'), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang'), 
+    0)
 
 Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'), 
     0)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'), 
+    0)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKiriBelakang'), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKiriBelakang'), 
+    0)
 
 Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'), 
     0)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'), 
+    0)
 
 Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnSubmit'), 0)
 

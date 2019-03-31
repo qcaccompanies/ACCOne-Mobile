@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.view.View' and (text() = 'Masuk atau Daftar untuk gunakan fitur acc.one' or . = 'Masuk atau Daftar untuk gunakan fitur acc.one')]</value>
+         <value>//*[@class = 'android.view.View' and (contains(text(), 'Masuk atau Daftar') or contains(., 'Masuk atau Daftar'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,10 +28,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Masuk atau Daftar untuk gunakan fitur acc.one</value>
+      <value>Masuk atau Daftar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

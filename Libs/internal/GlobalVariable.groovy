@@ -14,6 +14,11 @@ public class GlobalVariable {
      */
     public static Object apkname
      
+    /**
+     * <p></p>
+     */
+    public static Object varUsername
+     
 
     static {
         try {
@@ -22,6 +27,7 @@ public class GlobalVariable {
             selectedVariables += RunConfiguration.getOverridingParameters()
     
             apkname = selectedVariables['apkname']
+            varUsername = selectedVariables['varUsername']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

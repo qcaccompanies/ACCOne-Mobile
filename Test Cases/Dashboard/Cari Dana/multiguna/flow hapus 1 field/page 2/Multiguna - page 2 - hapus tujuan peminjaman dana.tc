@@ -4,5 +4,47 @@
    <name>Multiguna - page 2 - hapus tujuan peminjaman dana</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>606db37b-7256-45eb-ba0f-690c8acc08cb</testCaseGuid>
+   <testCaseGuid>fb897c72-db3a-4590-ab8f-2043e84bb360</testCaseGuid>
+   <variable>
+      <defaultValue>'100000000'</defaultValue>
+      <description></description>
+      <id>72cd6414-6bbc-49d1-85e7-072d5038c5dc</id>
+      <masked>false</masked>
+      <name>varDana</name>
+   </variable>
+   <variable>
+      <defaultValue>0.50</defaultValue>
+      <description></description>
+      <id>b4cc056f-c2cd-41be-8240-4390d3b57961</id>
+      <masked>false</masked>
+      <name>varPeriode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pendidikan'</defaultValue>
+      <description></description>
+      <id>3690f420-2cb6-4f61-8f4e-fe62a750a28c</id>
+      <masked>false</masked>
+      <name>varTujuanPeminjaman</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <description></description>
+      <id>03a3cb26-8e84-49ef-8899-83c2c0374642</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>'FATMAWATI'</defaultValue>
+      <description></description>
+      <id>ebe46ce5-dfae-48c4-94d0-b903970c0664</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'PASS'</defaultValue>
+      <description></description>
+      <id>7015abdd-369b-465d-8755-ab65f3f4cf5d</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
 </TestCaseEntity>

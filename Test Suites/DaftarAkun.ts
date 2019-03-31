@@ -54,5 +54,11 @@
          <value>varConfirmPassword</value>
          <variableId>3c3d43d4-b31e-4a69-b356-22c7179138a6</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>0cccb8d0-45a8-4ed5-a2c7-1bf477b610e8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varExpectedResult</value>
+         <variableId>2f22d3f1-bb00-4a77-96d3-5869ffb28545</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

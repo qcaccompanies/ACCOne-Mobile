@@ -13,9 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 1'), [('varBPKB') : 'Y'
-        , ('varExistingNew') : 'Existing', ('varBrand') : 'DAIHATSU', ('varType') : 'AYLA', ('varModel') : 'T:1.0 D M/T'
-        , ('varTahun') : '2018', ('varExpectedResult') : 'PASS'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 1'), [('varBPKB') : ''
+        , ('varExistingNew') : '', ('varBrand') : 'DAIHATSU', ('varType') : 'AYLA', ('varModel') : 'T:1.0 M M/T NEW', ('varTahun') : '2018'
+        , ('varExpectedResult') : '', ('varBrandList') : '43', ('varTypeList') : '52', ('varModelList') : '60'], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpDanaYangDibutuhkan'), 
     0)
@@ -23,32 +23,41 @@ Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan da
 Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpDanaYangDibutuhkan'), 
     varDana, 0)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpTujuanPeminjamanDana'), 
-    0)
+CustomKeywords.'mobile.mobileSlide.Slide'(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_SliderPinjamDana'), 
+    varPeriode)
 
 Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpTujuanPeminjamanDana'), 
     varTujuanPeminjaman, 0)
 
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan'), 0)
-
-Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan'), varAreaPengajuan, 
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpTujuanPeminjamanDana'), 
     0)
 
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpCabangACC'), 0)
+CustomKeywords.'mobile.pick.List'(findTestObject('DynamicObject/PickListItem', [('text') : varTujuanPeminjaman]))
 
-Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpCabangACC'), varCabang, 
+Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan'), 
+    varAreaPengajuan, 0)
+
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan'), 
     0)
 
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_BtnBerikutnya'), 0)
+CustomKeywords.'mobile.pick.List'(findTestObject('DynamicObject/PickListItem', [('text') : varAreaPengajuan]))
+
+Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpCabangACC'), 
+    varCabang, 0)
+
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpCabangACC'), 
+    0)
+
+Mobile.hideKeyboard()
+
+CustomKeywords.'mobile.pick.List'(findTestObject('DynamicObject/PickListItem', [('text') : varCabang]))
+
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_BtnBerikutnya'), 
+    0)
 
 switch (varExpectedResult.toString()) {
     case 'PASS':

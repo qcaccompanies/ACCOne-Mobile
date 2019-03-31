@@ -34,14 +34,14 @@
       <name>varType</name>
    </variable>
    <variable>
-      <defaultValue>'T:1.0 M A/T NEW'</defaultValue>
+      <defaultValue>'T:1.0 M M/T NEW'</defaultValue>
       <description></description>
       <id>a65ac208-1b39-4e65-b4eb-fd3b2f5cd95a</id>
       <masked>false</masked>
       <name>varModel</name>
    </variable>
    <variable>
-      <defaultValue>'2015'</defaultValue>
+      <defaultValue>'2018'</defaultValue>
       <description></description>
       <id>430c388e-29a8-4fc7-b22e-4fbc0831effc</id>
       <masked>false</masked>

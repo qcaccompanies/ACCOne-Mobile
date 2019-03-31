@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd2e418d-211c-47b0-bfdc-311bd15fdc1e</testCaseGuid>
+   <variable>
+      <defaultValue>'motola.cihuyy2k@gmail.com'</defaultValue>
+      <description></description>
+      <id>51882004-1773-460f-91fc-c8421f897b26</id>
+      <masked>false</masked>
+      <name>varUsername</name>
+   </variable>
+</TestCaseEntity>

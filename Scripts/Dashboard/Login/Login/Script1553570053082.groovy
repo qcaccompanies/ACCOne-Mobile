@@ -20,6 +20,8 @@ def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.apkname, RunConfigu
 
 Mobile.startApplication(appPath, false)
 
+Mobile.waitForElementPresent(findTestObject('Dashboard/Dashboard_MenuLogin'), 0)
+
 //if (Mobile.verifyElementVisible(findTestObject('Login/button - Masuk atau Daftar'), 0, FailureHandling.CONTINUE_ON_FAILURE) ==
 //true) {
 //	WebUI.callTestCase(findTestCase('Login/Quick Login'), [('password') : 'P@ssw0rd'], FailureHandling.STOP_ON_FAILURE)
@@ -28,39 +30,41 @@ Mobile.startApplication(appPath, false)
 //Mobile.waitForElementPresent(findTestObject('Login/Button - Userprofile', [('userEmail') : GlobalVariable.username]), 30)
 //
 //Mobile.tap(findTestObject('Login/Button - Userprofile', [('userEmail') : GlobalVariable.username]), 0)
-
 //Mobile.startApplication('C:\\Users\\IT-Services\\Katalon Studio\\ACCONE Mobile\\accone tst env 24 maret 2019.apk', false)
-
 Mobile.tap(findTestObject('Dashboard/Dashboard_MenuLogin'), 0)
 
 Mobile.setText(findTestObject('Dashboard/Login/Login_InpEmail'), varUsername, 0)
 
 Mobile.setText(findTestObject('Dashboard/Login/Login_InpPassword'), varPassword, 0)
 
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Dashboard/Login/Login_BtnMasuk'), 0)
 
 switch (varExpectedResult.toString()) {
     case 'PASS':
-        Mobile.waitForElementPresent(findTestObject('Dashboard/Dashboard_BtnCariDana'), 0)
+        Mobile.waitForElementPresent(findTestObject('Dashboard/Dashboard_BtnUserEmail', [('UserEmail') : varUsername]), 
+            0)
 
-        Mobile.verifyElementVisible(findTestObject('Dashboard/Dashboard_BtnCariDana'), 0)
+        Mobile.verifyElementVisible(findTestObject('Dashboard/Dashboard_BtnUserEmail', [('UserEmail') : varUsername]), 0)
 
-        Mobile.tap(findTestObject('null'), 0)
+        Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-        Mobile.tap(findTestObject('null'), 0)
-
-        Mobile.tap(findTestObject('null'), 0)
+        WebUI.callTestCase(findTestCase('Dashboard/Login/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
         break
     case 'FAIL':
-        Mobile.verifyElementText(findTestObject('Dashboard/Login/Login_TxtUsernamePasswordSalah'), 'Username/Password Salah.')
+        Mobile.verifyElementNotVisible(findTestObject('Dashboard/Dashboard_BtnUserEmail', [('UserName') : varUsername]), 
+            5)
 
         break
     case 'DISABLEDBUTTON':
-        Mobile.verifyElementNotVisible(findTestObject('Dashboard/Dashboard_BtnCariDana'), 0)
+        Mobile.verifyElementAttributeValue(findTestObject('Dashboard/Login/Login_BtnMasuk'), 'enabled', 'false', 0)
 
         break
 }
 
-Mobile.closeApplication()
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+not_run: Mobile.closeApplication()
 

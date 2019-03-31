@@ -12,8 +12,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-Mobile.startApplication('C:\\Users\\IT-Services\\Katalon Studio\\ACCONE Mobile\\accone tst env 24 maret 2019.apk', false)
+'required for PathUtil to get the current app path'
+def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.apkname, RunConfiguration.getProjectDir())
+
+Mobile.startApplication(appPath, false)
 
 Mobile.waitForElementPresent(findTestObject('dashboard/Dashboard_BtnCariDana'), 0)
 
@@ -23,41 +28,48 @@ Mobile.tap(findTestObject('Dashboard/cari dana/CariDana_BtnBPKBdiACC_YA'), 0)
 
 Mobile.tap(findTestObject('Dashboard/cari dana/CariDana_BtnPembiayaanMultiguna'), 0)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_BtnNewCustomer'), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_BtnNewCustomer'), 
+    0)
+
+Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpBrand'), 
+    varBrand, 0)
 
 Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpBrand'), 0)
 
-Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpBrand'), 'DAIHATSU', 
-    0)
+Mobile.hideKeyboard()
 
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'mobile.pick.List'(findTestObject('DynamicObject/PickListItem', [('text') : varBrand]))
+
+Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpType'), varType, 
+    0)
 
 Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpType'), 0)
 
-Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpType'), 'AYLA', 0)
+Mobile.hideKeyboard()
 
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'mobile.pick.List'(findTestObject('DynamicObject/PickListItem', [('text') : varType]))
+
+Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpModel'), 
+    varModel, 0)
 
 Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpModel'), 0)
 
-Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpModel'), 'T:1.0 M M/T NEW', 
-    0)
+Mobile.hideKeyboard()
 
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'mobile.pick.List'(findTestObject('DynamicObject/PickListItem', [('text') : varModel]))
 
 Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpTahun'), 0)
 
-Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpTahun'), '2018', 0)
+Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpTahun'), 
+    varTahun, 0)
 
 Mobile.clearText(findTestObject('Dashboard/Cari Mobil/Mobil Baru/MobilBaru_InpBrand'), 0)
 
 'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_BtnBerikutnya'), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_BtnBerikutnya'), 
+    0)
 
 Mobile.verifyElementNotVisible(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpDanaYangDibutuhkan'), 
     7)

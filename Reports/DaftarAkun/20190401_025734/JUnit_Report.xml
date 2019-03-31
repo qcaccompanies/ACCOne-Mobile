@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DaftarAkun" time="129" tests="4" failures="0" errors="0">
+   <testsuite name="DaftarAkun" tests="4" failures="0" errors="0" time="129" timestamp="2019-04-01 02:57:41" hostname="tomyhidayat - 192.168.50.5" id="Test Suites/DaftarAkun">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/Reports/DaftarAkun/20190401_025734"/>
+         <property name="logFiles" value="/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/Reports/DaftarAkun/20190401_025734/execution0.log, /Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/Reports/DaftarAkun/20190401_025734/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tomyhidayat - 192.168.50.5"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.50.5"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Dashboard/Login/Login_DaftarAkun" classname="Test Cases/Dashboard/Login/Login_DaftarAkun" status="PASSED">
+         <system-out><![CDATA[2019-04-01 02:57:42 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login_DaftarAkun: Test Cases/Dashboard/Login/Login_DaftarAkun
+
+2019-04-01 02:57:42 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-04-01 02:57:42 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-04-01 02:57:44 - [MESSAGE][INFO] - Appium server started on port 65,064
+
+2019-04-01 02:57:54 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-04-01 02:57:54 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-04-01 02:57:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-04-01 02:58:03 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Daftar/Login_MenuDaftar"), 0): Tapped on element 'Object Repository/Dashboard/Login/Daftar/Login_MenuDaftar'
+
+2019-04-01 02:58:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Daftar/Login_MenuDaftar'
+
+2019-04-01 02:58:05 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP"), varName, 0): Text 'Diva Nabila' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP'
+
+2019-04-01 02:58:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:05 - [MESSAGE][PASSED] - Text 'Diva Nabila' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP'
+
+2019-04-01 02:58:05 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpEmail"), varEmail, 0): Text 'divanabilaarumsarinurhadi@gmail.com' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpEmail'
+
+2019-04-01 02:58:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:07 - [MESSAGE][PASSED] - Text 'divanabilaarumsarinurhadi@gmail.com' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpEmail'
+
+2019-04-01 02:58:07 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpNomorHandphone"), varHandphone, 0): Text '87824121997' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNomorHandphone'
+
+2019-04-01 02:58:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:08 - [MESSAGE][PASSED] - Text '87824121997' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNomorHandphone'
+
+2019-04-01 02:58:08 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpPassword"), varPassword, 0, STOP_ON_FAILURE): Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpPassword'
+
+2019-04-01 02:58:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:09 - [MESSAGE][PASSED] - Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpPassword'
+
+2019-04-01 02:58:09 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword"), varConfirmPassword, 0): Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword'
+
+2019-04-01 02:58:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:11 - [MESSAGE][PASSED] - Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword'
+
+2019-04-01 02:58:11 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar"), 0): Tapped on element 'Object Repository/Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar'
+
+2019-04-01 02:58:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar'
+
+2019-04-01 02:58:12 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-04-01 02:58:12 - [TEST_STEP][PASSED] - case "PASS":: null
+
+2019-04-01 02:58:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Dashboard/Login/Daftar/Daftar_InpKodeOTP"), 0): Element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpKodeOTP' is exist
+
+2019-04-01 02:58:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:15 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpKodeOTP' is exist
+
+2019-04-01 02:58:15 - [TEST_STEP][PASSED] - break: null
+
+2019-04-01 02:58:15 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-01 02:58:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-01 02:58:18 - [TEST_STEP][NOT_RUN] - closeApplication(): NOT_RUN: closeApplication()
+
+2019-04-01 02:58:18 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login_DaftarAkun" classname="Test Cases/Dashboard/Login/Login_DaftarAkun" status="PASSED">
+         <system-out><![CDATA[2019-04-01 02:58:18 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login_DaftarAkun: Test Cases/Dashboard/Login/Login_DaftarAkun
+
+2019-04-01 02:58:18 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-04-01 02:58:18 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-04-01 02:58:28 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-04-01 02:58:28 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-04-01 02:58:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-04-01 02:58:36 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Daftar/Login_MenuDaftar"), 0): Tapped on element 'Object Repository/Dashboard/Login/Daftar/Login_MenuDaftar'
+
+2019-04-01 02:58:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Daftar/Login_MenuDaftar'
+
+2019-04-01 02:58:38 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP"), varName, 0): Text 'Diva Nabila' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP'
+
+2019-04-01 02:58:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:39 - [MESSAGE][PASSED] - Text 'Diva Nabila' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP'
+
+2019-04-01 02:58:39 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpEmail"), varEmail, 0): Text 'divanabilaarumsarinurhadi@gmail.com' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpEmail'
+
+2019-04-01 02:58:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:40 - [MESSAGE][PASSED] - Text 'divanabilaarumsarinurhadi@gmail.com' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpEmail'
+
+2019-04-01 02:58:40 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpNomorHandphone"), varHandphone, 0): Text '87824121997' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNomorHandphone'
+
+2019-04-01 02:58:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:41 - [MESSAGE][PASSED] - Text '87824121997' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNomorHandphone'
+
+2019-04-01 02:58:41 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpPassword"), varPassword, 0, STOP_ON_FAILURE): Text 'pass' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpPassword'
+
+2019-04-01 02:58:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:43 - [MESSAGE][PASSED] - Text 'pass' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpPassword'
+
+2019-04-01 02:58:43 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword"), varConfirmPassword, 0): Text 'pass' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword'
+
+2019-04-01 02:58:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:44 - [MESSAGE][PASSED] - Text 'pass' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword'
+
+2019-04-01 02:58:44 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar"), 0): Tapped on element 'Object Repository/Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar'
+
+2019-04-01 02:58:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar'
+
+2019-04-01 02:58:48 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-04-01 02:58:48 - [TEST_STEP][PASSED] - case "DISABLEDBUTTON":: null
+
+2019-04-01 02:58:48 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Dashboard/Login/Login_BtnMasuk"), "enabled", "false", 0): Element 'Object Repository/Dashboard/Login/Login_BtnMasuk' not found
+
+2019-04-01 02:58:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:58:48 - [MESSAGE][WARNING] - Element 'Object Repository/Dashboard/Login/Login_BtnMasuk' not found
+
+2019-04-01 02:58:48 - [TEST_STEP][PASSED] - break: null
+
+2019-04-01 02:58:48 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-01 02:58:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-01 02:58:51 - [TEST_STEP][NOT_RUN] - closeApplication(): NOT_RUN: closeApplication()
+
+2019-04-01 02:58:51 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login_DaftarAkun" classname="Test Cases/Dashboard/Login/Login_DaftarAkun" status="PASSED">
+         <system-out><![CDATA[2019-04-01 02:58:51 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login_DaftarAkun: Test Cases/Dashboard/Login/Login_DaftarAkun
+
+2019-04-01 02:58:51 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-04-01 02:58:51 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-04-01 02:59:00 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-04-01 02:59:00 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-04-01 02:59:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-04-01 02:59:08 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Daftar/Login_MenuDaftar"), 0): Tapped on element 'Object Repository/Dashboard/Login/Daftar/Login_MenuDaftar'
+
+2019-04-01 02:59:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Daftar/Login_MenuDaftar'
+
+2019-04-01 02:59:10 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP"), varName, 0): Text 'Diva Nabila' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP'
+
+2019-04-01 02:59:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:11 - [MESSAGE][PASSED] - Text 'Diva Nabila' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP'
+
+2019-04-01 02:59:11 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpEmail"), varEmail, 0): Text '' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpEmail'
+
+2019-04-01 02:59:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:12 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpEmail'
+
+2019-04-01 02:59:12 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpNomorHandphone"), varHandphone, 0): Text '87824121997' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNomorHandphone'
+
+2019-04-01 02:59:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:13 - [MESSAGE][PASSED] - Text '87824121997' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNomorHandphone'
+
+2019-04-01 02:59:13 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpPassword"), varPassword, 0, STOP_ON_FAILURE): Text 'pass' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpPassword'
+
+2019-04-01 02:59:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:14 - [MESSAGE][PASSED] - Text 'pass' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpPassword'
+
+2019-04-01 02:59:14 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword"), varConfirmPassword, 0): Text '' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword'
+
+2019-04-01 02:59:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:16 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword'
+
+2019-04-01 02:59:16 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar"), 0): Tapped on element 'Object Repository/Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar'
+
+2019-04-01 02:59:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar'
+
+2019-04-01 02:59:17 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-04-01 02:59:17 - [TEST_STEP][PASSED] - case "DISABLEDBUTTON":: null
+
+2019-04-01 02:59:17 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Dashboard/Login/Login_BtnMasuk"), "enabled", "false", 0): Element 'Object Repository/Dashboard/Login/Login_BtnMasuk' not found
+
+2019-04-01 02:59:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:17 - [MESSAGE][WARNING] - Element 'Object Repository/Dashboard/Login/Login_BtnMasuk' not found
+
+2019-04-01 02:59:17 - [TEST_STEP][PASSED] - break: null
+
+2019-04-01 02:59:17 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-01 02:59:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-01 02:59:20 - [TEST_STEP][NOT_RUN] - closeApplication(): NOT_RUN: closeApplication()
+
+2019-04-01 02:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login_DaftarAkun" classname="Test Cases/Dashboard/Login/Login_DaftarAkun" status="PASSED">
+         <system-out><![CDATA[2019-04-01 02:59:20 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login_DaftarAkun: Test Cases/Dashboard/Login/Login_DaftarAkun
+
+2019-04-01 02:59:20 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-04-01 02:59:20 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-04-01 02:59:28 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-04-01 02:59:28 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-04-01 02:59:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-04-01 02:59:35 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Daftar/Login_MenuDaftar"), 0): Tapped on element 'Object Repository/Dashboard/Login/Daftar/Login_MenuDaftar'
+
+2019-04-01 02:59:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Daftar/Login_MenuDaftar'
+
+2019-04-01 02:59:38 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP"), varName, 0): Text 'Diva Nabila' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP'
+
+2019-04-01 02:59:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:39 - [MESSAGE][PASSED] - Text 'Diva Nabila' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP'
+
+2019-04-01 02:59:39 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpEmail"), varEmail, 0): Text 'divanabilaarumsarinurhadi@gmail.com' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpEmail'
+
+2019-04-01 02:59:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:40 - [MESSAGE][PASSED] - Text 'divanabilaarumsarinurhadi@gmail.com' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpEmail'
+
+2019-04-01 02:59:40 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpNomorHandphone"), varHandphone, 0): Text '87824121997' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNomorHandphone'
+
+2019-04-01 02:59:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:42 - [MESSAGE][PASSED] - Text '87824121997' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpNomorHandphone'
+
+2019-04-01 02:59:42 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpPassword"), varPassword, 0, STOP_ON_FAILURE): Text 'Password' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpPassword'
+
+2019-04-01 02:59:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:43 - [MESSAGE][PASSED] - Text 'Password' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpPassword'
+
+2019-04-01 02:59:43 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword"), varConfirmPassword, 0): Text 'Password' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword'
+
+2019-04-01 02:59:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:44 - [MESSAGE][PASSED] - Text 'Password' has been set to element 'Object Repository/Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword'
+
+2019-04-01 02:59:44 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar"), 0): Tapped on element 'Object Repository/Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar'
+
+2019-04-01 02:59:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-01 02:59:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar'
+
+2019-04-01 02:59:48 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-04-01 02:59:48 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-01 02:59:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-01 02:59:51 - [TEST_STEP][NOT_RUN] - closeApplication(): NOT_RUN: closeApplication()
+
+2019-04-01 02:59:51 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-01 02:57:41 - [TEST_SUITE][PASSED] - DaftarAkun: Test Cases/Dashboard/Login/Login_DaftarAkun]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

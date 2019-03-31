@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DaftarAkun,,,2019-04-01 03:08:59,2019-04-01 03:11:34,2m - 34.910s,FAILED
+,,,,,,
+Test Cases/Dashboard/Login/Login_DaftarAkun,,,2019-04-01 03:08:59,2019-04-01 03:10:00,1m - 0.477s,FAILED
+"appPath = relativeToAbsolutePath(apkname, getProjectDir())",,required for PathUtil to get the current app path,2019-04-01 03:08:59,2019-04-01 03:09:00,0.090s,PASSED
+"startApplication(appPath, false)",,,2019-04-01 03:09:00,2019-04-01 03:09:11,11.017s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-04-01 03:09:11,2019-04-01 03:09:19,8.361s,PASSED
+"tap(findTestObject(""Dashboard/Login/Daftar/Login_MenuDaftar""), 0)",,,2019-04-01 03:09:19,2019-04-01 03:09:21,1.954s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP""), varName, 0)",,,2019-04-01 03:09:21,2019-04-01 03:09:21,0.568s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpEmail""), varEmail, 0)",,,2019-04-01 03:09:21,2019-04-01 03:09:23,1.244s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpNomorHandphone""), varHandphone, 0)",,,2019-04-01 03:09:23,2019-04-01 03:09:24,1.279s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpPassword""), varPassword, 0, STOP_ON_FAILURE)",,,2019-04-01 03:09:24,2019-04-01 03:09:25,1.287s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword""), varConfirmPassword, 0)",,,2019-04-01 03:09:25,2019-04-01 03:09:27,1.448s,PASSED
+"tap(findTestObject(""Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar""), 0)",,,2019-04-01 03:09:27,2019-04-01 03:09:29,2.034s,PASSED
+switch (varExpectedResult.toString()),,,2019-04-01 03:09:29,2019-04-01 03:10:00,30.925s,FAILED
+,,,,,,
+Test Cases/Dashboard/Login/Login_DaftarAkun,,,2019-04-01 03:10:00,2019-04-01 03:10:29,29.320s,FAILED
+"appPath = relativeToAbsolutePath(apkname, getProjectDir())",,required for PathUtil to get the current app path,2019-04-01 03:10:00,2019-04-01 03:10:00,0.000s,PASSED
+"startApplication(appPath, false)",,,2019-04-01 03:10:00,2019-04-01 03:10:09,8.989s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-04-01 03:10:09,2019-04-01 03:10:17,8.002s,PASSED
+"tap(findTestObject(""Dashboard/Login/Daftar/Login_MenuDaftar""), 0)",,,2019-04-01 03:10:17,2019-04-01 03:10:19,2.045s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP""), varName, 0)",,,2019-04-01 03:10:19,2019-04-01 03:10:19,0.469s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpEmail""), varEmail, 0)",,,2019-04-01 03:10:19,2019-04-01 03:10:20,1.259s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpNomorHandphone""), varHandphone, 0)",,,2019-04-01 03:10:20,2019-04-01 03:10:22,1.307s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpPassword""), varPassword, 0, STOP_ON_FAILURE)",,,2019-04-01 03:10:22,2019-04-01 03:10:23,1.295s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword""), varConfirmPassword, 0)",,,2019-04-01 03:10:23,2019-04-01 03:10:24,1.241s,PASSED
+"tap(findTestObject(""Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar""), 0)",,,2019-04-01 03:10:24,2019-04-01 03:10:28,3.540s,PASSED
+switch (varExpectedResult.toString()),,,2019-04-01 03:10:28,2019-04-01 03:10:29,1.159s,FAILED
+,,,,,,
+Test Cases/Dashboard/Login/Login_DaftarAkun,,,2019-04-01 03:10:29,2019-04-01 03:10:57,28.213s,PASSED
+"appPath = relativeToAbsolutePath(apkname, getProjectDir())",,required for PathUtil to get the current app path,2019-04-01 03:10:29,2019-04-01 03:10:29,0.000s,PASSED
+"startApplication(appPath, false)",,,2019-04-01 03:10:29,2019-04-01 03:10:38,8.848s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-04-01 03:10:38,2019-04-01 03:10:46,8.274s,PASSED
+"tap(findTestObject(""Dashboard/Login/Daftar/Login_MenuDaftar""), 0)",,,2019-04-01 03:10:46,2019-04-01 03:10:48,1.988s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP""), varName, 0)",,,2019-04-01 03:10:48,2019-04-01 03:10:49,0.494s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpEmail""), varEmail, 0)",,,2019-04-01 03:10:49,2019-04-01 03:10:50,1.263s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpNomorHandphone""), varHandphone, 0)",,,2019-04-01 03:10:50,2019-04-01 03:10:50,0.441s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpPassword""), varPassword, 0, STOP_ON_FAILURE)",,,2019-04-01 03:10:50,2019-04-01 03:10:52,1.258s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword""), varConfirmPassword, 0)",,,2019-04-01 03:10:52,2019-04-01 03:10:53,1.488s,PASSED
+"tap(findTestObject(""Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar""), 0)",,,2019-04-01 03:10:53,2019-04-01 03:10:54,0.888s,PASSED
+switch (varExpectedResult.toString()),,,2019-04-01 03:10:54,2019-04-01 03:10:54,0.245s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-04-01 03:10:54,2019-04-01 03:10:57,3.012s,PASSED
+closeApplication(),,,2019-04-01 03:10:57,2019-04-01 03:10:57,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Dashboard/Login/Login_DaftarAkun,,,2019-04-01 03:10:57,2019-04-01 03:11:34,36.566s,PASSED
+"appPath = relativeToAbsolutePath(apkname, getProjectDir())",,required for PathUtil to get the current app path,2019-04-01 03:10:57,2019-04-01 03:10:57,0.000s,PASSED
+"startApplication(appPath, false)",,,2019-04-01 03:10:57,2019-04-01 03:11:07,9.595s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-04-01 03:11:07,2019-04-01 03:11:14,7.719s,PASSED
+"tap(findTestObject(""Dashboard/Login/Daftar/Login_MenuDaftar""), 0)",,,2019-04-01 03:11:14,2019-04-01 03:11:16,1.936s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpNamaSesuaiKTP""), varName, 0)",,,2019-04-01 03:11:16,2019-04-01 03:11:17,0.456s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpEmail""), varEmail, 0)",,,2019-04-01 03:11:17,2019-04-01 03:11:18,1.238s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpNomorHandphone""), varHandphone, 0)",,,2019-04-01 03:11:18,2019-04-01 03:11:19,1.295s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpPassword""), varPassword, 0, STOP_ON_FAILURE)",,,2019-04-01 03:11:19,2019-04-01 03:11:21,1.266s,PASSED
+"setText(findTestObject(""Dashboard/Login/Daftar/Daftar_InpKonfirmasiPassword""), varConfirmPassword, 0)",,,2019-04-01 03:11:21,2019-04-01 03:11:22,1.278s,PASSED
+"tap(findTestObject(""Dashboard/Login/Daftar/Daftar_BtnSubmitDaftar""), 0)",,,2019-04-01 03:11:22,2019-04-01 03:11:26,3.753s,PASSED
+switch (varExpectedResult.toString()),,,2019-04-01 03:11:26,2019-04-01 03:11:31,5.014s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-04-01 03:11:31,2019-04-01 03:11:34,3.006s,PASSED
+closeApplication(),,,2019-04-01 03:11:34,2019-04-01 03:11:34,0.001s,NOT_RUN

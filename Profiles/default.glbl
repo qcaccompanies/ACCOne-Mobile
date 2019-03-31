@@ -9,4 +9,9 @@
       <initValue>'AccWorld.apk'</initValue>
       <name>apkname</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'motola.cihuyy2k@gmail.com'</initValue>
+      <name>varUsername</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

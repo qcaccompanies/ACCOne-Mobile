@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>53aa6ef8-47ec-4d42-b9df-bdac8c382c89</testCaseGuid>
+   <variable>
+      <defaultValue>'DAIHATSU'</defaultValue>
+      <description></description>
+      <id>27bbcd3a-b22e-4e18-bf44-1a48c8d44674</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AYLA'</defaultValue>
+      <description></description>
+      <id>0d89460f-e6db-4779-95ae-2e3c9fa26cbb</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'T:1.0 M M/T NEW'</defaultValue>
+      <description></description>
+      <id>4061e1cb-3a6c-41f4-8774-b473804f52dc</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018'</defaultValue>
+      <description></description>
+      <id>24fa82a6-095f-44ef-aa92-34ae62bbc78a</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
 </TestCaseEntity>

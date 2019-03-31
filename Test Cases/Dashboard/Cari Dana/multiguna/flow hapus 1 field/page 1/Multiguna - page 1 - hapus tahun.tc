@@ -4,5 +4,33 @@
    <name>Multiguna - page 1 - hapus tahun</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>020e903c-d03a-4887-831c-a84d4bf7ce76</testCaseGuid>
+   <testCaseGuid>d90bc9bc-42de-4e6b-8864-f35ac86d313c</testCaseGuid>
+   <variable>
+      <defaultValue>'DAIHATSU'</defaultValue>
+      <description></description>
+      <id>b8afb9dc-aa62-418c-8ec0-98f17acd7d66</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AYLA'</defaultValue>
+      <description></description>
+      <id>63aeddb9-cada-4117-8f55-092691c2cd88</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'T:1.0 M M/T NEW'</defaultValue>
+      <description></description>
+      <id>2a3d4768-e625-45cb-841d-0803ef1f34da</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018'</defaultValue>
+      <description></description>
+      <id>6e09487e-6125-49fb-b1cd-fa1c449a2c6b</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
 </TestCaseEntity>

@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="554" tests="12" failures="3" errors="0">
+   <testsuite name="Login" tests="12" failures="3" errors="0" time="554" timestamp="2019-03-31 19:04:39" hostname="tomyhidayat - 192.168.50.5" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/Reports/Login/20190331_190437"/>
+         <property name="logFiles" value="/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/Reports/Login/20190331_190437/execution0.log, /Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/Reports/Login/20190331_190437/appium.log"/>
+         <property name="attachments" value="/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/Reports/Login/20190331_190437/1554034266970.png, /Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/Reports/Login/20190331_190437/1554034267414.png"/>
+         <property name="hostName" value="tomyhidayat - 192.168.50.5"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.50.5"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-31 19:04:39 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login
+
+2019-03-31 19:04:40 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:04:40 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:04:42 - [MESSAGE][INFO] - Appium server started on port 62,553
+
+2019-03-31 19:04:52 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:04:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:04:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:04:58 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:04:58 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:04:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:04:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:04:59 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text 'emailsalah@a.c' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:04:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:05:00 - [MESSAGE][PASSED] - Text 'emailsalah@a.c' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:05:00 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text 'Passwordsalah' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:05:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:05:01 - [MESSAGE][PASSED] - Text 'Passwordsalah' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:05:01 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:05:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:05:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:05:05 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-31 19:05:05 - [TEST_STEP][PASSED] - case "FAIL":: null
+
+2019-03-31 19:05:05 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserName":varUsername]), 5): Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+
+2019-03-31 19:05:10 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+
+2019-03-31 19:05:10 - [TEST_STEP][PASSED] - break: null
+
+2019-03-31 19:05:10 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-31 19:05:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-31 19:05:15 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-31 19:05:16 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Dashboard/Login/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dashboard/Login/Logout' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2019-03-31 19:05:16 - [TEST_CASE][FAILED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dashboard/Login/Logout' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2019-03-31 19:05:16 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:05:16 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:05:18 - [MESSAGE][INFO] - Appium server started on port 63,005
+
+2019-03-31 19:05:26 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:05:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:05:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:05:32 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:05:32 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:05:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:05:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:05:34 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text 'Aya@4mail.top' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:05:34 - [MESSAGE][PASSED] - Text 'Aya@4mail.top' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:05:34 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:05:36 - [MESSAGE][PASSED] - Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:05:36 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:05:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:05:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:05:39 - [TEST_STEP][FAILED] - switch (varExpectedResult.toString()): switch (varExpectedResult.toString()) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dashboard/Login/Logout' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2019-03-31 19:05:39 - [TEST_STEP][FAILED] - case "PASS":: switch (varExpectedResult.toString()) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dashboard/Login/Logout' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2019-03-31 19:05:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserEmail":varUsername]), 0): Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' is present
+
+2019-03-31 19:05:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:05:39 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' is present
+
+2019-03-31 19:05:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserEmail":varUsername]), 0): Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' is visible
+
+2019-03-31 19:05:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:05:40 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' is visible
+
+2019-03-31 19:05:40 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Dashboard/Login/Logout"), [:], STOP_ON_FAILURE): switch (varExpectedResult.toString()) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dashboard/Login/Logout' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2019-03-31 19:05:40 - [TEST_CASE][FAILED] - Test Cases/Dashboard/Login/Logout: Test Cases/Dashboard/Login/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+
+
+2019-03-31 19:05:40 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:05:40 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:05:48 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:05:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserEmail":varUsername]), 0): Object Object Repository/Dashboard/Dashboard_BtnUserEmail not found
+
+2019-03-31 19:05:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:06:18 - [MESSAGE][WARNING] - Object Object Repository/Dashboard/Dashboard_BtnUserEmail not found
+
+2019-03-31 19:06:18 - [TEST_STEP][FAILED] - tap(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserEmail":varUsername]), 0): tap(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserEmail":varUsername]), 0) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+
+
+2019-03-31 19:06:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:06:41 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-03-31 19:06:41 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+
+2019-03-31 19:06:41 - [MESSAGE][FAILED] - tap(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserEmail":varUsername]), 0) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+
+
+2019-03-31 19:06:41 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Dashboard/Login/Logout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dashboard/Login/Logout' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2019-03-31 19:06:41 - [MESSAGE][FAILED] - switch (varExpectedResult.toString()) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dashboard/Login/Logout' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+         <system-err><![CDATA[2019-03-31 19:05:16 - [TEST_CASE][FAILED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dashboard/Login/Logout' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-31 19:06:41 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login
+
+2019-03-31 19:06:41 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:06:41 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:06:50 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:06:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:06:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:06:57 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:06:57 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:06:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:06:59 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:06:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:06:59 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:06:59 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:06:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:06:59 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:06:59 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:07:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:07:00 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-31 19:07:00 - [TEST_STEP][PASSED] - case "DISABLEDBUTTON":: null
+
+2019-03-31 19:07:00 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Dashboard/Login/Login_BtnMasuk"), "enabled", "false", 0): Object 'Object Repository/Dashboard/Login/Login_BtnMasuk' has attribute 'enabled' with value 'false'
+
+2019-03-31 19:07:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:01 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/Login/Login_BtnMasuk' has attribute 'enabled' with value 'false'
+
+2019-03-31 19:07:01 - [TEST_STEP][PASSED] - break: null
+
+2019-03-31 19:07:01 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-31 19:07:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-31 19:07:06 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-31 19:07:06 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-31 19:07:06 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login
+
+2019-03-31 19:07:06 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:07:06 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:07:09 - [MESSAGE][INFO] - Appium server started on port 65,433
+
+2019-03-31 19:07:17 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:07:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:07:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:23 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:07:23 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:07:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:07:25 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text 'Aya@4mail.top' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:07:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:25 - [MESSAGE][PASSED] - Text 'Aya@4mail.top' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:07:25 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:07:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:27 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:07:27 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:07:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:07:28 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-31 19:07:28 - [TEST_STEP][PASSED] - case "DISABLEDBUTTON":: null
+
+2019-03-31 19:07:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Dashboard/Login/Login_BtnMasuk"), "enabled", "false", 0): Object 'Object Repository/Dashboard/Login/Login_BtnMasuk' has attribute 'enabled' with value 'false'
+
+2019-03-31 19:07:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:28 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/Login/Login_BtnMasuk' has attribute 'enabled' with value 'false'
+
+2019-03-31 19:07:28 - [TEST_STEP][PASSED] - break: null
+
+2019-03-31 19:07:28 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-31 19:07:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-31 19:07:33 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-31 19:07:33 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-31 19:07:33 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login
+
+2019-03-31 19:07:33 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:07:33 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:07:35 - [MESSAGE][INFO] - Appium server started on port 49,355
+
+2019-03-31 19:07:43 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:07:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:07:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:49 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:07:49 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:07:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:07:51 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:07:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:51 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:07:51 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:07:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:51 - [MESSAGE][PASSED] - Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:07:51 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:07:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:07:53 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-31 19:07:53 - [TEST_STEP][PASSED] - case "DISABLEDBUTTON":: null
+
+2019-03-31 19:07:53 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Dashboard/Login/Login_BtnMasuk"), "enabled", "false", 0): Object 'Object Repository/Dashboard/Login/Login_BtnMasuk' has attribute 'enabled' with value 'false'
+
+2019-03-31 19:07:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:07:54 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/Login/Login_BtnMasuk' has attribute 'enabled' with value 'false'
+
+2019-03-31 19:07:54 - [TEST_STEP][PASSED] - break: null
+
+2019-03-31 19:07:54 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-31 19:07:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-31 19:07:59 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-31 19:07:59 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-31 19:07:59 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login
+
+2019-03-31 19:07:59 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:07:59 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:08:00 - [MESSAGE][INFO] - Appium server started on port 49,645
+
+2019-03-31 19:08:10 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:08:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:08:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:08:15 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:08:15 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:08:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:08:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:08:17 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text 'emailsalah@a.c' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:08:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:08:18 - [MESSAGE][PASSED] - Text 'emailsalah@a.c' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:08:18 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text 'Passwordsalah' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:08:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:08:19 - [MESSAGE][PASSED] - Text 'Passwordsalah' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:08:19 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:08:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:08:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:08:23 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-31 19:08:23 - [TEST_STEP][PASSED] - case "FAIL":: null
+
+2019-03-31 19:08:23 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserName":varUsername]), 5): Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+
+2019-03-31 19:08:28 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+
+2019-03-31 19:08:28 - [TEST_STEP][PASSED] - break: null
+
+2019-03-31 19:08:28 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-31 19:08:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-31 19:08:33 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-31 19:08:33 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-31 19:08:33 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login
+
+2019-03-31 19:08:33 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:08:33 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:08:35 - [MESSAGE][INFO] - Appium server started on port 50,095
+
+2019-03-31 19:08:43 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:08:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:08:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:08:49 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:08:49 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:08:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:08:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:08:51 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text 'Aya@4mail.top' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:08:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:08:51 - [MESSAGE][PASSED] - Text 'Aya@4mail.top' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:08:51 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text 'Passwordsalah' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:08:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:08:53 - [MESSAGE][PASSED] - Text 'Passwordsalah' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:08:53 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:08:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:08:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:08:57 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-31 19:08:57 - [TEST_STEP][PASSED] - case "FAIL":: null
+
+2019-03-31 19:08:57 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserName":varUsername]), 5): Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+
+2019-03-31 19:09:02 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+
+2019-03-31 19:09:02 - [TEST_STEP][PASSED] - break: null
+
+2019-03-31 19:09:02 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-31 19:09:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-31 19:09:07 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-31 19:09:07 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-31 19:09:07 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login
+
+2019-03-31 19:09:07 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:09:07 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:09:09 - [MESSAGE][INFO] - Appium server started on port 50,520
+
+2019-03-31 19:09:18 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:09:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:09:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:09:24 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:09:24 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:09:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:09:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:09:26 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text 'emailsalah@a.c' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:09:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:09:27 - [MESSAGE][PASSED] - Text 'emailsalah@a.c' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:09:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:09:28 - [MESSAGE][PASSED] - Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:09:28 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:09:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:09:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:09:32 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-31 19:09:32 - [TEST_STEP][PASSED] - case "FAIL":: null
+
+2019-03-31 19:09:32 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserName":varUsername]), 5): Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+
+2019-03-31 19:09:37 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+
+2019-03-31 19:09:37 - [TEST_STEP][PASSED] - break: null
+
+2019-03-31 19:09:37 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-31 19:09:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-31 19:09:42 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-31 19:09:42 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Dashboard/Login/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:897)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at Login.run(Login:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-31 19:09:42 - [TEST_CASE][FAILED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:897)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at Login.run(Login:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+
+
+2019-03-31 19:09:42 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:09:42 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:09:44 - [MESSAGE][INFO] - Appium server started on port 50,962
+
+2019-03-31 19:09:52 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:09:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:09:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:09:58 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:09:58 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:09:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:10:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:10:00 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text '81904067865' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:10:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:10:01 - [MESSAGE][PASSED] - Text '81904067865' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:10:01 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:10:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:10:02 - [MESSAGE][PASSED] - Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:10:02 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:10:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:10:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:10:06 - [TEST_STEP][FAILED] - switch (varExpectedResult.toString()): switch (varExpectedResult.toString()) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:897)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at Login.run(Login:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+
+
+2019-03-31 19:10:06 - [TEST_STEP][FAILED] - case "PASS":: switch (varExpectedResult.toString()) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:897)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at Login.run(Login:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+
+
+2019-03-31 19:10:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserEmail":varUsername]), 0): Object Object Repository/Dashboard/Dashboard_BtnUserEmail not found
+
+2019-03-31 19:10:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:10:36 - [MESSAGE][WARNING] - Object Object Repository/Dashboard/Dashboard_BtnUserEmail not found
+
+2019-03-31 19:10:36 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserEmail":varUsername]), 0): switch (varExpectedResult.toString()) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:897)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at Login.run(Login:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+
+
+2019-03-31 19:10:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:07 - [MESSAGE][FAILED] - Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+[[ATTACHMENT|/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/Reports/Login/20190331_190437/1554034266970.png]]
+
+2019-03-31 19:11:07 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' visible
+[[ATTACHMENT|/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/Reports/Login/20190331_190437/1554034267414.png]]
+
+2019-03-31 19:11:07 - [MESSAGE][FAILED] - switch (varExpectedResult.toString()) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:897)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at Login.run(Login:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-31 19:09:42 - [TEST_CASE][FAILED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:897)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at Login.run(Login:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-31 19:11:07 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login
+
+2019-03-31 19:11:07 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:11:07 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:11:16 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:11:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:11:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:22 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:11:22 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:11:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:11:24 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:11:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:25 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:11:25 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:11:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:25 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:11:25 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:11:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:11:26 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-31 19:11:26 - [TEST_STEP][PASSED] - case "DISABLEDBUTTON":: null
+
+2019-03-31 19:11:26 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Dashboard/Login/Login_BtnMasuk"), "enabled", "false", 0): Object 'Object Repository/Dashboard/Login/Login_BtnMasuk' has attribute 'enabled' with value 'false'
+
+2019-03-31 19:11:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:26 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/Login/Login_BtnMasuk' has attribute 'enabled' with value 'false'
+
+2019-03-31 19:11:26 - [TEST_STEP][PASSED] - break: null
+
+2019-03-31 19:11:26 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-31 19:11:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-31 19:11:31 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-31 19:11:31 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-31 19:11:31 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login
+
+2019-03-31 19:11:31 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:11:31 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:11:34 - [MESSAGE][INFO] - Appium server started on port 53,742
+
+2019-03-31 19:11:42 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:11:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:11:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:48 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:11:48 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:11:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:11:50 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text '81904067865' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:11:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:51 - [MESSAGE][PASSED] - Text '81904067865' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:11:51 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:52 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:11:52 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:11:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:11:53 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-31 19:11:53 - [TEST_STEP][PASSED] - case "DISABLEDBUTTON":: null
+
+2019-03-31 19:11:53 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Dashboard/Login/Login_BtnMasuk"), "enabled", "false", 0): Object 'Object Repository/Dashboard/Login/Login_BtnMasuk' has attribute 'enabled' with value 'false'
+
+2019-03-31 19:11:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:11:53 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/Login/Login_BtnMasuk' has attribute 'enabled' with value 'false'
+
+2019-03-31 19:11:53 - [TEST_STEP][PASSED] - break: null
+
+2019-03-31 19:11:53 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-31 19:11:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-31 19:11:58 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-31 19:11:58 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-31 19:11:58 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login
+
+2019-03-31 19:11:58 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:11:58 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:12:00 - [MESSAGE][INFO] - Appium server started on port 54,032
+
+2019-03-31 19:12:08 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:12:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:12:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:12:14 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:12:14 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:12:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:12:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:12:16 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:12:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:12:16 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:12:16 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:12:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:12:17 - [MESSAGE][PASSED] - Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:12:17 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:12:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:12:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:12:18 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-31 19:12:18 - [TEST_STEP][PASSED] - case "DISABLEDBUTTON":: null
+
+2019-03-31 19:12:18 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Dashboard/Login/Login_BtnMasuk"), "enabled", "false", 0): Object 'Object Repository/Dashboard/Login/Login_BtnMasuk' has attribute 'enabled' with value 'false'
+
+2019-03-31 19:12:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:12:19 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/Login/Login_BtnMasuk' has attribute 'enabled' with value 'false'
+
+2019-03-31 19:12:19 - [TEST_STEP][PASSED] - break: null
+
+2019-03-31 19:12:19 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-31 19:12:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-31 19:12:24 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-31 19:12:24 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-31 19:12:24 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login
+
+2019-03-31 19:12:24 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:12:24 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:12:26 - [MESSAGE][INFO] - Appium server started on port 54,326
+
+2019-03-31 19:12:35 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:12:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:12:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:12:40 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:12:40 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:12:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:12:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:12:42 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text '81166' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:12:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:12:43 - [MESSAGE][PASSED] - Text '81166' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:12:43 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text 'Passwordsalah' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:12:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:12:44 - [MESSAGE][PASSED] - Text 'Passwordsalah' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:12:44 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:12:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:12:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:12:48 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-31 19:12:48 - [TEST_STEP][PASSED] - case "FAIL":: null
+
+2019-03-31 19:12:48 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserName":varUsername]), 5): Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+
+2019-03-31 19:12:53 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+
+2019-03-31 19:12:53 - [TEST_STEP][PASSED] - break: null
+
+2019-03-31 19:12:53 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-31 19:12:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-31 19:12:58 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-31 19:12:58 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-31 19:12:58 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login
+
+2019-03-31 19:12:58 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:12:58 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:13:00 - [MESSAGE][INFO] - Appium server started on port 54,789
+
+2019-03-31 19:13:08 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:13:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:13:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:13:14 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:13:14 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:13:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:13:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:13:15 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text '81904067865' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:13:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:13:16 - [MESSAGE][PASSED] - Text '81904067865' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:13:16 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text 'Passwordsalah' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:13:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:13:17 - [MESSAGE][PASSED] - Text 'Passwordsalah' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:13:17 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:13:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:13:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:13:21 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-31 19:13:21 - [TEST_STEP][PASSED] - case "FAIL":: null
+
+2019-03-31 19:13:21 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Dashboard/Dashboard_BtnUserEmail", ["UserName":varUsername]), 5): Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+
+2019-03-31 19:13:26 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_BtnUserEmail' not found
+
+2019-03-31 19:13:26 - [TEST_STEP][PASSED] - break: null
+
+2019-03-31 19:13:26 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-31 19:13:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-31 19:13:31 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-31 19:13:31 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard/Login/Login" classname="Test Cases/Dashboard/Login/Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Dashboard/Login/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Login.run(Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-31 19:13:31 - [TEST_CASE][FAILED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Login.run(Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+
+
+2019-03-31 19:13:31 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-03-31 19:13:31 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:13:33 - [MESSAGE][INFO] - Appium server started on port 55,233
+
+2019-03-31 19:13:42 - [MESSAGE][PASSED] - Started app at: '/Users/tomyhidayat/Documents/OneDrive/comp/ACC/katalon_sourcecode/acc-implementation/accone-mobile/AccWorld.apk'
+
+2019-03-31 19:13:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:13:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:13:48 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/Dashboard_MenuLogin' is present
+
+2019-03-31 19:13:48 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/Dashboard_MenuLogin"), 0): Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:13:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:13:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/Dashboard_MenuLogin'
+
+2019-03-31 19:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpEmail"), varUsername, 0): Text '81166' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:13:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:13:51 - [MESSAGE][PASSED] - Text '81166' has been set to element 'Object Repository/Dashboard/Login/Login_InpEmail'
+
+2019-03-31 19:13:51 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard/Login/Login_InpPassword"), varPassword, 0): Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:13:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:13:52 - [MESSAGE][PASSED] - Text 'Password1!' has been set to element 'Object Repository/Dashboard/Login/Login_InpPassword'
+
+2019-03-31 19:13:52 - [TEST_STEP][FAILED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0): tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Login.run(Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+
+
+2019-03-31 19:13:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-31 19:13:54 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-03-31 19:13:54 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+
+2019-03-31 19:13:54 - [MESSAGE][FAILED] - tap(findTestObject("Dashboard/Login/Login_BtnMasuk"), 0) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Login.run(Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-31 19:13:31 - [TEST_CASE][FAILED] - Test Cases/Dashboard/Login/Login: Test Cases/Dashboard/Login/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Login/Login_BtnMasuk'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Login.run(Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-31 19:04:39 - [TEST_SUITE][FAILED] - Login: Test Cases/Dashboard/Login/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dashboard/Login/Logout' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2019-03-31 19:04:39 - [TEST_SUITE][FAILED] - Login: Test Cases/Dashboard/Login/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dashboard/Login/Logout' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Login.run(Login:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554033878095.run(TempTestSuite1554033878095.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Dashboard/Dashboard_BtnUserEmail'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Logout.run(Logout:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

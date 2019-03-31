@@ -12,9 +12,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-Mobile.startApplication('/Users/tomyhidayat/Downloads/Project in ACC - ACCOne MOBILE 2932019/Project in ACC - ACCOne MOBILE 2932019/AccWorld.apk', 
-    false)
+'required for PathUtil to get the current app path'
+def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.apkname, RunConfiguration.getProjectDir())
+
+Mobile.startApplication(appPath, false)
 
 Mobile.waitForElementPresent(findTestObject('dashboard/Dashboard_BtnCariDana'), 0)
 

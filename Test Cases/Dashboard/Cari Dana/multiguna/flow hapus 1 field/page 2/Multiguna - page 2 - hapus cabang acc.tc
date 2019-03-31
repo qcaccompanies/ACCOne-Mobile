@@ -4,5 +4,47 @@
    <name>Multiguna - page 2 - hapus cabang acc</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1a351f77-32c3-480b-aaf9-aa8605c66e81</testCaseGuid>
+   <testCaseGuid>c8e75ecb-4338-4e5e-8ae6-49d17eccfea1</testCaseGuid>
+   <variable>
+      <defaultValue>'100000000'</defaultValue>
+      <description></description>
+      <id>714758a3-ea05-4b92-b0e8-d32dc46af25f</id>
+      <masked>false</masked>
+      <name>varDana</name>
+   </variable>
+   <variable>
+      <defaultValue>0.50</defaultValue>
+      <description></description>
+      <id>dc544e21-d71f-4439-8b24-d38d56dd2938</id>
+      <masked>false</masked>
+      <name>varPeriode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pendidikan'</defaultValue>
+      <description></description>
+      <id>a2aa580b-addf-4be3-92cf-69cb82d9f10e</id>
+      <masked>false</masked>
+      <name>varTujuanPeminjaman</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <description></description>
+      <id>c0a6e478-de36-4c8c-b793-57444299b5e8</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>'FATMAWATI'</defaultValue>
+      <description></description>
+      <id>fe093119-1f4c-4cef-b691-c50b8c6b6812</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'PASS'</defaultValue>
+      <description></description>
+      <id>a0ac5e74-b683-4aaf-8bfe-47a1c684f0aa</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
 </TestCaseEntity>

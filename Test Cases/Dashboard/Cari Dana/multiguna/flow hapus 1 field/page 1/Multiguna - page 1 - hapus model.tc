@@ -4,5 +4,33 @@
    <name>Multiguna - page 1 - hapus model</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>69fdfb5b-ec10-4414-bd35-16cc59a79ff3</testCaseGuid>
+   <testCaseGuid>6c135109-0181-481c-a85c-4af749224e6f</testCaseGuid>
+   <variable>
+      <defaultValue>'DAIHATSU'</defaultValue>
+      <description></description>
+      <id>7dcaf9ba-ff28-4430-bb41-a8d900571905</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AYLA'</defaultValue>
+      <description></description>
+      <id>781762d4-0c10-4c09-8f74-a1fc7039bfc1</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'T:1.0 M M/T NEW'</defaultValue>
+      <description></description>
+      <id>577ae290-0357-4e23-9e88-f8557a8900f1</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018'</defaultValue>
+      <description></description>
+      <id>c2fe43f8-68f8-4eef-8136-5bc81107559e</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
 </TestCaseEntity>
