@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DaftarAkun</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>23ce9dc8-5e03-45b4-888a-85156da54643</testSuiteGuid>
+   <testCaseLink>
+      <guid>93f38dc1-b9f0-4725-bb9d-d3c62a6d83c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard/Login/Login_DaftarAkun</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0cccb8d0-45a8-4ed5-a2c7-1bf477b610e8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Daftar</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0cccb8d0-45a8-4ed5-a2c7-1bf477b610e8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varName</value>
+         <variableId>57db122d-e423-4c86-bf23-c2a8103b0642</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0cccb8d0-45a8-4ed5-a2c7-1bf477b610e8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varEmail</value>
+         <variableId>f3d5a065-ee26-420d-887a-ad0195682064</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0cccb8d0-45a8-4ed5-a2c7-1bf477b610e8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varHandphone</value>
+         <variableId>3b83067b-36b2-41f0-8dc5-6f685fe62c91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0cccb8d0-45a8-4ed5-a2c7-1bf477b610e8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varPassword</value>
+         <variableId>a714b78b-bdd2-4eca-a4f6-531a7eb89278</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0cccb8d0-45a8-4ed5-a2c7-1bf477b610e8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varConfirmPassword</value>
+         <variableId>3c3d43d4-b31e-4a69-b356-22c7179138a6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

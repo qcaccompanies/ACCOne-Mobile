@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Multiguna - page 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02c56471-5343-4ef2-8723-578f9fea1f3f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>30381930-2932-40a6-8772-00daa7c11542</id>
+      <masked>false</masked>
+      <name>varDana</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>542c4391-5de2-4b0e-867f-4735a80880b8</id>
+      <masked>false</masked>
+      <name>varPeriode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e58ba962-5121-48c8-b174-a84cd74777b1</id>
+      <masked>false</masked>
+      <name>varTujuanPeminjaman</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>79c728f8-06e5-4ac3-9f2b-a9df35515cc0</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f82925fd-a9d4-4974-9751-6df20b1ebdb5</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fd5b6865-9478-405b-95fe-926e19a1707b</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>trade in - page 2 - hapus type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4c0eb5b-3353-4e8d-9ec6-b85848a35adc</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>219d3c77-c888-4581-bffb-c1bbffb2729b</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c6d2c6b2-68e0-4674-b45d-1076c0169dad</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>298e0971-7eb6-46f0-b8d1-b52a6aa90279</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>697667ff-c80d-4b1b-9505-891a31ca43fb</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b53400d-c2ad-4a97-bf44-cfcaf4488b4c</id>
+      <masked>false</masked>
+      <name>varLokasi</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eddfe707-7f6b-42b0-b31f-e553f7cdfda5</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

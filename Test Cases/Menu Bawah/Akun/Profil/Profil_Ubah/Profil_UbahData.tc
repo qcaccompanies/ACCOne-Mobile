@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Profil_UbahData</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>967208ad-518c-4c45-8fe6-1c004f4212b7</testCaseGuid>
+   <variable>
+      <defaultValue>'20'</defaultValue>
+      <description></description>
+      <id>dd32a26c-aaa1-49b9-bea0-98b14094a6cc</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jkt'</defaultValue>
+      <description></description>
+      <id>94bdb274-d70b-478e-8146-46d284c2b745</id>
+      <masked>false</masked>
+      <name>alamat</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mhs'</defaultValue>
+      <description></description>
+      <id>93263086-25c8-434f-850b-b6398f1f965d</id>
+      <masked>false</masked>
+      <name>pekerjaan</name>
+   </variable>
+</TestCaseEntity>

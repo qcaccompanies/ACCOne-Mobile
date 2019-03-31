@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pembayaran Angsuran Lihat Detail Kontrak</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da91dcda-6237-4b60-9f1a-33885b4c51d4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Akun_UnggahDokumen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8875ce44-edc4-46e4-b026-a0b98e441567</testCaseGuid>
+   <variable>
+      <defaultValue>'Screenshot_2019-01-29-14-40-33.png'</defaultValue>
+      <description></description>
+      <id>25cf4d03-828b-4766-8a40-0df7ed0a3eac</id>
+      <masked>false</masked>
+      <name>image</name>
+   </variable>
+</TestCaseEntity>

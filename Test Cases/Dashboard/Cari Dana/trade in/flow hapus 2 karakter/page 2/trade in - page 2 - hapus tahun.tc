@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>trade in - page 2 - hapus tahun</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a81cd864-a7e0-4e75-b972-4009c3a29aa9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0e7d0946-25e0-4172-8323-b081a264cc33</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad5f05d5-8935-4c4f-bf99-0934be5640a3</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2f573ac1-3bf6-45ef-937a-4fe5f278403f</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>55af3376-dedd-42d4-97d1-ee7b4376a8ca</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4305b4cd-0cd4-4e9e-a19b-1e2b73f412a0</id>
+      <masked>false</masked>
+      <name>varLokasi</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>13786559-d6e8-4386-a285-1a5941f73ca0</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

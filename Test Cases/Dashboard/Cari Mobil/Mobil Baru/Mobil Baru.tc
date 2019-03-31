@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mobil Baru</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>764cd0b4-f0a9-49b5-a928-f6be6e6b97b1</testCaseGuid>
+   <variable>
+      <defaultValue>0.40</defaultValue>
+      <description></description>
+      <id>510f104e-2ae8-4cf9-8422-9d0304ec9287</id>
+      <masked>false</masked>
+      <name>slide</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <description></description>
+      <id>eaa5d8e6-6d6d-411d-a00e-917521e1b5fc</id>
+      <masked>false</masked>
+      <name>InpAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>'FATMAWATI'</defaultValue>
+      <description></description>
+      <id>3805d8e9-dd60-4ab8-84fd-06f701d599fd</id>
+      <masked>false</masked>
+      <name>InpCabangACC</name>
+   </variable>
+   <variable>
+      <defaultValue>'TOYOTA'</defaultValue>
+      <description></description>
+      <id>fd05e90d-8dd6-463d-a24f-963e936c7fe8</id>
+      <masked>false</masked>
+      <name>InpBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AGYA'</defaultValue>
+      <description></description>
+      <id>471e2060-7336-4b9b-b7bc-5ef88d618b10</id>
+      <masked>false</masked>
+      <name>InpType</name>
+   </variable>
+   <variable>
+      <defaultValue>'1.0 G A/T NEW'</defaultValue>
+      <description></description>
+      <id>b9f635b2-b997-4107-92eb-847476ac257c</id>
+      <masked>false</masked>
+      <name>InpModel</name>
+   </variable>
+</TestCaseEntity>

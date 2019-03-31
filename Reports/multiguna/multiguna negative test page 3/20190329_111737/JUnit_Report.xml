@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="multiguna negative test page 3" time="185" tests="1" failures="0" errors="0">
+   <testsuite name="multiguna negative test page 3" tests="1" failures="0" errors="0" time="185" timestamp="2019-03-29 11:17:40" hostname="08944 - 10.7.8.161" id="Test Suites/multiguna/multiguna negative test page 3">
+      <properties>
+         <property name="deviceName" value="samsung SM-P355 (Android 7.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\IT-Services\\git\\Project in ACC - ACCOne MOBILE 2832019\\Reports\\multiguna\\multiguna negative test page 3\\20190329_111737"/>
+         <property name="logFiles" value="C:\\Users\\IT-Services\\git\\Project in ACC - ACCOne MOBILE 2832019\\Reports\\multiguna\\multiguna negative test page 3\\20190329_111737\\appium.log, C:\\Users\\IT-Services\\git\\Project in ACC - ACCOne MOBILE 2832019\\Reports\\multiguna\\multiguna negative test page 3\\20190329_111737\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="08944 - 10.7.8.161"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-P355"/>
+         <property name="hostAddress" value="10.7.8.161"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="16c92315"/>
+         <property name="deviceName" value="samsung SM-P355 (Android 7.1.1)"/>
+         <property name="deviceOSVersion" value="7.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 3" classname="Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 3" status="PASSED">
+         <system-out><![CDATA[2019-03-29 11:17:40 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 3: Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 3
+
+2019-03-29 11:17:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 2"), ["varBPKB":"Y", "varExistingNew":"Existing", "varBrand":"DAIHATSU", "varType":"AYLA", "varModel":"T:1.0 D M/T", "varTahun":"2018", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 2' successfully
+
+2019-03-29 11:17:42 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 2: Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 2
+
+2019-03-29 11:17:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 1"), ["varBPKB":"Y", "varExistingNew":"Existing", "varBrand":"DAIHATSU", "varType":"AYLA", "varModel":"T:1.0 D M/T", "varTahun":"2018", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 1' successfully
+
+2019-03-29 11:17:42 - [TEST_CASE][PASSED] - Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 1: Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 1
+
+2019-03-29 11:17:43 - [TEST_STEP][PASSED] - startApplication("C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk", false): Started app at: 'C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk'
+
+2019-03-29 11:17:51 - [MESSAGE][INFO] - Appium server started on port 7,325
+
+2019-03-29 11:18:49 - [MESSAGE][PASSED] - Started app at: 'C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk'
+
+2019-03-29 11:18:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("dashboard/Dashboard_BtnCariDana"), 0): Element 'Object Repository/dashboard/Dashboard_BtnCariDana' is present
+
+2019-03-29 11:18:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:18:55 - [MESSAGE][PASSED] - Element 'Object Repository/dashboard/Dashboard_BtnCariDana' is present
+
+2019-03-29 11:18:55 - [TEST_STEP][PASSED] - tap(findTestObject("dashboard/Dashboard_BtnCariDana"), 0): Tapped on element 'Object Repository/dashboard/Dashboard_BtnCariDana'
+
+2019-03-29 11:18:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:18:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/dashboard/Dashboard_BtnCariDana'
+
+2019-03-29 11:18:57 - [TEST_STEP][PASSED] - if (varBPKB == "Y"): Tapped on element 'Object Repository/cari dana/CariDana_BtnBPKBdiACC_YA'
+
+2019-03-29 11:18:57 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/CariDana_BtnBPKBdiACC_YA"), 0): Tapped on element 'Object Repository/cari dana/CariDana_BtnBPKBdiACC_YA'
+
+2019-03-29 11:18:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/CariDana_BtnBPKBdiACC_YA'
+
+2019-03-29 11:19:00 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/CariDana_BtnPembiayaanMultiguna"), 0): Tapped on element 'Object Repository/cari dana/CariDana_BtnPembiayaanMultiguna'
+
+2019-03-29 11:19:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/CariDana_BtnPembiayaanMultiguna'
+
+2019-03-29 11:19:03 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_BtnNewCustomer"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_BtnNewCustomer'
+
+2019-03-29 11:19:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_BtnNewCustomer'
+
+2019-03-29 11:19:04 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpBrand"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpBrand'
+
+2019-03-29 11:19:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpBrand'
+
+2019-03-29 11:19:07 - [TEST_STEP][PASSED] - setText(findTestObject("cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpBrand"), varBrand, 0): Text 'DAIHATSU' has been set to element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpBrand'
+
+2019-03-29 11:19:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:10 - [MESSAGE][PASSED] - Text 'DAIHATSU' has been set to element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpBrand'
+
+2019-03-29 11:19:10 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-29 11:19:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-29 11:19:13 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpType"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpType'
+
+2019-03-29 11:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpType'
+
+2019-03-29 11:19:15 - [TEST_STEP][PASSED] - setText(findTestObject("cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpType"), varType, 0): Text 'AYLA' has been set to element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpType'
+
+2019-03-29 11:19:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:17 - [MESSAGE][PASSED] - Text 'AYLA' has been set to element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpType'
+
+2019-03-29 11:19:17 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-29 11:19:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-29 11:19:20 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpModel"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpModel'
+
+2019-03-29 11:19:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpModel'
+
+2019-03-29 11:19:23 - [TEST_STEP][PASSED] - setText(findTestObject("cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpModel"), varModel, 0): Text 'T:1.0 D M/T' has been set to element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpModel'
+
+2019-03-29 11:19:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:25 - [MESSAGE][PASSED] - Text 'T:1.0 D M/T' has been set to element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpModel'
+
+2019-03-29 11:19:25 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-29 11:19:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-29 11:19:28 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpTahun"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpTahun'
+
+2019-03-29 11:19:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpTahun'
+
+2019-03-29 11:19:31 - [TEST_STEP][PASSED] - setText(findTestObject("cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpTahun"), varTahun, 0): Text '2018' has been set to element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpTahun'
+
+2019-03-29 11:19:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:32 - [MESSAGE][PASSED] - Text '2018' has been set to element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_InpTahun'
+
+2019-03-29 11:19:32 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-29 11:19:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-29 11:19:35 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_BtnBerikutnya"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_BtnBerikutnya'
+
+2019-03-29 11:19:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_BtnBerikutnya'
+
+2019-03-29 11:19:36 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-29 11:19:36 - [TEST_STEP][PASSED] - case "PASS":: null
+
+2019-03-29 11:19:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan"), 0): Element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan' is present
+
+2019-03-29 11:19:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:38 - [MESSAGE][PASSED] - Element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan' is present
+
+2019-03-29 11:19:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan"), 0): Element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan' is visible
+
+2019-03-29 11:19:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:39 - [MESSAGE][PASSED] - Element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan' is visible
+
+2019-03-29 11:19:39 - [TEST_STEP][PASSED] - break: null
+
+2019-03-29 11:19:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 1' successfully
+
+2019-03-29 11:19:39 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpDanaYangDibutuhkan"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpDanaYangDibutuhkan'
+
+2019-03-29 11:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpDanaYangDibutuhkan'
+
+2019-03-29 11:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpDanaYangDibutuhkan"), varDana, 0): Text '150000000' has been set to element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpDanaYangDibutuhkan'
+
+2019-03-29 11:19:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:42 - [MESSAGE][PASSED] - Text '150000000' has been set to element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpDanaYangDibutuhkan'
+
+2019-03-29 11:19:42 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpTujuanPeminjamanDana"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpTujuanPeminjamanDana'
+
+2019-03-29 11:19:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpTujuanPeminjamanDana'
+
+2019-03-29 11:19:45 - [TEST_STEP][PASSED] - setText(findTestObject("cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpTujuanPeminjamanDana"), varTujuanPeminjaman, 0): Text 'PENDIDIKAN' has been set to element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpTujuanPeminjamanDana'
+
+2019-03-29 11:19:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:47 - [MESSAGE][PASSED] - Text 'PENDIDIKAN' has been set to element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpTujuanPeminjamanDana'
+
+2019-03-29 11:19:47 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-29 11:19:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-29 11:19:50 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan'
+
+2019-03-29 11:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan'
+
+2019-03-29 11:19:52 - [TEST_STEP][PASSED] - setText(findTestObject("cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan"), varAreaPengajuan, 0): Text 'DKI Jakarta, Banten, Jawa Barat' has been set to element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan'
+
+2019-03-29 11:19:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:53 - [MESSAGE][PASSED] - Text 'DKI Jakarta, Banten, Jawa Barat' has been set to element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan'
+
+2019-03-29 11:19:53 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-29 11:19:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-29 11:19:56 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpCabangACC"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpCabangACC'
+
+2019-03-29 11:19:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:19:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpCabangACC'
+
+2019-03-29 11:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpCabangACC"), varCabang, 0): Text 'FATMAWATI' has been set to element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpCabangACC'
+
+2019-03-29 11:19:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:00 - [MESSAGE][PASSED] - Text 'FATMAWATI' has been set to element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpCabangACC'
+
+2019-03-29 11:20:00 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-29 11:20:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-29 11:20:03 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_BtnBerikutnya"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_BtnBerikutnya'
+
+2019-03-29 11:20:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_BtnBerikutnya'
+
+2019-03-29 11:20:06 - [TEST_STEP][PASSED] - switch (varExpectedResult.toString()): null
+
+2019-03-29 11:20:06 - [TEST_STEP][PASSED] - case "PASS":: null
+
+2019-03-29 11:20:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang"), 0): Element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang' is present
+
+2019-03-29 11:20:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:07 - [MESSAGE][PASSED] - Element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang' is present
+
+2019-03-29 11:20:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang"), 0): Element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang' is visible
+
+2019-03-29 11:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:08 - [MESSAGE][PASSED] - Element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang' is visible
+
+2019-03-29 11:20:08 - [TEST_STEP][PASSED] - break: null
+
+2019-03-29 11:20:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 2' successfully
+
+2019-03-29 11:20:08 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananDepan"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananDepan'
+
+2019-03-29 11:20:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananDepan'
+
+2019-03-29 11:20:09 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery'
+
+2019-03-29 11:20:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery'
+
+2019-03-29 11:20:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload"), 0): Element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload' is present
+
+2019-03-29 11:20:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:14 - [MESSAGE][PASSED] - Element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload' is present
+
+2019-03-29 11:20:14 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'
+
+2019-03-29 11:20:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'
+
+2019-03-29 11:20:17 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKiriDepan"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKiriDepan'
+
+2019-03-29 11:20:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKiriDepan'
+
+2019-03-29 11:20:19 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery'
+
+2019-03-29 11:20:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery'
+
+2019-03-29 11:20:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload"), 0): Element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload' is present
+
+2019-03-29 11:20:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:21 - [MESSAGE][PASSED] - Element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload' is present
+
+2019-03-29 11:20:21 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'
+
+2019-03-29 11:20:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'
+
+2019-03-29 11:20:23 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang'
+
+2019-03-29 11:20:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang'
+
+2019-03-29 11:20:25 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery'
+
+2019-03-29 11:20:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery'
+
+2019-03-29 11:20:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload"), 0): Element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload' is present
+
+2019-03-29 11:20:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:28 - [MESSAGE][PASSED] - Element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload' is present
+
+2019-03-29 11:20:28 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'
+
+2019-03-29 11:20:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'
+
+2019-03-29 11:20:30 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKiriBelakang"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKiriBelakang'
+
+2019-03-29 11:20:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKiriBelakang'
+
+2019-03-29 11:20:32 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery'
+
+2019-03-29 11:20:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnGallery'
+
+2019-03-29 11:20:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload"), 0): Element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload' is present
+
+2019-03-29 11:20:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:35 - [MESSAGE][PASSED] - Element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload' is present
+
+2019-03-29 11:20:35 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'
+
+2019-03-29 11:20:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload'
+
+2019-03-29 11:20:37 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnSubmit"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnSubmit'
+
+2019-03-29 11:20:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnSubmit'
+
+2019-03-29 11:20:40 - [TEST_STEP][PASSED] - tap(findTestObject("cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnOK"), 0): Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnOK'
+
+2019-03-29 11:20:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-29 11:20:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnOK']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-29 11:17:40 - [TEST_SUITE][PASSED] - multiguna negative test page 3: Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

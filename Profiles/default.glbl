@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'AccWorld.apk'</initValue>
+      <name>apkname</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

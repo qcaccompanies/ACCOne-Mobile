@@ -1,0 +1,136 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,,,2019-03-28 13:03:51,2019-03-28 13:27:54,24m - 3.008s,FAILED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:03:51,2019-03-28 13:05:15,1m - 23.831s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:03:52,2019-03-28 13:04:58,1m - 6.336s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:04:58,2019-03-28 13:05:05,6.693s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:05:05,2019-03-28 13:05:07,2.103s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:05:07,2019-03-28 13:05:09,1.825s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:05:09,2019-03-28 13:05:12,2.954s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:05:12,2019-03-28 13:05:12,0.723s,PASSED
+closeApplication(),,,2019-03-28 13:05:12,2019-03-28 13:05:15,2.565s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:05:15,2019-03-28 13:06:42,1m - 27.426s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:05:15,2019-03-28 13:06:16,1m - 1.208s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:06:16,2019-03-28 13:06:23,6.826s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:06:23,2019-03-28 13:06:25,1.968s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:06:25,2019-03-28 13:06:27,1.690s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:06:27,2019-03-28 13:06:31,4.610s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:06:31,2019-03-28 13:06:40,8.584s,PASSED
+closeApplication(),,,2019-03-28 13:06:40,2019-03-28 13:06:42,2.471s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:06:42,2019-03-28 13:08:31,1m - 48.795s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:06:42,2019-03-28 13:07:47,1m - 4.657s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:07:47,2019-03-28 13:07:54,7.059s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:07:54,2019-03-28 13:07:56,1.876s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:07:56,2019-03-28 13:07:57,1.043s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:07:57,2019-03-28 13:07:58,1.434s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:07:58,2019-03-28 13:08:29,30.387s,PASSED
+closeApplication(),,,2019-03-28 13:08:29,2019-03-28 13:08:31,2.292s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:08:31,2019-03-28 13:10:18,1m - 46.530s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:08:31,2019-03-28 13:09:33,1m - 2.228s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:09:33,2019-03-28 13:09:40,6.956s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:09:40,2019-03-28 13:09:42,1.977s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:09:42,2019-03-28 13:09:44,1.720s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:09:44,2019-03-28 13:09:45,1.325s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:09:45,2019-03-28 13:10:15,30.053s,PASSED
+closeApplication(),,,2019-03-28 13:10:15,2019-03-28 13:10:18,2.222s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:10:18,2019-03-28 13:12:06,1m - 48.651s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:10:18,2019-03-28 13:11:22,1m - 4.032s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:11:22,2019-03-28 13:11:29,6.978s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:11:29,2019-03-28 13:11:31,1.976s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:11:31,2019-03-28 13:11:32,0.983s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:11:32,2019-03-28 13:11:34,2.274s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:11:34,2019-03-28 13:12:04,30.091s,PASSED
+closeApplication(),,,2019-03-28 13:12:04,2019-03-28 13:12:06,2.296s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:12:06,2019-03-28 13:13:25,1m - 18.178s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:12:06,2019-03-28 13:13:08,1m - 1.580s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:13:08,2019-03-28 13:13:15,7.023s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:13:15,2019-03-28 13:13:17,2.040s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:13:17,2019-03-28 13:13:19,1.700s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:13:19,2019-03-28 13:13:21,2.709s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:13:21,2019-03-28 13:13:22,0.642s,PASSED
+closeApplication(),,,2019-03-28 13:13:22,2019-03-28 13:13:25,2.461s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:13:25,2019-03-28 13:14:45,1m - 20.146s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:13:25,2019-03-28 13:14:28,1m - 3.708s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:14:28,2019-03-28 13:14:35,6.879s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:14:35,2019-03-28 13:14:37,2.045s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:14:37,2019-03-28 13:14:39,1.737s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:14:39,2019-03-28 13:14:42,2.790s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:14:42,2019-03-28 13:14:42,0.637s,PASSED
+closeApplication(),,,2019-03-28 13:14:42,2019-03-28 13:14:45,2.326s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:14:45,2019-03-28 13:16:03,1m - 18.227s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:14:45,2019-03-28 13:15:47,1m - 2.331s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:15:47,2019-03-28 13:15:54,6.738s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:15:54,2019-03-28 13:15:56,1.903s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:15:56,2019-03-28 13:15:57,1.683s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:15:57,2019-03-28 13:16:00,2.683s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:16:00,2019-03-28 13:16:01,0.623s,PASSED
+closeApplication(),,,2019-03-28 13:16:01,2019-03-28 13:16:03,2.233s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:16:03,2019-03-28 13:18:26,2m - 22.755s,FAILED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:16:03,2019-03-28 13:17:07,1m - 4.119s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:17:07,2019-03-28 13:17:15,8.073s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:17:15,2019-03-28 13:17:16,1.032s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:17:16,2019-03-28 13:17:18,1.695s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:17:18,2019-03-28 13:17:21,2.695s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:17:21,2019-03-28 13:18:26,1m - 5.108s,FAILED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:18:26,2019-03-28 13:20:06,1m - 40.449s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:18:26,2019-03-28 13:19:22,56.462s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:19:22,2019-03-28 13:19:29,7.142s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:19:29,2019-03-28 13:19:31,2.067s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:19:31,2019-03-28 13:19:32,1.053s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:19:32,2019-03-28 13:19:34,1.284s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:19:34,2019-03-28 13:20:04,30.134s,PASSED
+closeApplication(),,,2019-03-28 13:20:04,2019-03-28 13:20:06,2.288s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:20:06,2019-03-28 13:21:58,1m - 51.523s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:20:06,2019-03-28 13:21:08,1m - 2.274s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:21:08,2019-03-28 13:21:21,12.625s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:21:21,2019-03-28 13:21:22,1.099s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:21:22,2019-03-28 13:21:24,1.702s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:21:24,2019-03-28 13:21:25,1.442s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:21:25,2019-03-28 13:21:55,30.079s,PASSED
+closeApplication(),,,2019-03-28 13:21:55,2019-03-28 13:21:58,2.259s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:21:58,2019-03-28 13:23:48,1m - 50.094s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:21:58,2019-03-28 13:23:02,1m - 4.416s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:23:02,2019-03-28 13:23:09,6.803s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:23:09,2019-03-28 13:23:11,2.494s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:23:11,2019-03-28 13:23:12,1.050s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:23:12,2019-03-28 13:23:15,2.567s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:23:15,2019-03-28 13:23:46,30.529s,PASSED
+closeApplication(),,,2019-03-28 13:23:46,2019-03-28 13:23:48,2.212s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:23:48,2019-03-28 13:25:11,1m - 23.105s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:23:48,2019-03-28 13:24:53,1m - 5.590s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:24:53,2019-03-28 13:25:02,8.930s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:25:02,2019-03-28 13:25:03,1.056s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:25:03,2019-03-28 13:25:05,1.654s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:25:05,2019-03-28 13:25:08,2.861s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:25:08,2019-03-28 13:25:09,0.678s,PASSED
+closeApplication(),,,2019-03-28 13:25:09,2019-03-28 13:25:11,2.311s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:25:11,2019-03-28 13:26:34,1m - 23.207s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:25:11,2019-03-28 13:26:18,1m - 6.963s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:26:18,2019-03-28 13:26:25,6.772s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:26:25,2019-03-28 13:26:27,2.157s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:26:27,2019-03-28 13:26:29,1.698s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:26:29,2019-03-28 13:26:31,2.587s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:26:31,2019-03-28 13:26:32,0.614s,PASSED
+closeApplication(),,,2019-03-28 13:26:32,2019-03-28 13:26:34,2.370s,PASSED
+,,,,,,
+Test Cases/Dashboard/Login/Login,,,2019-03-28 13:26:34,2019-03-28 13:27:54,1m - 19.507s,PASSED
+"startApplication(""C:\Users\IT-Services\Katalon Studio\ACCONE Mobile\accone tst env 24 maret 2019.apk"", false)",,,2019-03-28 13:26:34,2019-03-28 13:27:37,1m - 2.979s,PASSED
+"tap(findTestObject(""Dashboard/Dashboard_MenuLogin""), 0)",,,2019-03-28 13:27:37,2019-03-28 13:27:44,6.971s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpEmail""), varUsername, 0)",,,2019-03-28 13:27:44,2019-03-28 13:27:46,2.020s,PASSED
+"setText(findTestObject(""Dashboard/Login/Login_InpPassword""), varPassword, 0)",,,2019-03-28 13:27:46,2019-03-28 13:27:48,1.846s,PASSED
+"tap(findTestObject(""Dashboard/Login/Login_BtnMasuk""), 0)",,,2019-03-28 13:27:48,2019-03-28 13:27:51,2.776s,PASSED
+switch (varExpectedResult.toString()),,,2019-03-28 13:27:51,2019-03-28 13:27:51,0.632s,PASSED
+closeApplication(),,,2019-03-28 13:27:51,2019-03-28 13:27:54,2.258s,PASSED

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-29T14:19:48</date>
+  <millis>1553843988547</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/cari dana/trade in/trade in negative test page 2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">trade in negative test page 2</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/cari dana/trade in/trade in negative test page 2</property>
+</record>
+<record>
+  <date>2019-03-29T14:19:48</date>
+  <millis>1553843988567</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = 08944 - 10.7.8.161</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">08944 - 10.7.8.161</property>
+</record>
+<record>
+  <date>2019-03-29T14:19:48</date>
+  <millis>1553843988568</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-03-29T14:19:48</date>
+  <millis>1553843988569</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.7.8.161</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.7.8.161</property>
+</record>
+<record>
+  <date>2019-03-29T14:19:48</date>
+  <millis>1553843988571</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.5.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.5.4</property>
+</record>
+<record>
+  <date>2019-03-29T14:19:48</date>
+  <millis>1553843988983</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Dashboard/Cari Dana/trade in/flow data binding/trade in - page 2</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Dashboard/Cari Dana/trade in/flow data binding/trade in - page 2</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Dashboard/Cari Dana/trade in/flow data binding/trade in - page 2</property>
+  <property name="source">C:\\Users\\IT-Services\\git\\Project in ACC - ACCOne MOBILE 2832019\\Test Cases\\Dashboard\\Cari Dana\\trade in\\flow data binding\\trade in - page 2.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-29T14:19:49</date>
+  <millis>1553843989030</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varBrand = DAIHATSU</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:49</date>
+  <millis>1553843989030</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varType = AYLA</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:49</date>
+  <millis>1553843989031</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varModel = T:1.0 D M/T</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:49</date>
+  <millis>1553843989031</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varTahun = 2018</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:49</date>
+  <millis>1553843989032</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varLokasi = DKI</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:49</date>
+  <millis>1553843989032</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varExpectedResult = PASS</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:49</date>
+  <millis>1553843989878</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;Dashboard/Cari Dana/trade in/flow data binding/trade in - page 1\&amp;quot;), [\&amp;quot;varExpectedResult\&amp;quot;:\&amp;quot;PASS\&amp;quot;, \&amp;quot;varLokasi\&amp;quot;:\&amp;quot;DKI\&amp;quot;, \&amp;quot;varTahun\&amp;quot;:\&amp;quot;2018\&amp;quot;, \&amp;quot;varModel\&amp;quot;:\&amp;quot;T:1.0 D M/T\&amp;quot;, \&amp;quot;varType\&amp;quot;:\&amp;quot;AYLA\&amp;quot;, \&amp;quot;varBrand\&amp;quot;:\&amp;quot;DAIHATSU\&amp;quot;, ... ], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-29T14:19:50</date>
+  <millis>1553843990080</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Dashboard/Cari Dana/trade in/flow data binding/trade in - page 1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/Dashboard/Cari Dana/trade in/flow data binding/trade in - page 1</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Dashboard/Cari Dana/trade in/flow data binding/trade in - page 1</property>
+  <property name="source">C:\\Users\\IT-Services\\git\\Project in ACC - ACCOne MOBILE 2832019\\Test Cases\\Dashboard\\Cari Dana\\trade in\\flow data binding\\trade in - page 1.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-29T14:19:50</date>
+  <millis>1553843990176</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varBrand = DAIHATSU</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:50</date>
+  <millis>1553843990177</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varType = AYLA</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:50</date>
+  <millis>1553843990178</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varModel = T:1.0 D M/T</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:50</date>
+  <millis>1553843990179</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varTahun = 2018</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:50</date>
+  <millis>1553843990179</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varExpectedResult = PASS</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:50</date>
+  <millis>1553843990180</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varBPKB = Y</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:50</date>
+  <millis>1553843990181</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varLokasi = DKI</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T14:19:50</date>
+  <millis>1553843990613</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;C:\\Users\\IT-Services\\Katalon Studio\\ACCONE Mobile\\accone tst env 24 maret 2019.apk\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>

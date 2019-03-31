@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+multiguna negative test page 3,,,2019-03-29 10:58:49,2019-03-29 11:00:25,1m - 36.020s,FAILED
+,,,,,,
+Test Cases/Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 3,,,2019-03-29 10:58:49,2019-03-29 11:00:22,1m - 32.674s,FAILED
+"callTestCase(findTestCase(""Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 2""), [""varBPKB"":""Y"", ""varExistingNew"":""Existing"", ""varBrand"":""DAIHATSU"", ""varType"":""AYLA"", ""varModel"":""T:1.0 D M/T"", ""varTahun"":""2018"", ... ], STOP_ON_FAILURE)",,,2019-03-29 10:58:50,2019-03-29 11:00:22,1m - 31.887s,FAILED
