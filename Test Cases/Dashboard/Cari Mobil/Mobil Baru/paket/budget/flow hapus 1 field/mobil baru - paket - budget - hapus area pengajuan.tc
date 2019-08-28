@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>mobil baru - paket - budget - hapus area pengajuan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>095b4343-b3d1-4a42-ac1a-faebf6476344</testCaseGuid>
+   <variable>
+      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <description></description>
+      <id>18c82d52-9665-4c67-82a9-8e5a3bdefc87</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>'Fatmawati'</defaultValue>
+      <description></description>
+      <id>13d3eeb6-47a3-4608-bc22-134ed82b6431</id>
+      <masked>false</masked>
+      <name>varCabangAcc</name>
+   </variable>
+   <variable>
+      <defaultValue>'30000000'</defaultValue>
+      <description></description>
+      <id>cc809b3f-9e13-4f1b-b4b4-a2a7c74527e1</id>
+      <masked>false</masked>
+      <name>varUangMuka</name>
+   </variable>
+   <variable>
+      <defaultValue>'3000000'</defaultValue>
+      <description></description>
+      <id>9f169bb9-886b-4839-bf19-03697dd50d8d</id>
+      <masked>false</masked>
+      <name>varAngsuran</name>
+   </variable>
+   <variable>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
+      <description></description>
+      <id>c12461e5-91e8-4be1-ad91-e35d506b1950</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

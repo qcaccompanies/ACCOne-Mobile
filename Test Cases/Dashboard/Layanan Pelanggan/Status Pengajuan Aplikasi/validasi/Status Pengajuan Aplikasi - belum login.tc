@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Status Pengajuan Aplikasi - belum login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1bd5a4c-5c75-4f04-8b60-ec08fde0c194</testCaseGuid>
+   <variable>
+      <defaultValue>'400404001902590'</defaultValue>
+      <description></description>
+      <id>6ab83c4a-c2c0-4832-aeb7-175589b5bc3e</id>
+      <masked>false</masked>
+      <name>varNokon</name>
+   </variable>
+   <variable>
+      <defaultValue>'LOGIN'</defaultValue>
+      <description></description>
+      <id>351f6e31-f6ce-44f1-bd40-5ed18b283b18</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

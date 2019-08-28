@@ -13,9 +13,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/trade in/flow data binding/trade in - page 2'), [('varModel') : 'T:1.0 D M/T'
-        , ('varType') : 'AYLA', ('varBrand') : 'DAIHATSU', ('varExpectedResult') : 'PASS', ('varLokasi') : 'DKI', ('varTahun') : '2018'], 
+WebUI.callTestCase(findTestCase('Open application'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/trade in/master flow/trade in - open menu - MASTER FLOW'), [('varBPKB') : 'Y'], 
     FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 3 - pilih mobil masa depanmu/TradeIn_ObjOTRMobil'), 0)
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/trade in/master flow/trade in - page 1 - MASTER FLOW'), [('varBrand') : 'DAIHATSU'
+        , ('varType') : 'AYLA', ('varModel') : 'T:1.0 D M/T', ('varTahun') : '2018', ('varExpectedResult') : 'PASS', ('varLokasi') : 'DKI'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_BtnBerikutnya'), 0)
+
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/trade in/master flow/trade in - page 2 - MASTER FLOW'), [('varBrand') : 'DAIHATSU'
+        , ('varType') : 'AYLA', ('varModel') : 'T:1.0 D M/T', ('varTahun') : '2018', ('varLokasi') : 'DKI', ('varExpectedResult') : 'PASS'
+        , ('varNewUsed') : 'U'], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_BtnBerikutnya'), 
+    0)
+
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/trade in/master flow/trade in - page 3 - MASTER FLOW'), [('varOTR') : varOTR], 
+    FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Asuransi Mobil - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46b087c0-10e4-456b-bec8-9119dcd79b90</testCaseGuid>
+   <variable>
+      <defaultValue>'B1500ac'</defaultValue>
+      <description></description>
+      <id>4cf5ef7d-349b-430c-9974-9a758e8df7a1</id>
+      <masked>false</masked>
+      <name>varNoPol</name>
+   </variable>
+</TestCaseEntity>

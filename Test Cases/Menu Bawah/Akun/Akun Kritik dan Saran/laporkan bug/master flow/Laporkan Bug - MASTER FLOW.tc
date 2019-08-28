@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Laporkan Bug - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9693ea11-25a6-4b85-b86c-bbcaa5412bd9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7bea23cb-070d-4735-9377-30dcc61e81a9</id>
+      <masked>false</masked>
+      <name>varBug</name>
+   </variable>
+</TestCaseEntity>

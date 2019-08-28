@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>pre = user sudah login, user sudah upload KTP, user sudah input page 1
+
+testing untuk inputan data baik negative maupun positive di menu multiguna page kedua.
+PASS = halaman pindah ke page ketiga
+DISABLEDBUTTON = button tidak dapat di klik dan tidak ke page ketiga</description>
+   <name>Multiguna - flow back 2 - 1 - 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87c1de0b-68e5-4ce4-83f6-9a289ad69b17</testCaseGuid>
+   <variable>
+      <defaultValue>'150000000'</defaultValue>
+      <description></description>
+      <id>0b1d9c00-fc16-4120-8fe3-9bc980e4f7ae</id>
+      <masked>false</masked>
+      <name>varDana</name>
+   </variable>
+   <variable>
+      <defaultValue>'24'</defaultValue>
+      <description></description>
+      <id>44ed6ed0-50da-4330-bdf8-c605c5dc9580</id>
+      <masked>false</masked>
+      <name>varPeriode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pendidikan'</defaultValue>
+      <description></description>
+      <id>ad3bab18-ddf3-45d4-b75e-403c93f727d4</id>
+      <masked>false</masked>
+      <name>varTujuanPeminjaman</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <description></description>
+      <id>ab77ba09-6f4f-4fc7-baa0-8573e75d45c1</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>'FATMAWATI'</defaultValue>
+      <description></description>
+      <id>bd65e2a5-0c7d-44b4-b567-bbff728b0dcc</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'PASS'</defaultValue>
+      <description></description>
+      <id>83ee3dff-2ffd-4ee0-8a7e-919d84ea1823</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

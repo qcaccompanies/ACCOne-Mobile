@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>mobil baru - paket - page 1 -MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>545cbc2c-487b-4249-aa2c-bf0a05a3df3e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9f8cd964-9221-4b78-bbd1-78ed03445c34</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c39d7c50-083b-4342-a213-3eb4188c0dca</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64bb1236-d9fe-40a7-911e-496fb5bb5ba7</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>453ba98e-b22f-472b-a8f1-d2918b12c411</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+</TestCaseEntity>

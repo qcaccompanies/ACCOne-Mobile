@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>trade in - flow back 2-1-2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58e2b00d-89b7-4160-a923-bccc7138bc35</testCaseGuid>
+   <variable>
+      <defaultValue>'DAIHATSU'</defaultValue>
+      <description></description>
+      <id>2dae0fd3-3162-4fb3-823b-d048841bc6a2</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AYLA'</defaultValue>
+      <description></description>
+      <id>0f724286-fbae-42b6-8373-dd5f774c39cd</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'T:1.0 D M/T'</defaultValue>
+      <description></description>
+      <id>8084dc0a-6855-45c4-9f5c-cd637e4ba20d</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018'</defaultValue>
+      <description></description>
+      <id>7275eec0-aad0-4e37-8472-3e8ead49275a</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI'</defaultValue>
+      <description></description>
+      <id>18cbe9cf-0b4e-4ded-b155-843870af4dfe</id>
+      <masked>false</masked>
+      <name>varLokasi</name>
+   </variable>
+   <variable>
+      <defaultValue>'PASS'</defaultValue>
+      <description></description>
+      <id>b3f1e532-66d8-44d8-8b33-5330f8c20b1c</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>'U'</defaultValue>
+      <description></description>
+      <id>2e459912-9b7e-4a9a-b237-d04c81de3d5b</id>
+      <masked>false</masked>
+      <name>varNewUsed</name>
+   </variable>
+</TestCaseEntity>

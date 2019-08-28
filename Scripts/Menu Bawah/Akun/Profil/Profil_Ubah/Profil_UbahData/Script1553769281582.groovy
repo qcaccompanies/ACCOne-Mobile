@@ -12,9 +12,10 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-Mobile.startApplication('/Users/tomyhidayat/Downloads/Project in ACC - ACCOne MOBILE 2932019/Project in ACC - ACCOne MOBILE 2932019/AccWorld.apk', 
-    false)
+WebUI.callTestCase(findTestCase('Open application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('BottomMenu/MenuBawah_BtnAkun'), 0)
 
@@ -24,19 +25,13 @@ Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Akun_BtnProfil'), 0)
 
 Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Akun_BtnUbah'), 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Profile/Profil_BtnCal'), 0)
+not_run: WebUI.callTestCase(findTestCase('calendar'), [('varTahun') : varTahun], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Profile/Profil_BtnCalBack'), 0)
+Mobile.setText(findTestObject('BottomMenu/Akun/Akun_Profil/Profile/UbahProfil_InpNamaSesuaiKTP'), varNamaSesuaiKTP, 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Profile/Profile_BtnCalDate', [('date') : date]), 0)
+Mobile.setText(findTestObject('BottomMenu/Akun/Akun_Profil/Profile/UbahProfil_InpAlamat'), varAlamatKTP, 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Profile/Profil_BtnCalSet'), 0)
+Mobile.setText(findTestObject('BottomMenu/Akun/Akun_Profil/Profile/UbahProfil_InpPekerjaan'), varPekerjaan, 0)
 
-not_run: Mobile.pressBack()
-
-Mobile.setText(findTestObject('BottomMenu/Akun/Akun_Profil/Profile/Profil_InpAlamatSesuaiKTP'), alamat, 0)
-
-Mobile.setText(findTestObject('BottomMenu/Akun/Akun_Profil/Profile/Profil_InpPekerjaan'), pekerjaan, 0)
-
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Profile/Profil_BtnSimpan'), 0)
+Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Profile/UbahProfil_BtnSimpan'), 0)
 

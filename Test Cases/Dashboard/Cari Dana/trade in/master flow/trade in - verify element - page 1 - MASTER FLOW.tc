@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>trade in - verify element - page 1 - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a1de180-142f-4987-b922-28a0abba6e14</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>723bf443-28c8-42cf-a592-a3433c0594be</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>78693179-1d02-409d-aa41-2562611cdce5</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5f34193-4919-4f00-8774-befc4bb0251d</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fcbe2eeb-5ce0-4996-998c-58c29f7e265c</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>68bb77e8-1e43-461d-9c76-6e7cb1560b23</id>
+      <masked>false</masked>
+      <name>varLokasi</name>
+   </variable>
+</TestCaseEntity>

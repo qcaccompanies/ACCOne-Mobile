@@ -12,61 +12,30 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/trade in/flow data binding/trade in - page 1'), [('varExpectedResult') : 'PASS'
-        , ('varLokasi') : 'DKI', ('varTahun') : '2018', ('varModel') : 'T:1.0 D M/T', ('varType') : 'AYLA', ('varBrand') : 'DAIHATSU'
-        , ('varBPKB') : 'Y'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Open application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_BtnUsedCar'), 0)
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/trade in/master flow/trade in - open menu - MASTER FLOW'), [('varBPKB') : 'Y'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpBrand'), 0)
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/trade in/master flow/trade in - page 1 - MASTER FLOW'), [('varBrand') : 'DAIHATSU'
+        , ('varType') : 'AYLA', ('varModel') : 'T:1.0 D M/T', ('varTahun') : '2018', ('varExpectedResult') : 'PASS', ('varLokasi') : 'DKI'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpBrand'), varBrand, 
+Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_BtnBerikutnya'), 0)
+
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/trade in/master flow/trade in - page 2 - MASTER FLOW'), [('varBrand') : varBrand
+        , ('varType') : varType, ('varModel') : varModel, ('varTahun') : varTahun, ('varLokasi') : varLokasi, ('varExpectedResult') : varExpectedResult
+        , ('varNewUsed') : varNewUsed], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_BtnBerikutnya'), 
     0)
-
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpType'), 0)
-
-Mobile.setText(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpType'), varType, 
-    0)
-
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpModel'), 0)
-
-Mobile.setText(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpModel'), varModel, 
-    0)
-
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpTahun'), 0)
-
-Mobile.setText(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpTahun'), varTahun, 
-    0)
-
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpLokasi'), 0)
-
-Mobile.setText(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpLokasi'), varLokasi, 
-    0)
-
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_BtnBerikutnya'), 0)
 
 switch (varExpectedResult.toString()) {
     case 'PASS':
-        Mobile.waitForElementPresent(findTestObject('Dashboard/cari dana/trade in/page 3 - pilih mobil masa depanmu/TradeIn_BtnMobilMasaDepan'), 
-            0)
-
-        Mobile.verifyElementVisible(findTestObject('Dashboard/cari dana/trade in/page 3 - pilih mobil masa depanmu/TradeIn_BtnMobilMasaDepan'), 
+        Mobile.verifyElementNotVisible(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_BtnUsedCar'), 
             0)
 
         break

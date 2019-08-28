@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>100504ed-b929-4cfe-b6a7-acfdc3c6d97d</testCaseGuid>
+   <variable>
+      <defaultValue>'motola.cihuyy2k@gmail.com'</defaultValue>
+      <description></description>
+      <id>edf721d9-5c79-4848-a383-23339b16d222</id>
+      <masked>false</masked>
+      <name>varUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>'P@ssw0rd'</defaultValue>
+      <description></description>
+      <id>1770b4f8-25cd-4e54-86c4-38b6c2f9415b</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'NO'</defaultValue>
+      <description></description>
+      <id>64ad8125-94dc-4f0c-893c-ec55dbe13633</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

@@ -25,6 +25,7 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.WebDriver.Timeouts
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.By
 
@@ -37,7 +38,7 @@ import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObjectProperty
 
 import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
@@ -49,16 +50,85 @@ class pick {
 	 * @return true if element present, otherwise false
 	 */
 	@Keyword
-	def List(listObject) {
+	def List(listObject, FailureHandling failureHandling = FailureHandling.STOP_ON_FAILURE) {
+		try {
+			def Gapsize = GlobalVariable.gapsize
+
+			def elementYPosition = Mobile.getElementTopPosition(listObject, 0)
+
+			def elementXPosition = Mobile.getElementLeftPosition(listObject, 0)
+
+
+			Mobile.tapAtPosition(elementXPosition, elementYPosition + Gapsize)
+		} catch (Exception e) {
+			if (failureHandling == FailureHandling.STOP_ON_FAILURE) {
+				//				throw new AssertionError('ERROR: There was an error while trying to execute the keyword')
+				KeywordUtil.markFailed("Something wrong with the keyword" + e.message)
+			} else if (failureHandling == FailureHandling.CONTINUE_ON_FAILURE) {
+				KeywordUtil.logInfo('There was an exception but the process will continue');
+			}
+		}
+	}
+
+	@Keyword
+	def ListNaik(listObject,gap, FailureHandling failureHandling = FailureHandling.STOP_ON_FAILURE) {
+		try {
+			//def Gapsize = GlobalVariable.gapsize
+
+			def elementYPosition = Mobile.getElementTopPosition(listObject, 0)
+
+			def elementXPosition = Mobile.getElementLeftPosition(listObject, 0)
+
+
+			Mobile.tapAtPosition(elementXPosition, elementYPosition - 42)
+		} catch (Exception e) {
+			if (failureHandling == FailureHandling.STOP_ON_FAILURE) {
+				//				throw new AssertionError('ERROR: There was an error while trying to execute the keyword')
+				KeywordUtil.markFailed("Something wrong with the keyword" + e.message)
+			} else if (failureHandling == FailureHandling.CONTINUE_ON_FAILURE) {
+				KeywordUtil.logInfo('There was an exception but the process will continue');
+			}
+		}
+	}
+
+
+	@Keyword
+	def Listwarna(listObject, FailureHandling failureHandling = FailureHandling.STOP_ON_FAILURE) {
 		try {
 
 			def elementYPosition = Mobile.getElementTopPosition(listObject, 0)
 
 			def elementXPosition = Mobile.getElementLeftPosition(listObject, 0)
 
-			Mobile.tapAtPosition(elementXPosition, elementYPosition + 99)
+
+			Mobile.tapAtPosition(elementXPosition +29, elementYPosition - 115)
 		} catch (Exception e) {
-			KeywordUtil.markFailed("Something wrong with the keyword" + e.message)
+			if (failureHandling == FailureHandling.STOP_ON_FAILURE) {
+				//				throw new AssertionError('ERROR: There was an error while trying to execute the keyword')
+				KeywordUtil.markFailed("Something wrong with the keyword" + e.message)
+			} else if (failureHandling == FailureHandling.CONTINUE_ON_FAILURE) {
+				KeywordUtil.logInfo('There was an exception but the process will continue');
+			}
+		}
+	}
+
+	@Keyword
+	def Listpromo(listObject, FailureHandling failureHandling = FailureHandling.STOP_ON_FAILURE) {
+		try {
+
+			def elementYPosition = Mobile.getElementTopPosition(listObject, 0)
+
+			def elementXPosition = Mobile.getElementLeftPosition(listObject, 0)
+
+
+			Mobile.tapAtPosition(elementXPosition + 35, elementYPosition - 391)
+		} catch (Exception e) {
+			if (failureHandling == FailureHandling.STOP_ON_FAILURE) {
+				//				throw new AssertionError('ERROR: There was an error while trying to execute the keyword')
+				KeywordUtil.markFailed("Something wrong with the keyword" + e.message)
+			} else if (failureHandling == FailureHandling.CONTINUE_ON_FAILURE) {
+				KeywordUtil.logInfo('There was an exception but the process will continue');
+			}
 		}
 	}
 }

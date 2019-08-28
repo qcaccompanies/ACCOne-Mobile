@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>trade in - page 1 - hapus field model</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4625292-70b4-46ba-a9ba-392d9b16543c</testCaseGuid>
+   <variable>
+      <defaultValue>'DAIHATSU'</defaultValue>
+      <description></description>
+      <id>c4e59c35-7cbb-4191-80ff-d13ce010fff0</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AYLA'</defaultValue>
+      <description></description>
+      <id>3af5b2a4-d361-4b71-a4a9-2ef1e67072c3</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'T:1.0 D M/T'</defaultValue>
+      <description></description>
+      <id>9af5b789-2626-419e-a0ed-ab349ebdab80</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018'</defaultValue>
+      <description></description>
+      <id>318f34a6-9103-4461-ad3d-8186107cac17</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
+      <description></description>
+      <id>4f07869a-666d-48f6-816b-26d2c5b7fa44</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI'</defaultValue>
+      <description></description>
+      <id>3724eb86-bce4-4949-822c-b8609f208475</id>
+      <masked>false</masked>
+      <name>varLokasi</name>
+   </variable>
+</TestCaseEntity>

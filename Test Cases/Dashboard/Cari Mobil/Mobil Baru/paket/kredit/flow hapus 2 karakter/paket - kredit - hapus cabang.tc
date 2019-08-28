@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>paket - kredit - hapus cabang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26dabb94-c004-4edc-96e6-00dd7fc892b2</testCaseGuid>
+   <variable>
+      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <description></description>
+      <id>a0fba627-3c0f-4c19-9e9c-0aed17d173ff</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>'FATMAWATI'</defaultValue>
+      <description></description>
+      <id>fb171bce-04d6-4dc0-8c2c-db9db8d1b74c</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'DAIHATSU'</defaultValue>
+      <description></description>
+      <id>4ff84fe3-b573-448c-9588-f70ef13616e9</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AYLA'</defaultValue>
+      <description></description>
+      <id>e80a0599-e991-4659-a52e-98c5e29a937c</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
+      <description></description>
+      <id>a18218f1-fdea-4b84-b734-e0fa5ee50b7d</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

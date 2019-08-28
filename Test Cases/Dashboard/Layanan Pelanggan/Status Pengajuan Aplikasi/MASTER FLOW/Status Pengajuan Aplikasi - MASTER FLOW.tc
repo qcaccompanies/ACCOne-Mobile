@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Status Pengajuan Aplikasi - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15b4083d-aa96-4f99-bff6-80d3bd0c16ae</testCaseGuid>
+   <variable>
+      <defaultValue>'400404001902590'</defaultValue>
+      <description></description>
+      <id>8c441163-d1a6-4a3f-9857-75622f4f3be3</id>
+      <masked>false</masked>
+      <name>varNokon</name>
+   </variable>
+</TestCaseEntity>

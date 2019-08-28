@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Akun Kritik dan Saran - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12e8b28a-e387-4e14-b0f9-f8472f7abf43</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a0b9cbce-9956-4a3a-b506-ad0ff40f7900</id>
+      <masked>false</masked>
+      <name>varKritik</name>
+   </variable>
+</TestCaseEntity>

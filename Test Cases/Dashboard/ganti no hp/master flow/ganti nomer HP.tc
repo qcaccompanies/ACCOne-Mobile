@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ganti nomer HP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf34d4d2-2e92-4282-9ed7-8bb6f667a090</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>668e4fcf-f7a0-491e-9f20-62b8a5a7af80</id>
+      <masked>false</masked>
+      <name>varNoHPLama</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>10a148b5-9b46-4921-8ad4-0e222d096636</id>
+      <masked>false</masked>
+      <name>varNoHPBaru</name>
+   </variable>
+</TestCaseEntity>

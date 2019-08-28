@@ -4,46 +4,46 @@
    <name>Multiguna - page 2 - hapus cabang acc</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c8e75ecb-4338-4e5e-8ae6-49d17eccfea1</testCaseGuid>
+   <testCaseGuid>e6d83ea3-ce01-4541-babd-bc5a6b98cd9b</testCaseGuid>
    <variable>
-      <defaultValue>'100000000'</defaultValue>
+      <defaultValue>'150000000'</defaultValue>
       <description></description>
-      <id>714758a3-ea05-4b92-b0e8-d32dc46af25f</id>
+      <id>03a847bb-26a3-43b0-8b91-da0a67480120</id>
       <masked>false</masked>
       <name>varDana</name>
    </variable>
    <variable>
-      <defaultValue>0.50</defaultValue>
+      <defaultValue>'24'</defaultValue>
       <description></description>
-      <id>dc544e21-d71f-4439-8b24-d38d56dd2938</id>
+      <id>1abdcdc8-546c-4874-a427-346e9f33530a</id>
       <masked>false</masked>
       <name>varPeriode</name>
    </variable>
    <variable>
       <defaultValue>'Pendidikan'</defaultValue>
       <description></description>
-      <id>a2aa580b-addf-4be3-92cf-69cb82d9f10e</id>
+      <id>1019a1f5-cca1-4397-9070-d204b9661db9</id>
       <masked>false</masked>
       <name>varTujuanPeminjaman</name>
    </variable>
    <variable>
       <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
       <description></description>
-      <id>c0a6e478-de36-4c8c-b793-57444299b5e8</id>
+      <id>d0e89d20-b951-41c4-94bc-c408053376c7</id>
       <masked>false</masked>
       <name>varAreaPengajuan</name>
    </variable>
    <variable>
       <defaultValue>'FATMAWATI'</defaultValue>
       <description></description>
-      <id>fe093119-1f4c-4cef-b691-c50b8c6b6812</id>
+      <id>a9b6f2d8-3fa8-4ab3-8d16-8c66290f793f</id>
       <masked>false</masked>
       <name>varCabang</name>
    </variable>
    <variable>
-      <defaultValue>'PASS'</defaultValue>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
       <description></description>
-      <id>a0ac5e74-b683-4aaf-8bfe-47a1c684f0aa</id>
+      <id>7548f9ef-52cf-47ea-af50-898f2b57f71a</id>
       <masked>false</masked>
       <name>varExpectedResult</name>
    </variable>

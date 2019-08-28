@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cari Mobil - Mobil Bekas - Marketplace - Calculator Master Flow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16df86e8-6bc7-484a-9468-57505a0db30b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d403af43-dc13-46f3-a5f8-e7d59e0643b7</id>
+      <masked>false</masked>
+      <name>varHarga</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a6871377-9606-499e-8f5e-6dd214fc6c48</id>
+      <masked>false</masked>
+      <name>varUangMuka</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e6bdd22c-f944-4ff2-b1a6-a4c1ecc86713</id>
+      <masked>false</masked>
+      <name>varPeriode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>571b0ca3-57f9-46b1-a314-7994053c419e</id>
+      <masked>false</masked>
+      <name>varAsuransi</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cd819ab4-8553-4725-bc0f-5bd23589b4f6</id>
+      <masked>false</masked>
+      <name>varACP</name>
+   </variable>
+</TestCaseEntity>

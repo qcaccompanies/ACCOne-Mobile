@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>pre = user sudah login, user sudah upload KTP, user sudah input page pertama dan kedua
+
+testing untuk inputan data baik negative maupun positive di menu multiguna page ketiga
+PASS = halaman pindah ke halaman konfirmasi bahwa sudah berhasil melakukan pengajuan
+DISABLEDBUTTON = button tidak dapat di klik dan tidak ke page konfirmasi pengajuan</description>
+   <name>Multiguna - flow back 3-2-3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45585e7a-67e1-472a-bdea-7035046c664a</testCaseGuid>
+   <variable>
+      <defaultValue>'Abc.jpg'</defaultValue>
+      <description></description>
+      <id>e99d4c54-77b7-4b81-8955-a91573b32dc0</id>
+      <masked>false</masked>
+      <name>varKananDepan</name>
+   </variable>
+   <variable>
+      <defaultValue>'Abc.jpg'</defaultValue>
+      <description></description>
+      <id>6d7e7e4b-5df8-4ddb-9043-ed7f14901485</id>
+      <masked>false</masked>
+      <name>varKiriDepan</name>
+   </variable>
+   <variable>
+      <defaultValue>'Abc.jpg'</defaultValue>
+      <description></description>
+      <id>e5490539-9259-4f35-b457-e89990439b5b</id>
+      <masked>false</masked>
+      <name>varKananBelakang</name>
+   </variable>
+   <variable>
+      <defaultValue>'Abc.jpg'</defaultValue>
+      <description></description>
+      <id>ec92ac9c-f277-4e1f-a8fd-2b6f1ceea6ec</id>
+      <masked>false</masked>
+      <name>varKiriBelakang</name>
+   </variable>
+   <variable>
+      <defaultValue>'Abc.jpg'</defaultValue>
+      <description></description>
+      <id>16cc1217-c8cc-4756-8330-1d0fd8252b7c</id>
+      <masked>false</masked>
+      <name>varDashboard</name>
+   </variable>
+   <variable>
+      <defaultValue>'Abc.jpg'</defaultValue>
+      <description></description>
+      <id>89c0be2f-1c8d-481d-980d-274b6894be14</id>
+      <masked>false</masked>
+      <name>varDepanMobil</name>
+   </variable>
+   <variable>
+      <defaultValue>'Abc.jpg'</defaultValue>
+      <description></description>
+      <id>632e9867-3bbd-4261-8017-418d7dcc4ce6</id>
+      <masked>false</masked>
+      <name>varKapMesin</name>
+   </variable>
+   <variable>
+      <defaultValue>'Abc.jpg'</defaultValue>
+      <description></description>
+      <id>13661a20-85a0-4019-beab-1782be612bb6</id>
+      <masked>false</masked>
+      <name>varModifikasi</name>
+   </variable>
+   <variable>
+      <defaultValue>'PASS'</defaultValue>
+      <description></description>
+      <id>60db0820-0b10-4435-af3d-b4e5406c6dd4</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

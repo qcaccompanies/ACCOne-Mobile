@@ -6,49 +6,42 @@
    <comment></comment>
    <testCaseGuid>cdb5cdc5-45fe-4eb0-a4c8-935b0062616f</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'TOYOTA'</defaultValue>
       <description></description>
       <id>7ac34a1c-93e9-4551-954d-baa261fe5669</id>
       <masked>false</masked>
       <name>varBrand</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'AGYA'</defaultValue>
       <description></description>
       <id>8b71e016-4466-48e3-b951-13f60911d207</id>
       <masked>false</masked>
       <name>varType</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'T:1.2 G A/T NEW'</defaultValue>
       <description></description>
       <id>75a9501b-625a-43c8-871e-7b0df7572339</id>
       <masked>false</masked>
       <name>varModel</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'2018'</defaultValue>
       <description></description>
       <id>74fe9174-e871-4579-beb6-d6de52d008c8</id>
       <masked>false</masked>
       <name>varTahun</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'PASS'</defaultValue>
       <description></description>
       <id>09abc91e-9961-4f44-9893-c9785bd6ad04</id>
       <masked>false</masked>
       <name>varExpectedResult</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>e2b23723-5d6c-4cf9-ac8e-3f42ddcee8bd</id>
-      <masked>false</masked>
-      <name>varBPKB</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'DKI'</defaultValue>
       <description></description>
       <id>1ff6dae8-4de7-49d5-9846-d76dab151111</id>
       <masked>false</masked>

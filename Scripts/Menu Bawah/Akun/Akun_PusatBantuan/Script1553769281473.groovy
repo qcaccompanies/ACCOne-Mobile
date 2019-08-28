@@ -13,16 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\User\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\06XV6WTM\\AccWorld[1].apk', 
-    true)
+WebUI.callTestCase(findTestCase('Open application'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.waitForElementPresent(findTestObject('BottomMenu/MenuBawah_BtnAkun'), 0)
 
 Mobile.tap(findTestObject('BottomMenu/MenuBawah_BtnAkun'), 0)
 
 Mobile.tap(findTestObject('BottomMenu/Akun/Akun_BtnPusatBantuan'), 0)
 
-Mobile.setText(findTestObject('BottomMenu/Akun/Akun_InpSearchPusatBantuan'), 'te', 0)
+Mobile.setText(findTestObject('BottomMenu/Akun/Pusat Bantuan/Akun_InpSearchPusatBantuan'), 'te', 0)
 
 Mobile.tap(findTestObject('BottomMenu/Akun/Akun_BtnDropdownPusatBantuan'), 0)
-
-Mobile.closeApplication()
 

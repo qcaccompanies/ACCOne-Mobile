@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>lease - verify element - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f51e880-347b-4d18-a3d7-94f6cbcbabf2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b11fd22e-4901-45ba-ba79-e7fd9ab050f5</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b429d10b-7a29-467e-ba1a-630b34d71c5f</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d47e4fa0-8b6c-4ed0-ac6b-c0a917fda81e</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ec28057-6edd-4ac4-a452-0871554a0fcb</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ae7031c6-158b-45bb-b582-5259ccd8cf0e</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b89ffb0c-7c8d-4a21-97ae-76993fbac921</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>067c3e60-b332-4b36-bda4-09e222f4669f</id>
+      <masked>false</masked>
+      <name>varBidangUsaha</name>
+   </variable>
+</TestCaseEntity>

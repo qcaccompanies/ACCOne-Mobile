@@ -22,15 +22,15 @@ Mobile.tap(findTestObject('BottomMenu/MenuBawah_BtnAkun'), 0)
 
 Mobile.tap(findTestObject('BottomMenu/Akun/Akun_BtnKritikdanSaran'), 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_KritikSaran/Akun_BtnKritikDanSaranProduk'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_KritikSaran/Akun_InpSaran'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.setText(findTestObject('BottomMenu/Akun/Akun_KritikSaran/Akun_InpSaran'), 'apa', 0)
+Mobile.setText(findTestObject('null'), 'apa', 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_KritikSaran/Akun_BtnSubmitSaran'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_KritikSaran/Akun_BtnYeay'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.closeApplication()
 

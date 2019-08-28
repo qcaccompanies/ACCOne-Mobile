@@ -12,68 +12,32 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-Mobile.startApplication('C:\\Users\\IT-Services\\Katalon Studio\\ACCONE Mobile\\accone tst env 24 maret 2019.apk', false)
+WebUI.callTestCase(findTestCase('Open application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('dashboard/Dashboard_BtnCariDana'), 0)
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/trade in/master flow/trade in - open menu - MASTER FLOW'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('dashboard/Dashboard_BtnCariDana'), 0)
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/trade in/master flow/trade in - page 1 - MASTER FLOW'), [('varBrand') : varBrand
+        , ('varType') : varType, ('varModel') : varModel, ('varTahun') : varTahun, ('varExpectedResult') : varExpectedResult
+        , ('varLokasi') : varLokasi], FailureHandling.STOP_ON_FAILURE)
 
-if (varBPKB == 'Y') {
-    Mobile.tap(findTestObject('Dashboard/cari dana/CariDana_BtnBPKBdiACC_YA'), 0)
-} else {
-    Mobile.tap(findTestObject('Dashboard/cari dana/CariDana_BtnBPKBdiACC_TIDAK'), 0)
-}
-
-Mobile.tap(findTestObject('Dashboard/cari dana/CariDana_BtnTradeIn'), 0)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_InpBrand'), 0)
-
-Mobile.setText(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_InpBrand'), varBrand, 0)
-
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_InpType'), 0)
-
-Mobile.setText(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_InpType'), varType, 0)
-
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_InpModel'), 0)
-
-Mobile.setText(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_InpModel'), varModel, 0)
-
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.setText(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_InpTahun'), varTahun, 0)
-
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_InpLokasi'), 0)
-
-Mobile.setText(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_InpLokasi'), varLokasi, 0)
-
-'diberikan delay sementara, karena belum bisa tap pada list yang diinginkan'
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_BtnBerikutnya'), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_BtnBerikutnya'), 7, 
+    FailureHandling.OPTIONAL)
 
 switch (varExpectedResult.toString()) {
     case 'PASS':
         Mobile.waitForElementPresent(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpBrand'), 
-            0)
+            7, FailureHandling.STOP_ON_FAILURE)
 
         Mobile.verifyElementVisible(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpBrand'), 
-            0)
+            7, FailureHandling.STOP_ON_FAILURE)
 
         break
     case 'DISABLEDBUTTON':
         Mobile.verifyElementNotVisible(findTestObject('Dashboard/cari dana/trade in/page 2 - masukkan detail kendaraan masa depanmu/TradeIn_InpBrand'), 
-            0)
+            7, FailureHandling.STOP_ON_FAILURE)
 
         break
 }

@@ -1,40 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>pre = user sudah login, user sudah upload KTP
+
+testing untuk inputan data baik negative maupun positive di menu multiguna page pertama.
+PASS = halaman pindah ke page kedua
+DISABLEDBUTTON = button tidak dapat di klik dan tidak ke page kedua</description>
    <name>Multiguna - page 1</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a455d1f9-80bc-4a2d-aee7-e85243db65b2</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Y'</defaultValue>
       <description></description>
       <id>e29f16f9-2cdb-4a95-b819-5ad38283d30d</id>
       <masked>false</masked>
       <name>varBPKB</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'New'</defaultValue>
       <description></description>
       <id>0ce6959d-f8db-48c0-9884-09c607ef64a3</id>
       <masked>false</masked>
       <name>varExistingNew</name>
    </variable>
    <variable>
-      <defaultValue>'DAIHATSU'</defaultValue>
+      <defaultValue>'TOYOTA'</defaultValue>
       <description></description>
       <id>7bf40b10-4e2a-4fcc-9d50-cb6faff6ad29</id>
       <masked>false</masked>
       <name>varBrand</name>
    </variable>
    <variable>
-      <defaultValue>'AYLA'</defaultValue>
+      <defaultValue>'AGYA'</defaultValue>
       <description></description>
       <id>33f18cab-5a32-4dd4-a469-f8eda1e6e563</id>
       <masked>false</masked>
       <name>varType</name>
    </variable>
    <variable>
-      <defaultValue>'T:1.0 M M/T NEW'</defaultValue>
+      <defaultValue>'T:1.2 G A/T NEW'</defaultValue>
       <description></description>
       <id>a65ac208-1b39-4e65-b4eb-fd3b2f5cd95a</id>
       <masked>false</masked>
@@ -48,31 +52,10 @@
       <name>varTahun</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
       <description></description>
       <id>e378b68e-074b-40c8-a1ef-1e0c7baba90e</id>
       <masked>false</masked>
       <name>varExpectedResult</name>
-   </variable>
-   <variable>
-      <defaultValue>'43'</defaultValue>
-      <description></description>
-      <id>502b8f89-d814-40f8-b0d1-a7d76927be2e</id>
-      <masked>false</masked>
-      <name>varBrandList</name>
-   </variable>
-   <variable>
-      <defaultValue>'52'</defaultValue>
-      <description></description>
-      <id>9e16397e-b947-453b-8c4a-584594feec2d</id>
-      <masked>false</masked>
-      <name>varTypeList</name>
-   </variable>
-   <variable>
-      <defaultValue>'60'</defaultValue>
-      <description></description>
-      <id>4fcb4d47-eabf-4bee-b0f7-8b0d24dfc9c1</id>
-      <masked>false</masked>
-      <name>varModelList</name>
    </variable>
 </TestCaseEntity>

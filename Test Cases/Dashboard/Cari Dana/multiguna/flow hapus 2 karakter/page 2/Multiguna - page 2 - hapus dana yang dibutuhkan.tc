@@ -4,46 +4,46 @@
    <name>Multiguna - page 2 - hapus dana yang dibutuhkan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3a5be034-8a90-4faf-bf16-7e08c309b352</testCaseGuid>
+   <testCaseGuid>a0b95724-0236-45bf-9ff7-2c6d02a6965a</testCaseGuid>
    <variable>
-      <defaultValue>'100000000'</defaultValue>
+      <defaultValue>'150000000'</defaultValue>
       <description></description>
-      <id>3c56761d-737f-4b34-9959-ed8410e96ef9</id>
+      <id>f1b7aa4d-c759-4863-9d4b-da824884bb02</id>
       <masked>false</masked>
       <name>varDana</name>
    </variable>
    <variable>
-      <defaultValue>0.50</defaultValue>
+      <defaultValue>'24'</defaultValue>
       <description></description>
-      <id>5259e531-0352-4867-8c17-530a5a5770e1</id>
+      <id>c887de4a-a768-4b94-84e6-6f69fbb0bf1a</id>
       <masked>false</masked>
       <name>varPeriode</name>
    </variable>
    <variable>
       <defaultValue>'Pendidikan'</defaultValue>
       <description></description>
-      <id>4ae82a39-07ab-4ebd-927c-1d22eaa66015</id>
+      <id>cd350068-7033-4709-842a-f4887eeafc8c</id>
       <masked>false</masked>
       <name>varTujuanPeminjaman</name>
    </variable>
    <variable>
       <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
       <description></description>
-      <id>bf74dbf8-1e0a-4fa1-a754-24ad59a76a76</id>
+      <id>e8655067-3700-4348-8538-e3a1a524cb82</id>
       <masked>false</masked>
       <name>varAreaPengajuan</name>
    </variable>
    <variable>
       <defaultValue>'FATMAWATI'</defaultValue>
       <description></description>
-      <id>a92d3f53-f8a0-4e23-933d-86db9cd82361</id>
+      <id>8be52964-cc96-438d-88d6-db394fd2211a</id>
       <masked>false</masked>
       <name>varCabang</name>
    </variable>
    <variable>
-      <defaultValue>'PASS'</defaultValue>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
       <description></description>
-      <id>6caaed97-1d2d-4730-b1d4-c9cc3c2ab272</id>
+      <id>da3cee94-f663-4269-bc28-a52037c80af9</id>
       <masked>false</masked>
       <name>varExpectedResult</name>
    </variable>

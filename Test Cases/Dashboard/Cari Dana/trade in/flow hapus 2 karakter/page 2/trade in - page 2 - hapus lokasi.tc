@@ -4,47 +4,54 @@
    <name>trade in - page 2 - hapus lokasi</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e163b0a9-d4af-40fb-82e5-416483b3421d</testCaseGuid>
+   <testCaseGuid>4c13d1be-f190-4279-9657-498e6c594aac</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'DAIHATSU'</defaultValue>
       <description></description>
-      <id>765a4a89-0590-4edc-90c6-23e81a7552d7</id>
+      <id>ae04f08d-f576-4e1e-972a-9c7de4db02a5</id>
       <masked>false</masked>
       <name>varBrand</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'AYLA'</defaultValue>
       <description></description>
-      <id>4adeeab1-91fc-4881-b7b0-86141db22732</id>
+      <id>09538009-c86b-4b66-9752-38b1f1d53aa8</id>
       <masked>false</masked>
       <name>varType</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'T:1.0 D M/T'</defaultValue>
       <description></description>
-      <id>d06ba189-d6a9-4f2a-90b3-164c1e7c4090</id>
+      <id>cadfb987-911c-4748-90bc-7c470e1c4985</id>
       <masked>false</masked>
       <name>varModel</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'2018'</defaultValue>
       <description></description>
-      <id>bd4ff518-ed88-4135-bdf6-b5393f359b78</id>
+      <id>99ccef2f-e6cb-409b-8991-2ebef874bfd8</id>
       <masked>false</masked>
       <name>varTahun</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'DKI'</defaultValue>
       <description></description>
-      <id>839b46f4-472f-484e-8f7e-8bc0ff34db99</id>
+      <id>dadb86d0-cf9f-4591-88f8-6433ec28c2f9</id>
       <masked>false</masked>
       <name>varLokasi</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
       <description></description>
-      <id>ad865d74-1788-45e3-95d0-7efae7011a7e</id>
+      <id>9dc42d1e-7656-4f21-a58b-dedd5a6051be</id>
       <masked>false</masked>
       <name>varExpectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>'U'</defaultValue>
+      <description></description>
+      <id>d8ffb8dc-518f-49c9-bb5e-5bfdfdc90ce7</id>
+      <masked>false</masked>
+      <name>varNewUsed</name>
    </variable>
 </TestCaseEntity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>trade in - page 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35a9422e-7e2f-4b28-b863-c566a82ec66f</testCaseGuid>
+   <variable>
+      <defaultValue>'DAIHATSU'</defaultValue>
+      <description></description>
+      <id>0d36cdbb-046c-43fd-8deb-7150d896c3d6</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AYLA'</defaultValue>
+      <description></description>
+      <id>24a100d2-35bb-4a49-95ac-4be0c54165ae</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'T:1.0 D M/T'</defaultValue>
+      <description></description>
+      <id>99980b0d-1355-4737-bc72-4e83fadb532d</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018'</defaultValue>
+      <description></description>
+      <id>6680a7f7-319f-41e3-a8bc-88f003e68976</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'PASS'</defaultValue>
+      <description></description>
+      <id>50032b29-2b9d-4055-8ed8-d9571aa69832</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>c6da672e-e905-4f07-b1b8-8b5a0dbc3fd8</id>
+      <masked>false</masked>
+      <name>varBPKB</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI'</defaultValue>
+      <description></description>
+      <id>ac04bbaa-47af-433f-8398-1e3f805a8644</id>
+      <masked>false</masked>
+      <name>varLokasi</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>85390fa9-9fbc-4469-a90f-c1c1563a893d</id>
+      <masked>false</masked>
+      <name>varEstimasiHarga</name>
+   </variable>
+</TestCaseEntity>

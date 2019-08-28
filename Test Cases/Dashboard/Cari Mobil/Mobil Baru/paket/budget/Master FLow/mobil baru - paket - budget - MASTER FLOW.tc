@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>mobil baru - paket - budget - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdf64efc-e5fe-4493-bbdc-e0dc4f4af481</testCaseGuid>
+   <variable>
+      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <description></description>
+      <id>fbfc4b68-cdd7-4cf6-8147-82433a484a4d</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>'Fatmawati'</defaultValue>
+      <description></description>
+      <id>c8d55d80-420d-4da8-b24b-b2f6533e5ee8</id>
+      <masked>false</masked>
+      <name>varCabangAcc</name>
+   </variable>
+   <variable>
+      <defaultValue>'30000000'</defaultValue>
+      <description></description>
+      <id>d61f85b5-1fcd-4a7d-8fc4-f5b7e4b6f51e</id>
+      <masked>false</masked>
+      <name>varUangMuka</name>
+   </variable>
+   <variable>
+      <defaultValue>'3000000'</defaultValue>
+      <description></description>
+      <id>5f0cfa97-896f-480e-90a1-4276446345d3</id>
+      <masked>false</masked>
+      <name>varAngsuran</name>
+   </variable>
+</TestCaseEntity>

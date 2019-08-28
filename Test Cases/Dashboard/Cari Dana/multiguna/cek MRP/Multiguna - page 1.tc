@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>pre = user sudah login, user sudah upload KTP
+
+testing untuk inputan data baik negative maupun positive di menu multiguna page pertama.
+PASS = halaman pindah ke page kedua
+DISABLEDBUTTON = button tidak dapat di klik dan tidak ke page kedua</description>
+   <name>Multiguna - page 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e93969eb-4fed-484f-9853-7aa3df062698</testCaseGuid>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>6ac4d4b4-c720-4208-8319-e1185897cdba</id>
+      <masked>false</masked>
+      <name>varBPKB</name>
+   </variable>
+   <variable>
+      <defaultValue>'New'</defaultValue>
+      <description></description>
+      <id>613d6257-312f-4cc6-ac46-d5d01fd2cb91</id>
+      <masked>false</masked>
+      <name>varExistingNew</name>
+   </variable>
+   <variable>
+      <defaultValue>'DAIHATSU'</defaultValue>
+      <description></description>
+      <id>8996dd74-3ccd-4fc6-b5f0-eda92465ad75</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AYLA'</defaultValue>
+      <description></description>
+      <id>ddfd457b-7fea-4aea-b50d-2008fab9b133</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'T:1.0 M M/T NEW'</defaultValue>
+      <description></description>
+      <id>bb9abc90-8977-4df8-b77b-faa6f6618dda</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018'</defaultValue>
+      <description></description>
+      <id>fe3173a7-7809-49ed-940f-7f5c66f0bd52</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
+      <description></description>
+      <id>d0afe378-98f4-4005-8fec-2296d526a2fe</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>'100.000.000'</defaultValue>
+      <description></description>
+      <id>f41c77ad-cc52-4853-b7e9-3a7428950890</id>
+      <masked>false</masked>
+      <name>varEstimasiHarga</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Multiguna - verify element - page 1- MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3dd45cfd-a0e4-4089-a418-4098349ac76a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bc71918a-7850-416f-b4c8-e2be4a296c3c</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6fd0a3d-0e94-4af9-99e0-3073d89e2018</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b1099aa-e122-400f-94c9-dbe6333fbe16</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d543ab89-d2ea-4449-b70f-df1ba49ae5f7</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+</TestCaseEntity>

@@ -4,46 +4,46 @@
    <name>Multiguna - page 2 - hapus area pengajuan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>028cbc70-0fbf-4642-9e8a-3263b3027cb8</testCaseGuid>
+   <testCaseGuid>078bb926-0f91-49d6-8963-01b26d9f894e</testCaseGuid>
    <variable>
-      <defaultValue>'100000000'</defaultValue>
+      <defaultValue>'150000000'</defaultValue>
       <description></description>
-      <id>d46fab01-67cb-484b-bf17-2fbcc636da04</id>
+      <id>4ce4fd7a-04e6-4d93-ad61-d2acb80b03ce</id>
       <masked>false</masked>
       <name>varDana</name>
    </variable>
    <variable>
-      <defaultValue>0.50</defaultValue>
+      <defaultValue>'24'</defaultValue>
       <description></description>
-      <id>f2cccc58-2a2e-4350-9131-0885ac4c655f</id>
+      <id>a216ab2b-761d-45b6-985a-b1b509e808b9</id>
       <masked>false</masked>
       <name>varPeriode</name>
    </variable>
    <variable>
       <defaultValue>'Pendidikan'</defaultValue>
       <description></description>
-      <id>3c3553f5-f880-4a68-b477-12757ac668b9</id>
+      <id>38c00ccf-2874-45de-b520-c6c0ef0824f7</id>
       <masked>false</masked>
       <name>varTujuanPeminjaman</name>
    </variable>
    <variable>
       <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
       <description></description>
-      <id>dcb86a18-bdb6-4440-a564-6aa828be0279</id>
+      <id>3ddfec13-bc15-4db2-8067-c46f13265f54</id>
       <masked>false</masked>
       <name>varAreaPengajuan</name>
    </variable>
    <variable>
       <defaultValue>'FATMAWATI'</defaultValue>
       <description></description>
-      <id>2beebdd1-cc59-4678-aada-e14daddf3d44</id>
+      <id>d6e91234-9fb0-471e-aaa2-cc1c5c565646</id>
       <masked>false</masked>
       <name>varCabang</name>
    </variable>
    <variable>
-      <defaultValue>'PASS'</defaultValue>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
       <description></description>
-      <id>6a98239b-6aaa-45ed-81ad-b7eeb86ffc71</id>
+      <id>14a29565-40d2-4aca-af09-ab10897fafa3</id>
       <masked>false</masked>
       <name>varExpectedResult</name>
    </variable>

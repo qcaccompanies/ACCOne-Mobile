@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>mobil baru - paket - budget - verify element</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83720372-8000-49d2-ad97-1d7a601969d1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>52c1e0cc-67dc-47fd-85cf-34a609ba6a5f</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6f94e445-8588-422b-905b-e00fb2e7f220</id>
+      <masked>false</masked>
+      <name>varCabangAcc</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>288beec5-414e-47f3-943e-9ecea7073bb3</id>
+      <masked>false</masked>
+      <name>varUangMuka</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a746276-d551-4860-9fa7-b41e2f57be1e</id>
+      <masked>false</masked>
+      <name>varAngsuran</name>
+   </variable>
+</TestCaseEntity>

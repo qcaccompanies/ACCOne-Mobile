@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.EditText' and @resource-id = 'b2-Input_PasswordVal']</value>
+         <value>//*[@class = 'android.widget.EditText' and @resource-id = 'b2-InputPasswordVal']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>b2-Input_PasswordVal</value>
+      <value>b2-InputPasswordVal</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

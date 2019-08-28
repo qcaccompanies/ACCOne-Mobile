@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Asuransi Jiwa - Page 9 - Asuransi Proteksi Pratama - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27401008-b22e-4cd4-921a-4bd486130b0e</testCaseGuid>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>ef55643f-7883-45e7-9f70-3936bc7f0757</id>
+      <masked>false</masked>
+      <name>varPremi</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>0f6bf46b-93d3-42eb-8287-06805cec0386</id>
+      <masked>false</masked>
+      <name>varFrekuensi</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3e75f370-d989-4da1-960a-e10b90ca1c7a</id>
+      <masked>false</masked>
+      <name>varAsuransiTambahan</name>
+   </variable>
+</TestCaseEntity>

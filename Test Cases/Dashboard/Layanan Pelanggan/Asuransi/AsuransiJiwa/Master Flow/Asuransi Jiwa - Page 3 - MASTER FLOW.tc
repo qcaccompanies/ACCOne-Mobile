@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Asuransi Jiwa - Page 3 - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9726c7e4-d06e-4621-8a62-9807a6178090</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9f632e89-789f-4257-8694-f3d751a60156</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+</TestCaseEntity>

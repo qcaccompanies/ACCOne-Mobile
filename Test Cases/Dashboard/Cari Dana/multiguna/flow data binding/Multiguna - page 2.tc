@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>pre = user sudah login, user sudah upload KTP, user sudah input page 1
+
+testing untuk inputan data baik negative maupun positive di menu multiguna page kedua.
+PASS = halaman pindah ke page ketiga
+DISABLEDBUTTON = button tidak dapat di klik dan tidak ke page ketiga</description>
    <name>Multiguna - page 2</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>02c56471-5343-4ef2-8723-578f9fea1f3f</testCaseGuid>
    <variable>
-      <defaultValue>'100000000'</defaultValue>
+      <defaultValue>'150000000'</defaultValue>
       <description></description>
       <id>30381930-2932-40a6-8772-00daa7c11542</id>
       <masked>false</masked>
       <name>varDana</name>
    </variable>
    <variable>
-      <defaultValue>0.50</defaultValue>
+      <defaultValue>'24'</defaultValue>
       <description></description>
       <id>542c4391-5de2-4b0e-867f-4735a80880b8</id>
       <masked>false</masked>

@@ -12,21 +12,21 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-Mobile.startApplication('C:\\Users\\User\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\06XV6WTM\\AccWorld[1].apk', 
-    true)
+WebUI.callTestCase(findTestCase('Open application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('BottomMenu/MenuBawah_BtnAkun'), 0)
 
 Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Akun_BtnProfil'), 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Profil_UbahProfilePicture/Profil_BtnProfilePicture'), 0)
+Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Profil_BtnUbahFotoProfil'), 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Profil_UbahProfilePicture/Profil_BtnCamera'), 0)
+Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Profil_BtnGallery'), 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Profil_UbahProfilePicture/Profil_BtnCameraShutter'), 0)
+Mobile.scrollToText(image, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Akun_Profil/Profil_UbahProfilePicture/Profil_BtnOkPicture'), 0)
-
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload', 
+        [('imageName') : image]), 0)
 

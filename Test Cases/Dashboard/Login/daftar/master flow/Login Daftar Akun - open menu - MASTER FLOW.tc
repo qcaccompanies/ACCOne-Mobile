@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Daftar Akun - open menu - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc713c6a-4942-48f7-bb00-0a2b425cefd0</testCaseGuid>
+   <variable>
+      <defaultValue>'Existing'</defaultValue>
+      <description></description>
+      <id>1a62175d-3d3c-4572-b1ba-e9f2076e748a</id>
+      <masked>false</masked>
+      <name>varExistingNew</name>
+   </variable>
+</TestCaseEntity>

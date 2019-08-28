@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Multiguna - slider menu - belum login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7ec5e8d-2f04-4cc8-8c42-d423a4ebce10</testCaseGuid>
+   <variable>
+      <defaultValue>'150000000'</defaultValue>
+      <description></description>
+      <id>04919c1d-c8cd-447f-aaa0-f595a860e484</id>
+      <masked>false</masked>
+      <name>varDana</name>
+   </variable>
+   <variable>
+      <defaultValue>'24'</defaultValue>
+      <description></description>
+      <id>5cda15aa-db7b-427b-b098-4e5d883e30f4</id>
+      <masked>false</masked>
+      <name>varPeriode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pendidikan'</defaultValue>
+      <description></description>
+      <id>b997a3b4-5633-4cb3-85a8-bf66607a452f</id>
+      <masked>false</masked>
+      <name>varTujuanPeminjaman</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <description></description>
+      <id>0035fb41-672f-46ff-becd-6d79f3515309</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>'FATMAWATI'</defaultValue>
+      <description></description>
+      <id>2c6d5257-53d7-4862-a04f-5a3aee6fa538</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'LOGIN'</defaultValue>
+      <description></description>
+      <id>1feeac00-8cf8-42bb-a16c-b1fc6f8c6ab1</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

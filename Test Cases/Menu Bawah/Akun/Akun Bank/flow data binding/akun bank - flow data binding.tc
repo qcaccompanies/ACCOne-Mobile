@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>akun bank - flow data binding</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f4a4ff2-8fd8-47e8-be2f-0dedbcc8d1ca</testCaseGuid>
+   <variable>
+      <defaultValue>'AKITA BANK'</defaultValue>
+      <description></description>
+      <id>174b5e60-af6c-4ccb-b764-af70c3484aad</id>
+      <masked>false</masked>
+      <name>varNamaBank</name>
+   </variable>
+   <variable>
+      <defaultValue>'yesyes'</defaultValue>
+      <description></description>
+      <id>7b32ad7d-de0d-4e95-8747-8985af02d3d3</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'apapapa'</defaultValue>
+      <description></description>
+      <id>162bb384-ed80-4f6f-b21c-e58444c1a8e7</id>
+      <masked>false</masked>
+      <name>varNamaPemilikRekening</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345678'</defaultValue>
+      <description></description>
+      <id>113005eb-442c-44d5-8da3-226d7208498d</id>
+      <masked>false</masked>
+      <name>varNomorRekening</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1'</defaultValue>
+      <description></description>
+      <id>736b1202-c9f2-4082-897d-f31fe0382677</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+</TestCaseEntity>

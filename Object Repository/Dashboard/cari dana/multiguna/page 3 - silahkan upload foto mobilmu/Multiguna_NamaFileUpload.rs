@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.TextView' and (text() = 'abc.jpg' or . = 'abc.jpg') and @resource-id = 'android:id/title']</value>
+         <value>//*[@class = 'android.widget.TextView' and (text() = '${imageName}' or . = '${imageName}') and @resource-id = 'android:id/title']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>abc.jpg</value>
+      <value>${imageName}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

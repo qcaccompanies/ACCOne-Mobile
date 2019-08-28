@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.EditText' and @resource-id = 'b3-Input_TextVar4']</value>
+         <value>//*[@class = 'android.widget.EditText' and @resource-id = 'b3-Input_TextVarDanayangdibutuhkan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>b3-Input_TextVar4</value>
+      <value>b3-Input_TextVarDanayangdibutuhkan</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

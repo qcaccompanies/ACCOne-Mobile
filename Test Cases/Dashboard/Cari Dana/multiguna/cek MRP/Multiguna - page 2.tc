@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>pre = user sudah login, user sudah upload KTP, user sudah input page 1
+
+testing untuk inputan data baik negative maupun positive di menu multiguna page kedua.
+PASS = halaman pindah ke page ketiga
+DISABLEDBUTTON = button tidak dapat di klik dan tidak ke page ketiga</description>
+   <name>Multiguna - page 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f53d757-c9c5-4679-a33d-ef9794055be6</testCaseGuid>
+   <variable>
+      <defaultValue>'150000000'</defaultValue>
+      <description></description>
+      <id>5737bac0-bba8-41d6-bb99-d05f4ad3b8da</id>
+      <masked>false</masked>
+      <name>varDana</name>
+   </variable>
+   <variable>
+      <defaultValue>'24'</defaultValue>
+      <description></description>
+      <id>994208de-7337-493f-8f2b-14109736b926</id>
+      <masked>false</masked>
+      <name>varPeriode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pendidikan'</defaultValue>
+      <description></description>
+      <id>db9cb418-f204-4953-a8d3-e98ae66ba8f2</id>
+      <masked>false</masked>
+      <name>varTujuanPeminjaman</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <description></description>
+      <id>441a33ea-6fca-4875-bc3b-236d966b679f</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ef51256c-ba70-4ae1-b5cf-84d4b7e7fabd</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
+      <description></description>
+      <id>8869f22a-d156-4dc7-83f4-62b35c52a50b</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>85ac2271-35db-4d53-a434-d600999eff4b</id>
+      <masked>false</masked>
+      <name>varEstimasiHarga</name>
+   </variable>
+</TestCaseEntity>

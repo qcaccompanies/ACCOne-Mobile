@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>cari - belum login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d97f8c1-f485-4041-93b7-b62ae08e4177</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fce46a0c-a241-4495-88e1-2f50b7859e43</id>
+      <masked>false</masked>
+      <name>varCari</name>
+   </variable>
+</TestCaseEntity>

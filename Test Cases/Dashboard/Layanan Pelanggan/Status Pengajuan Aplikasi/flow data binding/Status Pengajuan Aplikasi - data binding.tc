@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Status Pengajuan Aplikasi - data binding</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e5828d6-121a-46e8-94d0-8627f3cfe30a</testCaseGuid>
+   <variable>
+      <defaultValue>'400404001902590'</defaultValue>
+      <description></description>
+      <id>493d647b-a47a-46c4-a487-a49252dc0af3</id>
+      <masked>false</masked>
+      <name>varNokon</name>
+   </variable>
+</TestCaseEntity>

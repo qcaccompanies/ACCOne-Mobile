@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - hapus 1 field - username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b021a198-6837-4378-a207-2c095400ab38</testCaseGuid>
+   <variable>
+      <defaultValue>'aya@4mail.top'</defaultValue>
+      <description></description>
+      <id>40295bd7-8374-4d31-9842-c279748f18d0</id>
+      <masked>false</masked>
+      <name>varUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1!'</defaultValue>
+      <description></description>
+      <id>0ae9ffa4-978c-4b43-8f3f-6377f7b64701</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
+      <description></description>
+      <id>f85d02ec-b810-4586-b5de-6f57b986c5c2</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

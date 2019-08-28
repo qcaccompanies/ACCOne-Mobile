@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cari Mobil - Mobil Bekas - Marketplace - Calculator - data binding</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83b8714a-429c-4a1f-a716-15664a7bec3c</testCaseGuid>
+   <variable>
+      <defaultValue>'30000000'</defaultValue>
+      <description></description>
+      <id>49ba57b5-5cce-40f4-9a99-9e218cc610d9</id>
+      <masked>false</masked>
+      <name>varHarga</name>
+   </variable>
+   <variable>
+      <defaultValue>'3000000'</defaultValue>
+      <description></description>
+      <id>81f8c064-595e-4cdd-ae19-e88d165776d7</id>
+      <masked>false</masked>
+      <name>varUangMuka</name>
+   </variable>
+   <variable>
+      <defaultValue>'24'</defaultValue>
+      <description></description>
+      <id>a25a0fad-37bd-4c98-9268-60dfb6d59526</id>
+      <masked>false</masked>
+      <name>varPeriode</name>
+   </variable>
+   <variable>
+      <defaultValue>'KREDIT'</defaultValue>
+      <description></description>
+      <id>a9b11cab-dcaf-4f30-bb04-7843ca9f6f9a</id>
+      <masked>false</masked>
+      <name>varAsuransi</name>
+   </variable>
+   <variable>
+      <defaultValue>'N'</defaultValue>
+      <description></description>
+      <id>5b1ac9c1-f8ce-4846-9533-e880a9043fb8</id>
+      <masked>false</masked>
+      <name>varACP</name>
+   </variable>
+</TestCaseEntity>

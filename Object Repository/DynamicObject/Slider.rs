@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.view.View' and @resource-id = 'b3-b9-Slider']</value>
+         <value>//*[@class = 'android.view.View' and @resource-id = 'b3-b13-Slider']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>b3-b9-Slider</value>
+      <value>b3-b13-Slider</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

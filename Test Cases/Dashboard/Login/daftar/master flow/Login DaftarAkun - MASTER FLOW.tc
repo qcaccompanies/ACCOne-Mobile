@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login DaftarAkun - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>116d5e18-486f-4413-b01e-c4555c688cd7</testCaseGuid>
+   <variable>
+      <defaultValue>'wawaw'</defaultValue>
+      <description></description>
+      <id>091ba770-1c28-4db8-b116-d2624370d37c</id>
+      <masked>false</masked>
+      <name>varName</name>
+   </variable>
+   <variable>
+      <defaultValue>'awawawa@a.c'</defaultValue>
+      <description></description>
+      <id>cd731fb7-227a-46eb-875b-1f1a518cf8fb</id>
+      <masked>false</masked>
+      <name>varEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'08111111'</defaultValue>
+      <description></description>
+      <id>958bff83-c84f-4c7b-9517-bd87dd80a1bb</id>
+      <masked>false</masked>
+      <name>varHandphone</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1!'</defaultValue>
+      <description></description>
+      <id>83e8e613-ecb2-43a0-8f6c-b79fcae71418</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1!'</defaultValue>
+      <description></description>
+      <id>b4811fa5-b71a-44c3-9ae6-d9efd67d8912</id>
+      <masked>false</masked>
+      <name>varConfirmPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'PASS'</defaultValue>
+      <description></description>
+      <id>d3b0b0c1-5497-4903-a50c-a416c8dc74dc</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

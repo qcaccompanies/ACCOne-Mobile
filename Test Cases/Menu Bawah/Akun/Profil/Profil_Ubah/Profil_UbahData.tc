@@ -6,24 +6,31 @@
    <comment></comment>
    <testCaseGuid>967208ad-518c-4c45-8fe6-1c004f4212b7</testCaseGuid>
    <variable>
-      <defaultValue>'20'</defaultValue>
+      <defaultValue>'1990'</defaultValue>
       <description></description>
-      <id>dd32a26c-aaa1-49b9-bea0-98b14094a6cc</id>
+      <id>0db7ccc2-1ba3-488c-b5b7-c2974121a63f</id>
       <masked>false</masked>
-      <name>date</name>
+      <name>varTahun</name>
    </variable>
    <variable>
-      <defaultValue>'Jkt'</defaultValue>
+      <defaultValue>'lelah banget'</defaultValue>
       <description></description>
-      <id>94bdb274-d70b-478e-8146-46d284c2b745</id>
+      <id>b3efc6bc-bcbb-47d4-b69c-c8162f96fa2d</id>
       <masked>false</masked>
-      <name>alamat</name>
+      <name>varNamaSesuaiKTP</name>
    </variable>
    <variable>
-      <defaultValue>'Mhs'</defaultValue>
+      <defaultValue>'lelach'</defaultValue>
       <description></description>
-      <id>93263086-25c8-434f-850b-b6398f1f965d</id>
+      <id>df858f9d-7293-438b-aac6-655daab44646</id>
       <masked>false</masked>
-      <name>pekerjaan</name>
+      <name>varAlamatKTP</name>
+   </variable>
+   <variable>
+      <defaultValue>'apaya'</defaultValue>
+      <description></description>
+      <id>81f3fda9-c68c-458d-87e3-27d5455742fc</id>
+      <masked>false</masked>
+      <name>varPekerjaan</name>
    </variable>
 </TestCaseEntity>

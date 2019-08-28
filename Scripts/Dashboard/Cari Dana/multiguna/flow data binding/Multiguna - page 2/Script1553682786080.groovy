@@ -12,55 +12,29 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/multiguna/flow data binding/Multiguna - page 1'), [('varBPKB') : ''
-        , ('varExistingNew') : '', ('varBrand') : 'DAIHATSU', ('varType') : 'AYLA', ('varModel') : 'T:1.0 M M/T NEW', ('varTahun') : '2018'
-        , ('varExpectedResult') : '', ('varBrandList') : '43', ('varTypeList') : '52', ('varModelList') : '60'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Open application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpDanaYangDibutuhkan'), 
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/multiguna/master flow/Multiguna - open menu - MASTER FLOW'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/multiguna/master flow/Multiguna - page 1 - MASTER FLOW'), [('varBrand') : 'TOYOTA'
+        , ('varType') : 'AGYA', ('varModel') : 'T:1.2 G A/T NEW', ('varTahun') : '2018', ('varExpectedResult') : 'PASS'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 1 - masukkan detail kendaraanmu/Multiguna_BtnBerikutnya'), 
     0)
 
-Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpDanaYangDibutuhkan'), 
-    varDana, 0)
-
-CustomKeywords.'mobile.mobileSlide.Slide'(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_SliderPinjamDana'), 
-    varPeriode)
-
-Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpTujuanPeminjamanDana'), 
-    varTujuanPeminjaman, 0)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpTujuanPeminjamanDana'), 
-    0)
-
-Mobile.hideKeyboard()
-
-CustomKeywords.'mobile.pick.List'(findTestObject('DynamicObject/PickListItem', [('text') : varTujuanPeminjaman]))
-
-Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan'), 
-    varAreaPengajuan, 0)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpAreaPengajuan'), 
-    0)
-
-Mobile.hideKeyboard()
-
-CustomKeywords.'mobile.pick.List'(findTestObject('DynamicObject/PickListItem', [('text') : varAreaPengajuan]))
-
-Mobile.setText(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpCabangACC'), 
-    varCabang, 0)
-
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_InpCabangACC'), 
-    0)
-
-Mobile.hideKeyboard()
-
-CustomKeywords.'mobile.pick.List'(findTestObject('DynamicObject/PickListItem', [('text') : varCabang]))
-
-Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_BtnBerikutnya'), 
-    0)
+WebUI.callTestCase(findTestCase('Dashboard/Cari Dana/multiguna/master flow/Multiguna - page 2 - MASTER FLOW'), [('varDana') : varDana
+        , ('varPeriode') : varPeriode, ('varTujuanPeminjaman') : varTujuanPeminjaman, ('varAreaPengajuan') : varAreaPengajuan
+        , ('varCabang') : varCabang, ('varExpectedResult') : varExpectedResult], FailureHandling.STOP_ON_FAILURE)
 
 switch (varExpectedResult.toString()) {
     case 'PASS':
+        Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_BtnBerikutnya'), 
+            0)
+
         Mobile.waitForElementPresent(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang'), 
             0)
 
@@ -69,6 +43,9 @@ switch (varExpectedResult.toString()) {
 
         break
     case 'DISABLEDBUTTON':
+        Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 2 - simulasikan dana kebutuhanmu/Multiguna_BtnBerikutnya'), 
+            0)
+
         Mobile.verifyElementNotVisible(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_BtnKananBelakang'), 
             0)
 

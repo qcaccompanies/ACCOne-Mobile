@@ -4,33 +4,54 @@
    <name>Multiguna - page 1 - hapus type</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9488fd4d-aff0-43e0-913d-02e260bd1f84</testCaseGuid>
+   <testCaseGuid>4781df72-8462-4e5a-98ee-067eacf8f2bd</testCaseGuid>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>43033511-2d9a-458c-9fa5-6d5e351d0fdf</id>
+      <masked>false</masked>
+      <name>varBPKB</name>
+   </variable>
+   <variable>
+      <defaultValue>'New'</defaultValue>
+      <description></description>
+      <id>71422645-d886-45a9-b180-9ba9e9da60df</id>
+      <masked>false</masked>
+      <name>varExistingNew</name>
+   </variable>
    <variable>
       <defaultValue>'DAIHATSU'</defaultValue>
       <description></description>
-      <id>5cafc674-b895-424c-88c3-89a215e03e5b</id>
+      <id>e2451c24-9d57-4180-b92e-d70afb8841ef</id>
       <masked>false</masked>
       <name>varBrand</name>
    </variable>
    <variable>
       <defaultValue>'AYLA'</defaultValue>
       <description></description>
-      <id>f00d535b-451c-401d-83a2-84b8493add8f</id>
+      <id>e6bd245e-d2f4-4ef9-8ca7-806ad9869231</id>
       <masked>false</masked>
       <name>varType</name>
    </variable>
    <variable>
       <defaultValue>'T:1.0 M M/T NEW'</defaultValue>
       <description></description>
-      <id>170cd737-6d3e-4256-b5be-ee70c59736ee</id>
+      <id>a5d8413f-6497-48d1-868e-515e445092b5</id>
       <masked>false</masked>
       <name>varModel</name>
    </variable>
    <variable>
       <defaultValue>'2018'</defaultValue>
       <description></description>
-      <id>585b13b7-c87a-4932-bd37-90856b925854</id>
+      <id>c7b426ca-b4d7-448e-806d-16feaf9933f6</id>
       <masked>false</masked>
       <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
+      <description></description>
+      <id>63897b31-4626-4b4d-a69b-aa1e3a5b91d0</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
    </variable>
 </TestCaseEntity>

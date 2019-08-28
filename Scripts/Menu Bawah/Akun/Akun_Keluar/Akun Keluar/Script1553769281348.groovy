@@ -13,16 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\User\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\PLCOOI5C\\AccWorld[1].apk', 
-    false)
-
-Mobile.checkElement(findTestObject('BottomMenu/MenuBawah_BtnAkun'), 0)
-
 Mobile.tap(findTestObject('BottomMenu/MenuBawah_BtnAkun'), 0)
 
 Mobile.tap(findTestObject('BottomMenu/Akun/Akun_BtnKeluar'), 0)
 
 Mobile.tap(findTestObject('BottomMenu/Akun/Akun_BtnKeluarYes'), 0)
-
-Mobile.closeApplication()
 

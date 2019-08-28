@@ -13,14 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\User\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\06XV6WTM\\AccWorld[1].apk', 
-    false)
+WebUI.callTestCase(findTestCase('Open application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Dashboard/Dashboard_LayananPelanggan'), 0)
 
 Mobile.tap(findTestObject('Dashboard/Layanan Pelanggan/PembayaranAngsuran/LayananPelanggan_BtnPembayaranAngsuran'), 0)
 
-Mobile.setText(findTestObject('Dashboard/Layanan Pelanggan/PembayaranAngsuran/PembayaranAngsuran_SearchBarKontrak'), 'imran', 
+Mobile.setText(findTestObject('Dashboard/Layanan Pelanggan/PembayaranAngsuran/PembayaranAngsuran_SearchBarKontrak'), '01100102002934939', 
     0)
 
 Mobile.tap(findTestObject('Dashboard/Layanan Pelanggan/PembayaranAngsuran/PembayaranAngsuran_BoxKontrak'), 0)

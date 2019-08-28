@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Asuransi Jiwa - Page 7 - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0c19a2c-9586-410b-82a7-82a604b91da2</testCaseGuid>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>9fc436a6-b5fb-4440-a5f0-efc5848a397d</id>
+      <masked>false</masked>
+      <name>varTertanggungUtama</name>
+   </variable>
+   <variable>
+      <defaultValue>'Wanita'</defaultValue>
+      <description></description>
+      <id>4564b2cb-dcea-405c-907b-73cc2ee7b640</id>
+      <masked>false</masked>
+      <name>varJenisKelamin</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234567890123456'</defaultValue>
+      <description></description>
+      <id>074f6112-4fe3-499e-a02f-4b10728bdffb</id>
+      <masked>false</masked>
+      <name>varNoKTP</name>
+   </variable>
+   <variable>
+      <defaultValue>'ahahahahahahahahahahahaha'</defaultValue>
+      <description></description>
+      <id>a588bd9a-6b72-49f8-b545-b9fb2786a707</id>
+      <masked>false</masked>
+      <name>varAlamat</name>
+   </variable>
+   <variable>
+      <defaultValue>'ACEH'</defaultValue>
+      <description></description>
+      <id>e9c99996-b6e2-442d-8f1e-b05219c5f83b</id>
+      <masked>false</masked>
+      <name>varProvinsi</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>ee8f4905-2cfb-42e8-b583-8efd89eb55e6</id>
+      <masked>false</masked>
+      <name>varKodePos</name>
+   </variable>
+</TestCaseEntity>

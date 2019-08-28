@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba3a0e0d-db20-47c4-bd68-f77b1027934d</testCaseGuid>
+   <variable>
+      <defaultValue>'B1500AC'</defaultValue>
+      <description></description>
+      <id>b2a72387-fb31-4fbe-a4ac-14da80c01a81</id>
+      <masked>false</masked>
+      <name>varNoPol</name>
+   </variable>
+</TestCaseEntity>

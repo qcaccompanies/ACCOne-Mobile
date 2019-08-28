@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.view.View' and (text() = 'Home' or . = 'Home') and @resource-id = 'b4-b1-Text']</value>
+         <value>//*[@class = 'android.view.View' and @resource-id = 'b10-btn_home']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <value>96</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>b4-b1-Text</value>
+      <value>b10-btn_home</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

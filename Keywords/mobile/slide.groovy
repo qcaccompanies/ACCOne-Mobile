@@ -42,14 +42,9 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 class mobileSlide {
-	/**
-	 * Check if element present in timeout
-	 * @param to Katalon test object
-	 * @param timeout time to wait for element to show up
-	 * @return true if element present, otherwise false
-	 */
+
 	@Keyword
-	def Slide(slideObject , float slidePercentage) {
+	def Slide(slideObject , float slidePercentage,FailureHandling failureHandling = FailureHandling.CONTINUE_ON_FAILURE) {
 		try {
 
 			def sliderPositionX = Mobile.getElementLeftPosition(slideObject, 0)
@@ -62,7 +57,12 @@ class mobileSlide {
 
 			Mobile.tapAtPosition(sliderPosition, sliderPositionY)
 		} catch (Exception e) {
-			KeywordUtil.markFailed("Something wrong with the keyword" + e.message)
+			if (failureHandling == FailureHandling.STOP_ON_FAILURE) {
+				//				throw new AssertionError('ERROR: There was an error while trying to execute the keyword')
+				KeywordUtil.markFailed("Something wrong with the keyword" + e.message)
+			} else if (failureHandling == FailureHandling.CONTINUE_ON_FAILURE) {
+				KeywordUtil.logInfo('There was an exception but the process will continue');
+			}
 		}
 	}
 }

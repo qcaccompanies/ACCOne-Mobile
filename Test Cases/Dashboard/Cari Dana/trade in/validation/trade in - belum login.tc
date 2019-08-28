@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>trade in - belum login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2bb10500-bbdf-45bf-a07c-420f8dc2e1cb</testCaseGuid>
+   <variable>
+      <defaultValue>'DAIHATSU'</defaultValue>
+      <description></description>
+      <id>434c2254-0b94-4e91-9df5-36e5641401a8</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AYLA'</defaultValue>
+      <description></description>
+      <id>ebcbfa90-1c4d-4736-a563-e881c84b2176</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'T:1.0 D M/T'</defaultValue>
+      <description></description>
+      <id>2a7e9f84-ece8-46d1-9c15-382572fccbfd</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018'</defaultValue>
+      <description></description>
+      <id>c304293d-126e-48b9-ba27-0ec09b75e868</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI'</defaultValue>
+      <description></description>
+      <id>bf8ab9a9-7b13-4be0-96db-a04a33a5ac90</id>
+      <masked>false</masked>
+      <name>varLokasi</name>
+   </variable>
+   <variable>
+      <defaultValue>'LOGIN'</defaultValue>
+      <description></description>
+      <id>5517c8cc-6bd2-4d0e-a83f-1ac66444158b</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>'U'</defaultValue>
+      <description></description>
+      <id>ffd3c24d-be0b-4d12-a004-f26de4f7b416</id>
+      <masked>false</masked>
+      <name>varNewUsed</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp. 120.000.005'</defaultValue>
+      <description></description>
+      <id>55a46116-a3c0-444e-8ce3-1f080f0f35b4</id>
+      <masked>false</masked>
+      <name>varOTR</name>
+   </variable>
+</TestCaseEntity>

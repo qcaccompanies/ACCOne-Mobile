@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>cari - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>88ffec5c-0b5c-4636-b269-82fb0e81e8f6</testCaseGuid>
+   <variable>
+      <defaultValue>'ahhahahhahahah'</defaultValue>
+      <description></description>
+      <id>d829c632-03df-429e-bfba-f021bc539ad5</id>
+      <masked>false</masked>
+      <name>varCari</name>
+   </variable>
+</TestCaseEntity>

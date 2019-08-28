@@ -21,7 +21,7 @@ Mobile.tap(findTestObject('dashboard/Dashboard_BtnCariDana'), 0)
 
 Mobile.tap(findTestObject('Dashboard/cari dana/CariDana_BtnBPKBdiACC_TIDAK'), 0)
 
-Mobile.tap(findTestObject('Dashboard/cari dana/CariDana_BtnTradeIn'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.tap(findTestObject('Dashboard/cari dana/trade in/page 1 - masukkan detail kendaraanmu/TradeIn_InpBrand'), 0)
 

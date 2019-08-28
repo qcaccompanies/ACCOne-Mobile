@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5672c235-b348-4163-b343-c9453d5d4eb5</testCaseGuid>
+   <variable>
+      <defaultValue>'Danamon'</defaultValue>
+      <description></description>
+      <id>36ca18a0-febd-42b6-bc20-a416da0167c7</id>
+      <masked>false</masked>
+      <name>varBank</name>
+   </variable>
+   <variable>
+      <defaultValue>'01100102002934939'</defaultValue>
+      <description></description>
+      <id>1e9a072f-2232-4ed0-b6bd-0bccb04ccadd</id>
+      <masked>false</masked>
+      <name>varKontrak</name>
+   </variable>
 </TestCaseEntity>

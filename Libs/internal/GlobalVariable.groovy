@@ -17,7 +17,17 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object varUsername
+    public static Object gapsize
+     
+    /**
+     * <p></p>
+     */
+    public static Object gapwarnaY
+     
+    /**
+     * <p></p>
+     */
+    public static Object gapwarnaX
      
 
     static {
@@ -27,7 +37,9 @@ public class GlobalVariable {
             selectedVariables += RunConfiguration.getOverridingParameters()
     
             apkname = selectedVariables['apkname']
-            varUsername = selectedVariables['varUsername']
+            gapsize = selectedVariables['gapsize']
+            gapwarnaY = selectedVariables['gapwarnaY']
+            gapwarnaX = selectedVariables['gapwarnaX']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

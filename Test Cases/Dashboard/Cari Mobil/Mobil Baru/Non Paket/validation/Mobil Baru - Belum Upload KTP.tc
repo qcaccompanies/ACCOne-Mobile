@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Ketika klik button “submit” pada halaman lease, dilakukan validasi jika user sudah melakukan upload ktp maka user dapat melanjutkan proses pengajuan multiguna
+2. Jika user belum melakukan upload ktp, maka akan masuk ke halaman upload ktp dll
+3. berhasil upload dapat melanjutkan pengajuan tanpa kehilangan inputan2 sebelumnya</description>
+   <name>Mobil Baru - Belum Upload KTP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d5cb07b-81e7-4e89-9cde-3f0ee5932a8b</testCaseGuid>
+   <variable>
+      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <description></description>
+      <id>1d1b904c-5cc0-43c3-a1eb-a808e458bfae</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>'FATMAWATI'</defaultValue>
+      <description></description>
+      <id>3ac03cd7-9e04-4985-817d-298999a38feb</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'TOYOTA'</defaultValue>
+      <description></description>
+      <id>8e723aa6-a7a9-46b6-bb7a-88aeecbc5f41</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AGYA'</defaultValue>
+      <description></description>
+      <id>fa50b515-2346-4591-9c9a-b73eec8022ab</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'1.0 G A/T NEW'</defaultValue>
+      <description></description>
+      <id>f40c7084-0ae3-4c12-a218-c5a72371e119</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>'2019'</defaultValue>
+      <description></description>
+      <id>94bf228c-9c5c-4d8b-8f61-42c3860629f2</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'150000000'</defaultValue>
+      <description></description>
+      <id>c5fb4207-5501-4d98-8277-df770cddc767</id>
+      <masked>false</masked>
+      <name>varOTR</name>
+   </variable>
+   <variable>
+      <defaultValue>'24'</defaultValue>
+      <description></description>
+      <id>47a9ea37-009d-4241-883c-867120f14487</id>
+      <masked>false</masked>
+      <name>varPeriode</name>
+   </variable>
+   <variable>
+      <defaultValue>'50'</defaultValue>
+      <description></description>
+      <id>b1764c29-854b-43d3-8076-59cdea194304</id>
+      <masked>false</masked>
+      <name>varUangMuka</name>
+   </variable>
+   <variable>
+      <defaultValue>'KREDIT'</defaultValue>
+      <description></description>
+      <id>97595cb6-a68f-4ab2-8922-d30d178dce5e</id>
+      <masked>false</masked>
+      <name>varAsuransi</name>
+   </variable>
+   <variable>
+      <defaultValue>'N'</defaultValue>
+      <description></description>
+      <id>2778dd9b-0e48-4483-9ac6-9219ed9e3a64</id>
+      <masked>false</masked>
+      <name>varACP</name>
+   </variable>
+   <variable>
+      <defaultValue>'UPLOAD'</defaultValue>
+      <description></description>
+      <id>40d11b8c-7ac9-4a7d-bfc5-3833b9b0175a</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

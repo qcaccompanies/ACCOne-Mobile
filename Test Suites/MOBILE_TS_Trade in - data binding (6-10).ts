@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>MOBILE_TS_Trade in - data binding (6-10)</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>95285dc0-8bca-4bb0-a3bb-1d60b29333a0</testSuiteGuid>
+   <testCaseLink>
+      <guid>40fc5792-04cd-437e-9c27-324775fe5a31</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard/Cari Dana/trade in/flow data binding/trade in - page 1</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>fbbb5fa0-badb-4449-843c-5afffed262a7</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>6-10</value>
+         </iterationEntity>
+         <testDataId>Data Files/trade in - page 1</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fbbb5fa0-badb-4449-843c-5afffed262a7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varBrand</value>
+         <variableId>7ac34a1c-93e9-4551-954d-baa261fe5669</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbbb5fa0-badb-4449-843c-5afffed262a7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varType</value>
+         <variableId>8b71e016-4466-48e3-b951-13f60911d207</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbbb5fa0-badb-4449-843c-5afffed262a7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varModel</value>
+         <variableId>75a9501b-625a-43c8-871e-7b0df7572339</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbbb5fa0-badb-4449-843c-5afffed262a7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varTahun</value>
+         <variableId>74fe9174-e871-4579-beb6-d6de52d008c8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbbb5fa0-badb-4449-843c-5afffed262a7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varExpectedResult</value>
+         <variableId>09abc91e-9961-4f44-9893-c9785bd6ad04</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbbb5fa0-badb-4449-843c-5afffed262a7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varLokasi</value>
+         <variableId>1ff6dae8-4de7-49d5-9846-d76dab151111</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

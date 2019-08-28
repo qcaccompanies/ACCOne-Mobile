@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Asuransi Jiwa - Page 2 - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44082e03-7e4a-4e4c-9fd2-cfc8e69b53d0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>efa6637e-898f-4b7e-b725-322171bfba87</id>
+      <masked>false</masked>
+      <name>varProteksiKesehatan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>06c850b8-c935-4af7-9ab2-f5a1eb185c50</id>
+      <masked>false</masked>
+      <name>varProteksiJiwa</name>
+   </variable>
+</TestCaseEntity>

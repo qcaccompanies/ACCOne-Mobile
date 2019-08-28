@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.view.View' and (text() = 'Rp. 120.000.004' or . = 'Rp. 120.000.004')]</value>
+         <value>//*[@class = 'android.view.View' and (text() = '${varOTR}' or . = '${varOTR}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Rp. 120.000.004</value>
+      <value>${varOTR}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

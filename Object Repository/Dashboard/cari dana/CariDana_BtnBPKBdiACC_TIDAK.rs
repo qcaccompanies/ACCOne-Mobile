@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.Button' and (text() = 'Tidak' or . = 'Tidak') and @resource-id = 'b3-ButtonGroupItem2']</value>
+         <value>//*[@class = 'android.widget.Button' and (text() = 'Tidak' or . = 'Tidak') and @resource-id = 'b3-ButtonGroupItem2Tidak' and @clickable = 'true']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>b3-ButtonGroupItem2</value>
+      <value>b3-ButtonGroupItem2Tidak</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>

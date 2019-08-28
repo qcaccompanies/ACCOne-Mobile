@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>trade in - page 3 - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb1d9154-bfad-43c8-9050-8d9fbb32ecf8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>71c7d8c0-e447-4ba4-aa4c-9ffe154072da</id>
+      <masked>false</masked>
+      <name>varOTR</name>
+   </variable>
+</TestCaseEntity>

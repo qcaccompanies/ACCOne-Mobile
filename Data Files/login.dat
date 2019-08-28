@@ -5,12 +5,12 @@
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>99736e47-168b-4733-ab16-a62d76faa984</dataFileGUID>
-   <dataSourceUrl>data binding login.xlsx</dataSourceUrl>
+   <dataFileGUID>99c7c6c6-a4c7-4aa1-bd24-3542f6c0d9a0</dataFileGUID>
+   <dataSourceUrl>C:\Users\15421\Katalon Studio\accupdate4april\accupdate4april\data binding\login.xls</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>true</isInternalPath>
+   <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName>login</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

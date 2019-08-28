@@ -4,47 +4,54 @@
    <name>trade in - page 2 - hapus tahun</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a81cd864-a7e0-4e75-b972-4009c3a29aa9</testCaseGuid>
+   <testCaseGuid>065da579-52a2-48b9-ab3f-5778e2bc31e1</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'DAIHATSU'</defaultValue>
       <description></description>
-      <id>0e7d0946-25e0-4172-8323-b081a264cc33</id>
+      <id>6606d3aa-f9ed-4772-ac5d-e4efade5aed7</id>
       <masked>false</masked>
       <name>varBrand</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'AYLA'</defaultValue>
       <description></description>
-      <id>ad5f05d5-8935-4c4f-bf99-0934be5640a3</id>
+      <id>1abf1f14-f017-4a92-94f4-403d81c8a4a6</id>
       <masked>false</masked>
       <name>varType</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'T:1.0 D M/T'</defaultValue>
       <description></description>
-      <id>2f573ac1-3bf6-45ef-937a-4fe5f278403f</id>
+      <id>d051c058-c04f-4ad3-8037-0ab38ad8150b</id>
       <masked>false</masked>
       <name>varModel</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'2018'</defaultValue>
       <description></description>
-      <id>55af3376-dedd-42d4-97d1-ee7b4376a8ca</id>
+      <id>4b38f53d-f5f2-4bd0-b030-870f89267aa5</id>
       <masked>false</masked>
       <name>varTahun</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'DKI'</defaultValue>
       <description></description>
-      <id>4305b4cd-0cd4-4e9e-a19b-1e2b73f412a0</id>
+      <id>fcda87c6-edbd-4707-9664-43c48e7e36c2</id>
       <masked>false</masked>
       <name>varLokasi</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
       <description></description>
-      <id>13786559-d6e8-4386-a285-1a5941f73ca0</id>
+      <id>9e4ab2b0-3b7b-4db1-88d9-898a07ab41be</id>
       <masked>false</masked>
       <name>varExpectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>'U'</defaultValue>
+      <description></description>
+      <id>3cf31b03-e310-4cae-9626-c7eabcfc799c</id>
+      <masked>false</masked>
+      <name>varNewUsed</name>
    </variable>
 </TestCaseEntity>

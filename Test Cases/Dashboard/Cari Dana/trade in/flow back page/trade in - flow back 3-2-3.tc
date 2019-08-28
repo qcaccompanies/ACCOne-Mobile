@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>trade in - flow back 3-2-3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a45e4557-8de0-4933-9ac0-f554b313ab1a</testCaseGuid>
+   <variable>
+      <defaultValue>'Rp. 120.000.005'</defaultValue>
+      <description></description>
+      <id>bdf8dcc1-c0bd-4608-b9d9-cb994ba5a1bf</id>
+      <masked>false</masked>
+      <name>varOTR</name>
+   </variable>
+</TestCaseEntity>

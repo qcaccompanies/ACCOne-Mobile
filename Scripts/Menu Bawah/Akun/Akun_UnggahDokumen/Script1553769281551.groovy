@@ -13,8 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\User\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\TODF7KDB\\AccWorld[1].apk', 
-    true)
+WebUI.callTestCase(findTestCase('Open application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('BottomMenu/MenuBawah_BtnAkun'), 0)
 
@@ -22,27 +21,30 @@ Mobile.tap(findTestObject('BottomMenu/Akun/Akun_BtnUnggahDokumen'), 0)
 
 Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/UnggahDokumen_BtnKTP'), 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/UnggahDokumen_Gallery'), 0)
+Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/Upload Dokumen_GaleryKTP'), 0)
 
 Mobile.scrollToText(image, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/UnggahDokumen_ChoosePicture', [('imageName') : 'image']), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload', 
+        [('imageName') : image]), 0)
 
 Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/UnggahDokumen_BTNNPWP'), 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/UnggahDokumen_Gallery'), 0)
+Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/UploadDokumen_GaleryNPWP'), 0)
 
 Mobile.scrollToText(image, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/UnggahDokumen_ChoosePicture', [('imageName') : 'image']), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload', 
+        [('imageName') : image]), 0)
 
 Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/UnggahDokumen_BtnKK'), 0)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/UnggahDokumen_Gallery'), 0)
+Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/UploadDokumen_GaleryKK'), 0)
 
 Mobile.scrollToText(image, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/UnggahDokumen_ChoosePicture', [('imageName') : 'image']), 0)
+Mobile.tap(findTestObject('Dashboard/cari dana/multiguna/page 3 - silahkan upload foto mobilmu/Multiguna_NamaFileUpload', 
+        [('imageName') : image]), 0)
 
 Mobile.tap(findTestObject('BottomMenu/Akun/Unggah Dokumen/UnggahDokumen_BtnSubmit'), 0)
 

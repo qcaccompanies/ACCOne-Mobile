@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - data binding</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e0f42ea-e693-4d9c-8eb2-a2ea5fc75588</testCaseGuid>
+   <variable>
+      <defaultValue>'aya@4mail.top'</defaultValue>
+      <description></description>
+      <id>3ae51ece-2e69-4ba8-a462-15deef4bb6b2</id>
+      <masked>false</masked>
+      <name>varUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1!'</defaultValue>
+      <description></description>
+      <id>da1aa605-5f6c-45b0-b1e0-dee14d5d2d86</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
+      <description></description>
+      <id>5e7aabbb-99fe-4332-ac7b-433261b92afe</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

@@ -4,33 +4,54 @@
    <name>Multiguna - page 1 - hapus tahun</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d90bc9bc-42de-4e6b-8864-f35ac86d313c</testCaseGuid>
+   <testCaseGuid>266ee568-e584-4d66-b443-a710230e31e8</testCaseGuid>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>f97da53d-184f-4a73-bcf7-7e11eac85f15</id>
+      <masked>false</masked>
+      <name>varBPKB</name>
+   </variable>
+   <variable>
+      <defaultValue>'New'</defaultValue>
+      <description></description>
+      <id>16aab9ed-ef98-488d-adff-569bd6b9e942</id>
+      <masked>false</masked>
+      <name>varExistingNew</name>
+   </variable>
    <variable>
       <defaultValue>'DAIHATSU'</defaultValue>
       <description></description>
-      <id>b8afb9dc-aa62-418c-8ec0-98f17acd7d66</id>
+      <id>09488b9e-d172-4db0-b1ec-1adeb2f54237</id>
       <masked>false</masked>
       <name>varBrand</name>
    </variable>
    <variable>
       <defaultValue>'AYLA'</defaultValue>
       <description></description>
-      <id>63aeddb9-cada-4117-8f55-092691c2cd88</id>
+      <id>dd814e94-89b4-4b28-bfd5-72b044e5f060</id>
       <masked>false</masked>
       <name>varType</name>
    </variable>
    <variable>
       <defaultValue>'T:1.0 M M/T NEW'</defaultValue>
       <description></description>
-      <id>2a3d4768-e625-45cb-841d-0803ef1f34da</id>
+      <id>3069a808-fff4-4173-a090-0e7df76cb4cf</id>
       <masked>false</masked>
       <name>varModel</name>
    </variable>
    <variable>
       <defaultValue>'2018'</defaultValue>
       <description></description>
-      <id>6e09487e-6125-49fb-b1cd-fa1c449a2c6b</id>
+      <id>7fd2cef0-69eb-4535-98ec-a4c2cab4a007</id>
       <masked>false</masked>
       <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
+      <description></description>
+      <id>b7a57d4e-05da-48c2-bd5b-25f47b380ac5</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
    </variable>
 </TestCaseEntity>

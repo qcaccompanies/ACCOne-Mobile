@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Asuransi Jiwa - Page 1 - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>670f2f82-dd63-4b31-b51c-a2b54ca38ec4</testCaseGuid>
+   <variable>
+      <defaultValue>'Anak'</defaultValue>
+      <description></description>
+      <id>6c51461e-0ab0-4ff0-8bf2-7d31354f80ab</id>
+      <masked>false</masked>
+      <name>varPerlindungan</name>
+   </variable>
+</TestCaseEntity>

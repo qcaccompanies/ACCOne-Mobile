@@ -6,12 +6,22 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'AccWorld.apk'</initValue>
+      <initValue>'AccWorld - tst env.apk'</initValue>
       <name>apkname</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'motola.cihuyy2k@gmail.com'</initValue>
-      <name>varUsername</name>
+      <initValue>100</initValue>
+      <name>gapsize</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>102</initValue>
+      <name>gapwarnaY</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>26</initValue>
+      <name>gapwarnaX</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -4,46 +4,46 @@
    <name>Multiguna - page 2 - hapus tujuan peminjaman dana</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fb897c72-db3a-4590-ab8f-2043e84bb360</testCaseGuid>
+   <testCaseGuid>a8407cb5-0a31-47af-979d-71c7da699b2f</testCaseGuid>
    <variable>
-      <defaultValue>'100000000'</defaultValue>
+      <defaultValue>'150000000'</defaultValue>
       <description></description>
-      <id>72cd6414-6bbc-49d1-85e7-072d5038c5dc</id>
+      <id>bd942f1b-8366-4780-8c81-144904fde41f</id>
       <masked>false</masked>
       <name>varDana</name>
    </variable>
    <variable>
-      <defaultValue>0.50</defaultValue>
+      <defaultValue>'24'</defaultValue>
       <description></description>
-      <id>b4cc056f-c2cd-41be-8240-4390d3b57961</id>
+      <id>aca3f335-c83f-4451-95e5-608de19bfe5b</id>
       <masked>false</masked>
       <name>varPeriode</name>
    </variable>
    <variable>
       <defaultValue>'Pendidikan'</defaultValue>
       <description></description>
-      <id>3690f420-2cb6-4f61-8f4e-fe62a750a28c</id>
+      <id>90c2113a-1723-496c-956d-b335f5ca58c2</id>
       <masked>false</masked>
       <name>varTujuanPeminjaman</name>
    </variable>
    <variable>
       <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
       <description></description>
-      <id>03a3cb26-8e84-49ef-8899-83c2c0374642</id>
+      <id>4d05fa13-845c-4d19-b185-c7691317419d</id>
       <masked>false</masked>
       <name>varAreaPengajuan</name>
    </variable>
    <variable>
       <defaultValue>'FATMAWATI'</defaultValue>
       <description></description>
-      <id>ebe46ce5-dfae-48c4-94d0-b903970c0664</id>
+      <id>4575164f-fa1c-41c6-93c8-52d8bccee2ea</id>
       <masked>false</masked>
       <name>varCabang</name>
    </variable>
    <variable>
-      <defaultValue>'PASS'</defaultValue>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
       <description></description>
-      <id>7015abdd-369b-465d-8755-ab65f3f4cf5d</id>
+      <id>1c7d698b-efb2-450c-816f-c7ec8f808926</id>
       <masked>false</masked>
       <name>varExpectedResult</name>
    </variable>

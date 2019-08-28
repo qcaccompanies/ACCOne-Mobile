@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Multiguna - Belum Upload KTP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c547f63-5221-4412-871f-9154db4af5f4</testCaseGuid>
+   <variable>
+      <defaultValue>'150000000'</defaultValue>
+      <description></description>
+      <id>b7ea5f69-dc47-4b0b-bdd3-c5dd74570cec</id>
+      <masked>false</masked>
+      <name>varDana</name>
+   </variable>
+   <variable>
+      <defaultValue>'24'</defaultValue>
+      <description></description>
+      <id>8af0fa98-80e4-4d5c-bbc2-b61058c8e1df</id>
+      <masked>false</masked>
+      <name>varPeriode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pendidikan'</defaultValue>
+      <description></description>
+      <id>ffbc8e39-743d-47d8-9867-21f6f7c66061</id>
+      <masked>false</masked>
+      <name>varTujuanPeminjaman</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <description></description>
+      <id>34269355-d913-49db-9a15-6a124866fd31</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>'FATMAWATI'</defaultValue>
+      <description></description>
+      <id>69836da8-fab4-4516-8d79-2e9b99b08a4f</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'UPLOAD'</defaultValue>
+      <description></description>
+      <id>4ac024ab-8f98-492d-9c31-711b66aa5850</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

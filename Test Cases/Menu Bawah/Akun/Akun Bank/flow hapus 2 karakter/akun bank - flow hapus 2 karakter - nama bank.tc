@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>akun bank - flow hapus 2 karakter - nama bank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0ca87dc-ce2b-4b3a-af5e-43b9531e4fb4</testCaseGuid>
+   <variable>
+      <defaultValue>'AKITA BANK'</defaultValue>
+      <description></description>
+      <id>fb4378b8-33e7-49ad-8750-b9f5f8bc1816</id>
+      <masked>false</masked>
+      <name>varNamaBank</name>
+   </variable>
+   <variable>
+      <defaultValue>'yesyes'</defaultValue>
+      <description></description>
+      <id>507e72e0-007a-4e0e-8ffa-73b78659b178</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'apapapa'</defaultValue>
+      <description></description>
+      <id>ee4f565d-4b5a-4584-ac76-e0aee3719c2c</id>
+      <masked>false</masked>
+      <name>varNamaPemilikRekening</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345678'</defaultValue>
+      <description></description>
+      <id>1be5b8ea-4eaf-4005-858f-f42ea646514c</id>
+      <masked>false</masked>
+      <name>varNomorRekening</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1'</defaultValue>
+      <description></description>
+      <id>af9a9fdb-3285-46f7-ac59-11c66f55c891</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+</TestCaseEntity>

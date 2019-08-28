@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mobil Baru - Kredit - Belum Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6f0ba83-23fa-45aa-8c84-58897e28db28</testCaseGuid>
+   <variable>
+      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <description></description>
+      <id>02147dec-5e5f-4d1e-a7e9-8a28fb4d5344</id>
+      <masked>false</masked>
+      <name>varAreaPengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>'FATMAWATI'</defaultValue>
+      <description></description>
+      <id>d8973321-6c15-4377-830d-b21f2ca833c3</id>
+      <masked>false</masked>
+      <name>varCabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'TOYOTA'</defaultValue>
+      <description></description>
+      <id>78dcde62-3b35-4c39-bc2b-55901f2566ad</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'COROLLA ALL NEW'</defaultValue>
+      <description></description>
+      <id>950d604f-0d73-45ab-9a06-78f1896a514c</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LOGIN'</defaultValue>
+      <description></description>
+      <id>90233cc4-59e9-41ed-8754-35c283fa6d85</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

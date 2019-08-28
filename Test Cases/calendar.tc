@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>calendar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74ec6222-ca54-4ad8-9dfb-0fa98e3670d5</testCaseGuid>
+   <variable>
+      <defaultValue>'1994'</defaultValue>
+      <description></description>
+      <id>c4fdb7b5-35f1-4676-b008-3afb27f5d476</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+</TestCaseEntity>

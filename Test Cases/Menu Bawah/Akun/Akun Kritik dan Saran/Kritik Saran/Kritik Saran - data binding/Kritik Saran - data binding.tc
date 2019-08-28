@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Kritik Saran - data binding</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58b2e5aa-772d-4841-a853-27886a85dcaa</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eb1d10e9-0615-41f0-a9c3-6da1aff47fce</id>
+      <masked>false</masked>
+      <name>varKritik</name>
+   </variable>
+   <variable>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
+      <description></description>
+      <id>87a23de2-d96a-4ed4-aa7f-e87612ecc033</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

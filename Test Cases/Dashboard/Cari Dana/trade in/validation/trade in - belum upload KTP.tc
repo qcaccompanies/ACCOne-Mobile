@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>trade in - belum upload KTP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>838dda05-4c97-41be-a961-150ebf0ba1ab</testCaseGuid>
+   <variable>
+      <defaultValue>'DAIHATSU'</defaultValue>
+      <description></description>
+      <id>1e456cdc-8308-4d9d-8a19-0ec4ce4418b1</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AYLA'</defaultValue>
+      <description></description>
+      <id>1ee758e8-c921-4357-8960-1dbd0d51eb34</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'T:1.0 D M/T'</defaultValue>
+      <description></description>
+      <id>76fc5918-f55d-443f-99bc-9cba158b555a</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018'</defaultValue>
+      <description></description>
+      <id>696c9e3e-7e01-48e4-bf57-d0898daf660e</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI'</defaultValue>
+      <description></description>
+      <id>a30302ac-ae88-44e1-8328-61b0d80dc802</id>
+      <masked>false</masked>
+      <name>varLokasi</name>
+   </variable>
+   <variable>
+      <defaultValue>'UPLOAD'</defaultValue>
+      <description></description>
+      <id>91f872f9-caa3-4d2c-a011-b1e8a0d2c2e5</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>'U'</defaultValue>
+      <description></description>
+      <id>64a593b4-0839-4b0c-bd8f-5f8890ab1ade</id>
+      <masked>false</masked>
+      <name>varNewUsed</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp. 120.000.004'</defaultValue>
+      <description></description>
+      <id>363d6d1c-bbbb-4e1c-bebf-d442b33ea31f</id>
+      <masked>false</masked>
+      <name>varOTR</name>
+   </variable>
+</TestCaseEntity>

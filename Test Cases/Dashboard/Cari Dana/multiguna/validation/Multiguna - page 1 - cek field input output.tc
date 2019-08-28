@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Multiguna - page 1 - cek field input output</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee062ebb-e003-4202-9c81-ecde51c81656</testCaseGuid>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>da99579a-ada2-4b4c-8032-165b9078a85b</id>
+      <masked>false</masked>
+      <name>varBPKB</name>
+   </variable>
+   <variable>
+      <defaultValue>'New'</defaultValue>
+      <description></description>
+      <id>48d5aaf0-4a7e-477e-8d27-7546afd86178</id>
+      <masked>false</masked>
+      <name>varExistingNew</name>
+   </variable>
+   <variable>
+      <defaultValue>'DAIHATSU'</defaultValue>
+      <description></description>
+      <id>ba555a2a-5e91-4ada-8783-8b3ca84ca307</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AYLA'</defaultValue>
+      <description></description>
+      <id>6bbfcf51-3b83-46ca-ba00-b3ad3e20826c</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'T:1.0 M M/T NEW'</defaultValue>
+      <description></description>
+      <id>8796cf14-352f-4c02-a863-a829fa3fef03</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018'</defaultValue>
+      <description></description>
+      <id>57303d8e-8156-4f6a-b4c6-aae335d06443</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'PASS'</defaultValue>
+      <description></description>
+      <id>c61177d7-9a8a-4e93-9d93-992eb96c2737</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>

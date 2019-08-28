@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>promo - open menu - lihat semua -MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71e60772-eaf6-4f88-bcbc-fb3a621e492c</testCaseGuid>
+   <variable>
+      <defaultValue>'April Promo'</defaultValue>
+      <description></description>
+      <id>de8f7f88-93a7-426a-863f-f06bb8ec2101</id>
+      <masked>false</masked>
+      <name>varPromo</name>
+   </variable>
+</TestCaseEntity>

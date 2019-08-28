@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Daftar Akun - ganti no HP - data binding</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90f91f33-ddde-4824-bc7c-378508efd367</testCaseGuid>
+   <variable>
+      <defaultValue>'Existing'</defaultValue>
+      <description></description>
+      <id>b490672a-9258-4aaf-823b-b18f5893a0f5</id>
+      <masked>false</masked>
+      <name>varNewExisting</name>
+   </variable>
+   <variable>
+      <defaultValue>'B1004KZQ'</defaultValue>
+      <description></description>
+      <id>8b6b12a5-16c9-4d64-b859-270336eb025d</id>
+      <masked>false</masked>
+      <name>varNoPol</name>
+   </variable>
+   <variable>
+      <defaultValue>'023984092984'</defaultValue>
+      <description></description>
+      <id>ba8418d7-2f0e-488b-99e1-c2225651d53f</id>
+      <masked>false</masked>
+      <name>varNoHPLama</name>
+   </variable>
+   <variable>
+      <defaultValue>'10298310283'</defaultValue>
+      <description></description>
+      <id>36531073-b273-4505-8a02-e03b88946c9e</id>
+      <masked>false</masked>
+      <name>varNoHPBaru</name>
+   </variable>
+   <variable>
+      <defaultValue>'DISABLEDBUTTON'</defaultValue>
+      <description></description>
+      <id>f56c6ff1-cf79-477c-8f5b-a258f2cb60e3</id>
+      <masked>false</masked>
+      <name>varExpectedResult</name>
+   </variable>
+</TestCaseEntity>
