@@ -40,4 +40,11 @@
       <masked>false</masked>
       <name>varExpectedResult</name>
    </variable>
+   <variable>
+      <defaultValue>'AreaPengajuan'</defaultValue>
+      <description></description>
+      <id>0370a78a-da5f-4bd1-8d45-1e2f95321d67</id>
+      <masked>false</masked>
+      <name>varHapus</name>
+   </variable>
 </TestCaseEntity>

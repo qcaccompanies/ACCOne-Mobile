@@ -22,12 +22,46 @@ WebUI.callTestCase(findTestCase('Dashboard/Cari Mobil/Mobil Baru/paket/kredit/ma
     [('varAreaPengajuan') : varAreaPengajuan, ('varCabang') : varCabang, ('varBrand') : varBrand, ('varType') : varType], 
     FailureHandling.STOP_ON_FAILURE)
 
-Mobile.clearText(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/CariMobil_Kredit_InpBrand'), 0)
+switch (varHapus.toString()) {
+    case 'AreaPengajuan':
+        Mobile.clearText(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_InpAreaPengajuan'), 
+            0)
 
-CustomKeywords.'mobile.mobileSwipe.UpDown'(0.2, 0.7, 1000)
+        CustomKeywords.'mobile.mobileSwipe.UpDown'(0.2, 0.7, 1000)
 
-WebUI.callTestCase(findTestCase('Dashboard/Cari Mobil/Mobil Baru/paket/kredit/master flow/mobil baru - paket - verify element - MASTER FLOW'), 
-    [('varAreaPengajuan') : varAreaPengajuan, ('varCabang') : varBrand, ('varBrand') : '', ('varType') : ''], FailureHandling.STOP_ON_FAILURE)
+        WebUI.callTestCase(findTestCase('Dashboard/Cari Mobil/Mobil Baru/paket/kredit/master flow/mobil baru - paket - verify element - MASTER FLOW'), 
+            [('varAreaPengajuan') : '', ('varCabang') : '', ('varBrand') : '', ('varType') : ''], FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case 'Brand':
+        Mobile.clearText(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/CariMobil_Kredit_InpBrand'), 0)
+
+        CustomKeywords.'mobile.mobileSwipe.UpDown'(0.2, 0.7, 1000)
+
+        WebUI.callTestCase(findTestCase('Dashboard/Cari Mobil/Mobil Baru/paket/kredit/master flow/mobil baru - paket - verify element - MASTER FLOW'), 
+            [('varAreaPengajuan') : varAreaPengajuan, ('varCabang') : varBrand, ('varBrand') : '', ('varType') : ''], FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case 'Cabang':
+        Mobile.clearText(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_InpCabang'), 0)
+
+        CustomKeywords.'mobile.mobileSwipe.UpDown'(0.2, 0.7, 1000)
+
+        WebUI.callTestCase(findTestCase('Dashboard/Cari Mobil/Mobil Baru/paket/kredit/master flow/mobil baru - paket - verify element - MASTER FLOW'), 
+            [('varAreaPengajuan') : varAreaPengajuan, ('varCabang') : '', ('varBrand') : '', ('varType') : ''], FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case 'Type':
+        Mobile.clearText(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_InpType'), 0)
+
+        CustomKeywords.'mobile.mobileSwipe.UpDown'(0.2, 0.7, 1000)
+
+        WebUI.callTestCase(findTestCase('Dashboard/Cari Mobil/Mobil Baru/paket/kredit/master flow/mobil baru - paket - verify element - MASTER FLOW'), 
+            [('varAreaPengajuan') : varAreaPengajuan, ('varCabang') : varBrand, ('varBrand') : varBrand, ('varType') : ''], 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+}
 
 Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/CariMobil_Paket_Kredit_BtnPilihPaketKredit'), 
     0)

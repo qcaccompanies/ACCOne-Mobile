@@ -108,10 +108,6 @@ def static "mobile.keypress.backspace"() {
     (new mobile.keypress()).backspace()
 }
 
-def static "mobile.keypress.back"() {
-    (new mobile.keypress()).back()
-}
-
 def static "mobile.mobileSlide.Slide"(
     	Object slideObject	
      , 	float slidePercentage	

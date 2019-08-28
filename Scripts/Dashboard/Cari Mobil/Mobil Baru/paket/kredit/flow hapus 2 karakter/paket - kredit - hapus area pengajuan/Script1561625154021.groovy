@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Open application'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -22,16 +23,25 @@ WebUI.callTestCase(findTestCase('Dashboard/Cari Mobil/Mobil Baru/paket/kredit/ma
     [('varAreaPengajuan') : varAreaPengajuan, ('varCabang') : varCabang, ('varBrand') : varBrand, ('varType') : varType], 
     FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'mobile.mobileSwipe.UpDown'(0.2, 0.7, 1000)
+switch (varHapus.toString()) {
+    case 'AreaPengajuan':
+        Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_InpAreaPengajuan'), 0)
 
-Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_InpAreaPengajuan'), 0)
+        Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'mobile.keypress.backspace'()
+        CustomKeywords.'mobile.keypress.backspace'()
 
-CustomKeywords.'mobile.keypress.backspace'()
+        WebUI.callTestCase(findTestCase('Dashboard/Cari Mobil/Mobil Baru/paket/kredit/master flow/mobil baru - paket - verify element - MASTER FLOW'), 
+            [('varAreaPengajuan') : '', ('varCabang') : '', ('varBrand') : '', ('varType') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Dashboard/Cari Mobil/Mobil Baru/paket/kredit/master flow/mobil baru - paket - verify element - MASTER FLOW'), 
-    [('varAreaPengajuan') : '', ('varCabang') : '', ('varBrand') : '', ('varType') : ''], FailureHandling.STOP_ON_FAILURE)
+        break
+    case 'Brand':
+        break
+    case 'Cabang':
+        break
+    case 'Type':
+        break
+}
 
 Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/CariMobil_Paket_Kredit_BtnPilihPaketKredit'), 
     0)
