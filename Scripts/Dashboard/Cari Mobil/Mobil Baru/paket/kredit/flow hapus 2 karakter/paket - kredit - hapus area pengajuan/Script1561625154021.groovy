@@ -46,6 +46,8 @@ switch (varHapus.toString()) {
 Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/CariMobil_Paket_Kredit_BtnPilihPaketKredit'), 
     0)
 
+Mobile.delay(0, FailureHandling.STOP_ON_FAILURE)
+
 switch (varExpectedResult.toString()) {
     case 'PASS':
         Mobile.verifyElementExist(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/CariMobil_Paket_Kredit_TxtNamaPaket'), 
