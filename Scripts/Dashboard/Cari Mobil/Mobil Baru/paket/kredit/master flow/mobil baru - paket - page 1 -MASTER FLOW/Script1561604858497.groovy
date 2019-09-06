@@ -25,19 +25,19 @@ Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilB
 
 Mobile.setText(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_InpCabang'), varCabang, 0)
 
-Mobile.hideKeyboard()
+not_run: Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_LOVCabang'), 0)
 
 Mobile.setText(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/CariMobil_Kredit_InpBrand'), varBrand, 0)
 
-Mobile.hideKeyboard()
+not_run: Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_LOVBrand'), 0)
 
 Mobile.setText(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_InpType'), varType, 0)
 
-Mobile.hideKeyboard()
+not_run: Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_LOVType'), 0)
 

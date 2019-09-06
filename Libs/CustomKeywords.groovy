@@ -7,8 +7,6 @@ import java.lang.String
 
 import com.kms.katalon.core.model.FailureHandling
 
-import com.kms.katalon.core.testobject.TestObject
-
 
 def static "mobile.coba.cobak"(
     	String elementText	) {
@@ -74,22 +72,6 @@ def static "mobile.pick.Listpromo"(
     	Object listObject	) {
     (new mobile.pick()).Listpromo(
         	listObject)
-}
-
-def static "com.katalon.plugin.keyword.calendar.SetDateCalendarKeyword.setDate"(
-    	TestObject to	
-     , 	int day	
-     , 	int month	
-     , 	int year	
-     , 	int slideTimeOut	
-     , 	FailureHandling flowControl	) {
-    (new com.katalon.plugin.keyword.calendar.SetDateCalendarKeyword()).setDate(
-        	to
-         , 	day
-         , 	month
-         , 	year
-         , 	slideTimeOut
-         , 	flowControl)
 }
 
 def static "mobile.swiping.scrollListToElementWithTextDown"(
