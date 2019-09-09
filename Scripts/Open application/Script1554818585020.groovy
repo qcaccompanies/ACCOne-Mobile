@@ -20,7 +20,7 @@ def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.apkname, RunConfigu
 
 Mobile.startApplication(appPath, false)
 
-Mobile.waitForElementPresent(findTestObject('BottomMenu/MenuBawah_BtnAkun'), 30)
+Mobile.waitForElementPresent(findTestObject('BottomMenu/MenuBawah_BtnAkun'), 60)
 
 Mobile.tap(findTestObject('Dashboard/Dashboard_BtnCloseBanner'), 5, FailureHandling.OPTIONAL)
 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>MOBILE_TS_Mobil Baru - paket - kredit</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>d29444ee-d9e0-40f1-9356-2eec236f8f23</testSuiteGuid>
+   <testCaseLink>
+      <guid>841c1db2-12b5-40ca-8793-7f397bec1883</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Open application</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4467cbef-af8f-41c9-a35d-d70e3748e360</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard/Cari Mobil/Mobil Baru/paket/kredit/flow data binding/paket - kredit - flow data binding</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5c3e9e01-59d1-46b5-9072-0ad21f8f08c3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/mobil baru - paket - kredit</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>5c3e9e01-59d1-46b5-9072-0ad21f8f08c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varAreaPengajuan</value>
+         <variableId>e96b10de-b0a4-49e3-a819-a7418a65d082</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5c3e9e01-59d1-46b5-9072-0ad21f8f08c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varCabang</value>
+         <variableId>49fda4f6-948c-41c9-ab91-0f5b7ac1420a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5c3e9e01-59d1-46b5-9072-0ad21f8f08c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varBrand</value>
+         <variableId>68aae424-94d2-4aa9-9aa7-e2daa2017a37</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5c3e9e01-59d1-46b5-9072-0ad21f8f08c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varType</value>
+         <variableId>2a7f5e79-b1f4-4b58-a332-a3aca36570e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5c3e9e01-59d1-46b5-9072-0ad21f8f08c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varExpectedResult</value>
+         <variableId>ae249fab-9a2f-4617-9e31-ca63aa35191b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -29,6 +29,10 @@ not_run: Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_LOVCabang'), 0)
 
+CustomKeywords.'mobile.mobileSwipe.UpDown'(0.5, 0.4, 1000)
+
+Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/CariMobil_Kredit_InpBrand'), 0, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.setText(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/CariMobil_Kredit_InpBrand'), varBrand, 0)
 
 not_run: Mobile.hideKeyboard()
@@ -36,6 +40,8 @@ not_run: Mobile.hideKeyboard()
 Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_LOVBrand'), 0)
 
 Mobile.setText(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_InpType'), varType, 0)
+
+Mobile.tap(findTestObject('Dashboard/Cari Mobil/Mobil Baru - Paket/kredit/MobilBaru_Kredit_InpType'), 0, FailureHandling.STOP_ON_FAILURE)
 
 not_run: Mobile.hideKeyboard()
 
